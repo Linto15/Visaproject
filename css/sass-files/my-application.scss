@@ -1,0 +1,124 @@
+.my-application-top-main-bar{
+    width: 100%;
+    float: left;    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.appointment-application-middle{
+    width: 100%;
+    float: left;
+    display: block;
+    .left-block{
+        width: 40%;
+        float: left;
+        display: block;
+    }
+    .right-block{
+        width: 50%;
+        float: right;
+        display: block;
+    }
+}
+.visa-procced-button{
+    display: block;
+    width: 100%;
+    float: left;
+    a{
+        display: block;
+        width: 100%;
+        padding: 22px 20px 22px;
+        float: left;
+        text-align: center;
+        background: $primary-blue; 
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        color: $color-white;
+        span.icon-right-arrow{
+margin-left: 10px;
+color: $color-white;
+        }
+       &:hover{
+        background: $light-gray;
+        color: $primary-blue; 
+        span.icon-right-arrow{
+            color: $primary-blue; 
+                    }
+        }
+   
+    }
+}
+.choose-visa-middle-block{
+    padding: 0px;
+    width: 100%;
+    float: left;
+    border-top: 1px solid $light-white-gray;
+    display: block;
+    border-bottom: 1px solid $light-white-gray;
+    ul{
+        width: 100%;
+        float: left;    padding: 0px 20px;
+        li{
+            width: 100%;
+            float: left; padding-bottom: 15px;
+            border-bottom: 1px dotted #D9D9D9;
+            padding-top: 15px;
+        }
+    }
+ 
+}
+
+   
+.custom-checkbox {
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 0 20px;
+    padding: 0 0 0 40px;
+    position: relative;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox span.checkbox {
+    background-color: #fff;
+    border: solid 2px #cccccc;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    height: 26px;
+    margin: 0px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 26px;
+}
+.custom-checkbox span.checkbox:before {
+    color: #000;
+    font-size: 9px;
+    font-weight: normal;
+    margin-top: 6px;
+    float: left;
+    text-align: center;
+    width: 100%;
+    content: inherit;
+} 
+
+.custom-checkbox input[type="checkbox"]:checked + span.checkbox {
+    background: $primary-blue;
+    border-color:$primary-blue;
+    text-align: center;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + span.checkbox:before {
+    color: #fff;
+    font-size: 9px;
+    font-weight: normal;
+    margin-top: 6px;
+    float: left;
+    text-align: center;
+    width: 100%;
+    content: "\e920";
+}
