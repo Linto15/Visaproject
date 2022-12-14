@@ -119,7 +119,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color:$color-orange;
 }
 .green-text{
-    color: $green-color;
+    color: $green-color !important;
 }
 .red-text{
     color: $color-red;
@@ -186,7 +186,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         border-radius: 8px;
         width: 100%;
         float: left;
-        padding: 23px 0;
+        padding: 21px 0;
         text-align: center;
         font-size: $font-size-16;
         font-weight: 400;
@@ -217,6 +217,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   .signup-password-top a span {
     margin-top: 2px;
 }
+.sub-blod-head{
+    float: left;
+    width: auto;
+    font-size:$font-size-20;
+    display: block;
+    font-weight: $font-weight-600;
+}
+.col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
 /*======== Sign up setions Responsive style start===============*/
 @media only screen and (max-width: 1700px) {
 }
@@ -243,7 +254,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 @media only screen and (max-width: 768px) {
-
+    .lrg-common-buttton {
+        padding: 18px 0;
+    }
 }
 
 
