@@ -1,101 +1,123 @@
-.user-dash-main-box {
-    width: 60%;
-    padding-left: 10%;
-}
-.user-dash-head-box {
-    padding: 70px 70px 100px 70px;
-}
-.user-dash-page-grid {
+.calander-mangmt-top-grid {
     float: left;
     width: 100%;
     display: block;
     margin-top: 0px;
     display: -ms-grid;
     display: grid; 
-    grid-template-columns: repeat(4, 1fr) !important;
-    gap: 50px 20px;
-    grid-auto-rows: minmax(0px, auto);
- 
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px 20px;
+    grid-auto-rows: minmax(0px, auto); 
     padding-bottom: 30px;
 }
+.cal-setup-head {
+    padding-bottom: 5px;
+    margin-top: -25px;
+}
+.caladr-table{ 
+    margin-top: -1px !important; 
+}
+.create-hilidy {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
 
-.t-align-c {
-    text-align: center;
-}
-.user-dash-sub-txt {
-    font-size: 13px;
-    padding-bottom: 10px;
-}
-.user-dash-txt-head {
+
+.custom-date-field {
+    border: 0.5px solid #7B8EB0;
+    padding: 15px 15px;
+    font-size: 12px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    width: 50%;
     float: left;
-    font-size: 28px;
-    font-weight: 800;
-    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
-.user-dash-txt {
-    text-align: center;
-    font-size: 13px;
-    font-weight: 400;
-    padding-top: 15px;
+  
+  .custom-date-field input {
+    background-color: #ffffff;
+    border: none;
+    padding: 5px 0px;
+    width: 100%;
+    font-size: 15px;
+    color: #9F9898;
+   }
+  
+  .custom-date-field span {
+    display: block;
+    font-size: 12px;
+    color: #9F9898;
+  }
+  
+  .custom-date-field label {
+    width: 100%;
+    display: inline-block; 
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block; 
+    background-image: url("../images/dateicon.png");
+    width: 20px;
+    height: 20px;
+    border-width: thin;
 }
-.m-t-30 {
-    margin-top: 30px;
+.b-rads-tb-r {
+    border-top-right-radius: 0px 0px;
+    border-bottom-right-radius: 0px 0px;
 }
-@media only screen and (max-width: 1500px) {
-     
-    .user-dash-main-box {
-        width: 75%;
-        padding-left: 0%;
-    }
-    .user-dash-head-box {
-        padding: 70px 70px 100px 65px;
-    }
+.b-rads-tb-l {
+    border-top-left-radius: 0px 0px;
+    border-bottom-left-radius: 0px 0px;
+    border-left: 0px;
 }
-@media only screen and (max-width: 1400px) {
-     
-    .user-dash-main-box {
-        width: 75%;
-        padding-left: 0%;
-    }
-    .user-dash-head-box {
-        padding: 70px 70px 100px 60px;
-    }
+.clandr-add-btn {
+    font-weight: 500;
+    padding: 25px 110px;
 }
-@media only screen and (max-width: 1300px) {
-     
-    .user-dash-main-box {
-        width: 75%;
-        padding-left: 0%;
-    }
+@media only screen and (max-width: 1900px){
+.document-table {
+    width: 100%;
+    float: left;
+    display: block;
+    overflow: scroll;
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow: auto;
+    margin-bottom: 15px;
+}
 }
 @media only screen and (max-width: 1200px) {
-     
-    .user-dash-main-box {
-        width: 90%;
-        padding-left: 0%;
+    .calander-mangmt-top-grid { 
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 30px 20px; 
     }
-   
-}
-@media only screen and (max-width: 980px) {
-    .user-dash-page-grid {
-        
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 30px 20px;
-        grid-auto-rows: minmax(0px, auto); 
-        padding-bottom: 30px;
-    }
-    .user-dash-main-box {
+    .document-table {
         width: 100%;
-        padding-left: 0%;
+        float: left;
+        display: block;
+        overflow: scroll;
+        display: block;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        overflow: auto;
+        margin-bottom: 15px;
     }
-    .user-dash-head-box {
-        padding: 70px 70px 100px 134px;
     }
-}
-
-@media only screen and (max-width: 786px) {
-    
-    .user-dash-head-box {
-        padding: 70px 70px 100px 50px;
+@media only screen and (max-width: 980px) {
+    .calander-mangmt-top-grid { 
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 30px 20px; 
     }
-}
+    }

@@ -1884,7 +1884,7 @@ img.green-tick {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-
+  -ms-grid-columns: (1fr)[5];
       grid-template-columns: repeat(5, 1fr);
   gap: 0px 30px;
   grid-auto-rows: minmax(0px, auto);
@@ -2203,7 +2203,7 @@ img.green-tick {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-
+  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   gap: 30px 30px;
   grid-auto-rows: minmax(0px, auto);
@@ -3219,7 +3219,7 @@ img.green-tick {
     padding-top: 13px;
   }
   .dashboard-block-section {
-   
+    -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
   .my-dashboard-top-grid {
@@ -6369,6 +6369,39 @@ thead th .right-icon {
   .user-dash-main-box {
     width: 75%;
     padding-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .user-dash-main-box {
+    width: 90%;
+    padding-left: 0%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .user-dash-page-grid {
+    -ms-grid-columns: (1fr)[2] !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px 20px;
+    grid-auto-rows: minmax(0px, auto);
+    padding-bottom: 30px;
+  }
+  .user-dash-main-box {
+    width: 100%;
+    padding-left: 0%;
+  }
+  .user-dash-head-box {
+    padding: 90px 70px 100px 134px;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .user-dash-head-box {
+    padding: 90px 70px 100px 50px;
+  }
+}
+
 .my-application-top-main-bar {
   width: 100%;
   float: left;
@@ -7624,9 +7657,6 @@ thead th .right-icon {
 }
 
 @media only screen and (max-width: 1200px) {
-  .user-dash-main-box {
-    width: 90%;
-    padding-left: 0%;
   .add-visa-slide {
     margin-top: 40px;
   }
@@ -7652,25 +7682,6 @@ thead th .right-icon {
 }
 
 @media only screen and (max-width: 980px) {
-  .user-dash-page-grid {
-    -ms-grid-columns: (1fr)[2] !important;
-        grid-template-columns: repeat(2, 1fr) !important;
-    gap: 30px 20px;
-    grid-auto-rows: minmax(0px, auto);
-    padding-bottom: 30px;
-  }
-  .user-dash-main-box {
-    width: 100%;
-    padding-left: 0%;
-  }
-  .user-dash-head-box {
-    padding: 90px 70px 100px 134px;
-  }
-}
-
-@media only screen and (max-width: 786px) {
-  .user-dash-head-box {
-    padding: 90px 70px 100px 50px;
   .custom-checkbox {
     font-size: 14px;
   }
