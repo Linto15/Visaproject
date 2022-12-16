@@ -1226,10 +1226,10 @@ a:focus, a:hover {
   .left-block{
     width: 60%;
     float: left;
-    padding-top: 50px;
+    padding-top: 30px;
     display: block;
 
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     min-height: 100%;
     border-right: 1px solid $light-white-gray;
   }
@@ -1237,7 +1237,7 @@ a:focus, a:hover {
     width: 40%;
     float: left;
     display: block;    padding-left: 30px;
-    padding-top: 50px;
+    padding-top: 30px;
     min-height: 100%;
 
   }
@@ -1332,7 +1332,7 @@ a:focus, a:hover {
   float: left;
   width: 100%;
   display: block;
-  margin-top: 30px;
+  margin-top: 25px;
   display: grid;
   grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 20px;
@@ -1393,6 +1393,30 @@ padding-bottom: 0px;
   font-size: $font-size-16;
   font-weight: $font-weight-300;
 }
+.medium-large-button{
+  width: 223px;
+  float: left;
+  display: block;
+  margin-top: 30px;
+}
+.grant-permission-table{
+  margin-top: 0;
+}
+.user-role-list-block{
+width: 100%;
+float: left;
+display: block;border-top: 1px solid $light-white-gray;
+padding-top: 30px;
+margin-top: 30px;
+}
+.pading-top-12{
+    padding-top: 12px;}
+.padding-top-0{
+  padding-top: 0;
+}
+.user-role-table .document-table .table > thead > tr > th:last-child{
+text-align: center;
+}
 
  /* ============calander management styles END =================*/
 @media only screen and (max-width: 1700px) {
@@ -1413,6 +1437,15 @@ padding-bottom: 0px;
 }
 .tree-serch-row-1 {
   grid-template-columns: 28% 28% 28% 13% !important;
+}
+.calander-management-table-outer .document-table .table > thead > tr > th, .calander-management-table-outer .document-table .table > tbody > tr > td {
+  font-size: 12px;
+}
+.calander-management-table-outer .document-table .table > thead > tr > th{
+  line-height: 20px;
+}
+.calander-management-table-outer .document-table .table > thead > tr > th .styled-check1:checked + label:after {
+  top: 11px;
 }
 }
 
@@ -1457,6 +1490,32 @@ gap: 20px 20px;
 .modal.left .modal-dialog, .modal.right .modal-dialog {
   width: 65%;
 }
+.calander-manaement-content-block{
+  display: block;
+}
+.calander-manaement-content-block .left-block {
+  width: 100%;
+  padding-bottom: 0;
+  border-right: 0;
+}
+.calander-manaement-content-block .right-block {
+  width: 100%;
+  padding-left: 0;
+}
+.document-table .width-5 {
+  width: 60px;
+}
+.document-table .width-5 {
+  width: 60px;
+}
+.document-table table thead {
+  width: auto !important;
+
+  display: flex !important;
+}
+.grant-permission-table .document-table .width-25 {
+  width: 320px;
+}
 }
 @media only screen and (max-width: 980px) {
 
@@ -1481,7 +1540,15 @@ gap: 20px 20px;
 .modal.left .modal-header, .modal.right .modal-header {
   padding: 40px 25px 0px;
 }
-
+.grant-permission-table .document-table .width-25 {
+  width: 280px;
+}
+.calander-management-table-outer .add-wizrd-submit-block {
+  padding-top: 0;
+}
+.calander-manaement-content-block .right-block .padding-top-0 {
+  padding-top: 0;
+}
 }
 @media only screen and (max-width: 768px) {
   .add-wizrd-top-grid-1, .wizard-management-gird, .add-wizrd-top-grid, .add-wizrd-top-grid-1, .addwizrd-new-filed-block .row-1, .addwizrd-new-filed-block .row-2 .colum-grid
@@ -1532,6 +1599,9 @@ gap: 20px 20px;
 }
 .tab-content .add-filed-row {
   margin-top: 30px;
+}
+.grant-permission-table .document-table .width-25 {
+  width: 250px;
 }
 }
 @media only screen and (max-width: 480px) {

@@ -244,6 +244,12 @@ a:not([href]):not([class]):hover {
   color: #fff;
 }
 
+.deactive-button {
+  background: #D9D9D9;
+  border: 1px solid #D9D9D9;
+  color: #fff;
+}
+
 .signup-password-top a span {
   margin-top: 2px;
 }
@@ -259,6 +265,10 @@ a:not([href]):not([class]):hover {
 .col-md-12 {
   padding-left: 0;
   padding-right: 0;
+}
+
+.body-white-bg {
+  background: #fff;
 }
 
 /*======== Sign up setions Responsive style start===============*/
@@ -5179,9 +5189,9 @@ a:focus, a:hover {
 .calander-manaement-content-block .left-block {
   width: 60%;
   float: left;
-  padding-top: 50px;
+  padding-top: 30px;
   display: block;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   min-height: 100%;
   border-right: 1px solid #D9D9D9;
 }
@@ -5191,7 +5201,7 @@ a:focus, a:hover {
   float: left;
   display: block;
   padding-left: 30px;
-  padding-top: 50px;
+  padding-top: 30px;
   min-height: 100%;
 }
 
@@ -5306,7 +5316,7 @@ a:focus, a:hover {
   float: left;
   width: 100%;
   display: block;
-  margin-top: 30px;
+  margin-top: 25px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2] !important;
@@ -5381,6 +5391,38 @@ a:focus, a:hover {
   font-weight: 300;
 }
 
+.medium-large-button {
+  width: 223px;
+  float: left;
+  display: block;
+  margin-top: 30px;
+}
+
+.grant-permission-table {
+  margin-top: 0;
+}
+
+.user-role-list-block {
+  width: 100%;
+  float: left;
+  display: block;
+  border-top: 1px solid #D9D9D9;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.pading-top-12 {
+  padding-top: 12px;
+}
+
+.padding-top-0 {
+  padding-top: 0;
+}
+
+.user-role-table .document-table .table > thead > tr > th:last-child {
+  text-align: center;
+}
+
 /* ============calander management styles END =================*/
 @media only screen and (max-width: 1700px) {
   .number-view {
@@ -5400,6 +5442,15 @@ a:focus, a:hover {
   .tree-serch-row-1 {
     -ms-grid-columns: 28% 28% 28% 13% !important;
         grid-template-columns: 28% 28% 28% 13% !important;
+  }
+  .calander-management-table-outer .document-table .table > thead > tr > th, .calander-management-table-outer .document-table .table > tbody > tr > td {
+    font-size: 12px;
+  }
+  .calander-management-table-outer .document-table .table > thead > tr > th {
+    line-height: 20px;
+  }
+  .calander-management-table-outer .document-table .table > thead > tr > th .styled-check1:checked + label:after {
+    top: 11px;
   }
 }
 
@@ -5447,6 +5498,33 @@ a:focus, a:hover {
   .modal.left .modal-dialog, .modal.right .modal-dialog {
     width: 65%;
   }
+  .calander-manaement-content-block {
+    display: block;
+  }
+  .calander-manaement-content-block .left-block {
+    width: 100%;
+    padding-bottom: 0;
+    border-right: 0;
+  }
+  .calander-manaement-content-block .right-block {
+    width: 100%;
+    padding-left: 0;
+  }
+  .document-table .width-5 {
+    width: 60px;
+  }
+  .document-table .width-5 {
+    width: 60px;
+  }
+  .document-table table thead {
+    width: auto !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .grant-permission-table .document-table .width-25 {
+    width: 320px;
+  }
 }
 
 @media only screen and (max-width: 980px) {
@@ -5471,6 +5549,15 @@ a:focus, a:hover {
   }
   .modal.left .modal-header, .modal.right .modal-header {
     padding: 40px 25px 0px;
+  }
+  .grant-permission-table .document-table .width-25 {
+    width: 280px;
+  }
+  .calander-management-table-outer .add-wizrd-submit-block {
+    padding-top: 0;
+  }
+  .calander-manaement-content-block .right-block .padding-top-0 {
+    padding-top: 0;
   }
 }
 
@@ -5525,6 +5612,9 @@ a:focus, a:hover {
   }
   .tab-content .add-filed-row {
     margin-top: 30px;
+  }
+  .grant-permission-table .document-table .width-25 {
+    width: 250px;
   }
 }
 

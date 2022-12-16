@@ -214,6 +214,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border:1px solid  $electric-blue;
     color: $color-white;
   }
+.deactive-button{
+    background:$light-white-gray;
+    border:1px solid $light-white-gray;
+    color:  #fff 
+}
+
   .signup-password-top a span {
     margin-top: 2px;
 }
@@ -227,6 +233,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .col-md-12 {
     padding-left: 0;
     padding-right: 0;
+}
+.body-white-bg{
+    background: $color-white;
 }
 /*======== Sign up setions Responsive style start===============*/
 @media only screen and (max-width: 1700px) {
