@@ -3646,7 +3646,7 @@ img.green-tick {
   width: 100%;
   float: left;
   display: block;
-  border-top: 1px solid #808B9F;
+  border-top: 1px solid #D9D9D9;
 }
 
 .wizard-container {
@@ -3670,7 +3670,7 @@ img.green-tick {
   display: block;
   padding-top: 50px;
   min-height: 100%;
-  border-right: 1px solid #808B9F;
+  border-right: 1px solid #D9D9D9;
 }
 
 .wizard-main-content-block .right-block {
@@ -3984,7 +3984,7 @@ img.green-tick {
   width: 100%;
   float: left;
   display: block;
-  border-bottom: 1px solid #808B9F;
+  border-bottom: 1px solid #D9D9D9;
   padding-bottom: 30px;
 }
 
@@ -4044,7 +4044,7 @@ img.green-tick {
       grid-template-columns: repeat(4, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
-  border-bottom: 1px solid #808B9F;
+  border-bottom: 1px solid #D9D9D9;
   padding-bottom: 30px;
 }
 
@@ -4059,7 +4059,7 @@ img.green-tick {
       grid-template-columns: repeat(4, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
-  border-bottom: 1px solid #808B9F;
+  border-bottom: 1px solid #D9D9D9;
   padding-bottom: 30px;
 }
 
@@ -4113,7 +4113,7 @@ img.green-tick {
   width: 100%;
   float: left;
   display: block;
-  border-bottom: 1px solid #808B9F;
+  border-bottom: 1px solid #D9D9D9;
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -5165,6 +5165,218 @@ a:focus, a:hover {
 }
 
 /*============tree style End===============*/
+/* ============calander management styles start =================*/
+.calander-manaement-content-block {
+  width: 100%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 98vh;
+  height: auto;
+}
+
+.calander-manaement-content-block .left-block {
+  width: 60%;
+  float: left;
+  padding-top: 50px;
+  display: block;
+  padding-bottom: 50px;
+  min-height: 100%;
+  border-right: 1px solid #D9D9D9;
+}
+
+.calander-manaement-content-block .right-block {
+  width: 40%;
+  float: left;
+  display: block;
+  padding-left: 30px;
+  padding-top: 50px;
+  min-height: 100%;
+}
+
+.calander-management-table-outer {
+  margin-top: 30px;
+  float: left;
+  width: 100%;
+}
+
+.calander-management-table-outer .thear-tr {
+  border: 0;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.calander-management-table-outer .table {
+  margin-bottom: 0px;
+}
+
+.calander-management-table-outer .lookup-tr {
+  border-bottom: 1px solid #D9D9D9 !important;
+  border-left: 0px solid #808B9F !important;
+  border-right: 0px solid #808B9F;
+  margin-top: 0px !important;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
+
+.calander-management-table-outer .document-table .table > thead > tr > th, .calander-management-table-outer .document-table .table > tbody > tr > td {
+  color: #000000;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.calander-management-table-outer .document-table table tbody tr {
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.calander-management-table-outer .tr-gray-bg {
+  background: #F1F1F1;
+  margin-top: 2px;
+}
+
+.calander-management-table-outer .document-table .table > tbody > tr {
+  margin-top: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.calander-management-table-outer .document-table .table > tbody > tr .form-control {
+  background: #fff;
+}
+
+.calander-management-table-outer .tr-dark-gray-bg {
+  background: #D9D9D9;
+}
+
+.calander-management-table-outer .document-table table tbody tr td {
+  background: none;
+}
+
+.calander-management-table-outer .document-table table tbody tr td .styled-checkbox + label {
+  margin-top: -3px;
+  float: left;
+}
+
+.calander-management-table-outer .document-table table tbody tr td .styled-check1:checked + label:after {
+  left: 7px;
+  top: 20px;
+}
+
+.calander-management-table-outer .table-two-icon {
+  width: 55px;
+  margin: 0px auto;
+}
+
+.calander-management-table-outer .table-two-icon .left-icon {
+  width: 20px;
+  float: left;
+  font-size: 19px;
+  line-height: 10px;
+}
+
+.calander-management-table-outer .table-two-icon .left-icon:hover {
+  color: #14A38B;
+}
+
+.calander-management-table-outer .table-two-icon .left-icon:hover svg path {
+  fill: #14A38B;
+}
+
+.calander-management-table-outer .table-two-icon .left-icon svg {
+  margin-top: 7px;
+}
+
+.calander-management-table-outer .table-two-icon .right-icon {
+  font-size: 19px;
+  line-height: 10px;
+  float: right;
+  padding-top: 12px;
+}
+
+.calander-management-table-outer .table-two-icon .right-icon:hover {
+  color: #14A38B;
+}
+
+.table-active-text {
+  font-size: 10px;
+  color: #14A38B;
+}
+
+.two-grid {
+  float: left;
+  width: 100%;
+  display: block;
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2] !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+  gap: 30px 20px;
+  grid-auto-rows: minmax(0px, auto);
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 30px;
+}
+
+.grand-permission-block {
+  float: left;
+  width: 100%;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.grand-permission-block .wizard-sub-mian-font {
+  padding-bottom: 20px;
+}
+
+.grand-permission-block .col-md-8, .grand-permission-block .col-md-6, .grand-permission-block .col-md-12, .grand-permission-block .col-md-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.search-outer {
+  position: relative;
+  padding-top: 0;
+  width: 100%;
+  float: left;
+}
+
+.search-outer .fa {
+  position: absolute;
+  right: 10px;
+  font-size: 16px;
+  top: 8px;
+}
+
+.styled-check1 + label:before {
+  width: 24px;
+  height: 24px;
+  margin-top: -2px;
+}
+
+.styled-check1:checked + label:after {
+  left: 7px;
+  top: 17px;
+}
+
+.desired-outcome-block {
+  width: 100%;
+  float: left;
+  display: block;
+  padding-top: 30px;
+  border-top: 1px solid #D9D9D9;
+  padding-bottom: 0px;
+}
+
+.desired-outcome-block .wizard-sub-mian-font {
+  padding-bottom: 20px;
+}
+
+.treeview ul li.treeview-top-padding {
+  padding-bottom: 40px;
+}
+
+/* ============calander management styles END =================*/
 @media only screen and (max-width: 1700px) {
   .number-view {
     width: 80%;
