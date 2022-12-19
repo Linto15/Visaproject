@@ -507,6 +507,68 @@ img{
         text-align: center;
     }
 }
+.all-appo-modal-top-buttons{
+    width:100%;
+    float: left;
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 30px 10px;
+    margin-bottom: 25px;
+    grid-auto-rows: minmax(0px, auto);
+
+    .all-appo-buttons{
+        width: 100%;
+        float: left;
+        text-align: center;border: 1px solid $light-white-gray;
+        border-radius: 4px;
+        font-size: $font-size-13;
+        color: $gray-text-color;
+        padding: 8px 0;
+        &:hover{
+            background: $light-white-gray;
+            border: 1px solid $light-white-gray;
+        }
+        &.active{
+            background: $light-white-gray;
+            border: 1px solid $light-white-gray; 
+        }
+    }
+}
+.form-group.time-drop-down{
+    width: auto;
+    float: left;
+    display: block;
+    padding: 0!important;
+    .bootstrap-select > .dropdown-toggle {
+        border: 0px solid #7B8EB0;
+        height:auto;
+        background: none;
+        line-height: 25px;
+    }
+    .dropdown-toggle::before{
+        display: none;
+    }
+    .dropdown-toggle::after{
+        display: none;
+    }
+    .btn{
+        padding: 0;
+    }
+    .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+        font-size: 13px;
+    }
+}
+.deactive-content-block{
+    opacity: 0.2;
+}
+.all-appointments-modal {
+    .form-group textarea{
+        height: 90px;
+        line-height: 14px;
+        min-height: 20px;
+    }
+}
 
 @media only screen and (max-width: 1360px) {
     .manage-appointments-main-outer .left-section,     .manage-appointments-main-outer .right-section  {
