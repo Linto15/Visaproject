@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Wizard Management</title>
+        
+    <!-- Bootstrap CSS -->
+ 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+           <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="bg-white">
+      <div class="row">
+          <div class="signup-top pad-l-30">
+              <div class="wizard-container top-bar-contnr">
+          <div class="signup-logo">
+          <img src="images/logo.svg" alt="logo" title="logo"/>
+          </div>
+          <nav  class="topmenu-ul">
+            <label class="toggle">
+                <i class="fa fa-bars"></i>
+            </label>
+            
+            <ul>
+              <label class="toggle menu-close-btn">
+                <i class="icon-modal-close f-15"></i>
+            </label>
+                <li><a href='#'>
+                 <i class="icon-new-lf-mydashboard top-menu-icon"></i> 
+                  My Dashboard</a></li>
+                <li><a href='#'>
+                  <i class="icon-dashboard-visa top-menu-icon"></i> 
+                  Category Management</a></li>
+                <li ><a href='#' class="active">
+                  <i class="icon-calndr-top-menu top-menu-icon"></i>
+                  Manage Appointments</a></li>
+                <li><a href='#'>
+                  <i class="icon-menusearch-top-menu top-menu-icon"></i>
+                  Dossier Search</a></li> 
+          
+                  <div class='top-social-log-toogle  '>
+                    <div class="dash-log-icon "> <img src="images/user-login.svg" alt="logo" title="logo"/> </div>
+                    <div class="dash-log-txt"> Fiso Mathew
+                      <div>Visa Officer </div>
+                    </div>
+                </div>
+            </ul>
+            
+            <div class="socialtop">
+                <div class='top-social'>
+                    
+                    <a href='#'><i class='icon-dashboard-upport top-menu-icon'></i></a> 
+                    <a href="#"><i class='icon-new-lf-help top-menu-icon'></i></a>
+                </div>
+                <div class='top-social-log '>
+                  <div class="dash-log-icon "> <img src="images/user-login.svg" alt="logo" title="logo"/> </div>
+                  <div class="dash-log-txt"> Fiso Mathew
+                    <div>Visa Officer </div>
+                  </div>
+              </div>
+            </div>
+          </nav>
+             </div>
+              </div>
+
+
+</div>
+
+<div class="row manage-appointments-main-outer">
+<div class="col-md-2  left-section">
+<div class="top-calander-block">
+    <img src="images/small-calander.svg"/>
+</div>
+<div class="row sloat-avaliable-block">
+<div class="left-ccontent">Slots Available</div>
+<div class="right-ccontent">125</div>
+</div>
+
+<div class="manage-appointments-footer ">
+    <div class="left">
+    <img src="images/sidebar-profile-icon.svg" alt="" title="">
+    <p>Fiso Mathew
+        <span>Visa Officer </span>
+    </p>
+   
+</div>
+<div class="right">
+    <a href=""><img src="images/log-out.svg"/> </a>
+</div>
+        </div>
+</div>
+<div class="col-md-8 middle-section">
+<div class="row place-and-mission-block">
+<div class="place-mission-two-grid">
+    <div class="col-md-12 ">
+        <div class="form-group ">
+            <select class="my-select selectpicker" data-container="body">
+                <option>India</option>
+              </select>
+        </div>
+    </div>
+    <div class="col-md-12 ">
+        <div class="form-group ">
+              <select class="my-select selectpicker" data-container="body">
+                <option>Select Mission</option>
+              </select>
+            </div>
+    </div>
+</div>
+
+</div>
+<div class="row large-clander-block">
+    <img src="images/large-calander.png"/>
+</div>
+
+</div>
+<div class="col-md-2 right-section">
+<div class="myslot-block">
+
+
+   <!--<div class="left-text">My Slots</div> <button type="button" class="btn btn-primary pluse-button" data-toggle="modal" data-target="#myModal">+</button>-->
+
+<div class="row">
+   <div class="create-slot-text">Create Slot</div>
+   <button type="button" class=" create-slot-close"><span class="icon-modal-close"></span></button>
+</div>
+<div class="row slot-dte-outer-block ">
+    <div class="slot-tittle border-bottom-1">Slot title</div>
+    <div class="slot-from-to-date">
+        <ul>
+            <li>
+                <p>From Date</p>
+                <span>Tuesday, 23 OCT 2022</span>
+
+            </li>
+            <li>
+                <p>From Date</p>
+                <span>Tuesday, 23 OCT 2022</span>
+
+            </li>
+        </ul>
+    </div>
+</div>
+
+</div>
+<div class="row select-s-lot-intervel">
+
+    <div class="slot-tittle ">Select Slot Interval</div>
+    <div class="form-group select-slot-intervel-input">
+     <div class="select-slot-clock">
+         <img src="images/clock-icon.svg"/>
+     </div>
+        <input type="text" class="form-control" placeholder="08:00 AM -- 05:00 PM">
+      </div>
+      <div class="row select-slot-intervel-block">
+        <div class="inner-block-intervel">
+            <div class="left-icon-intervel">
+                <img src="images/select-slot-icon.svg"/>
+            </div>
+            <div class="right-intervel">
+                <div class="form-group ">
+                    <label>Select Slot Interval</label>
+                    <select class="my-select selectpicker" data-container="body">
+                      <option>15 Minutes</option>
+                    </select>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row myslot-block add-rules-top" >
+        <div class="left-text" >Add Rules</div>
+            <button type="button" class="btn btn-primary pluse-button" data-toggle="modal" data-target="#myModal2">+</button>
+
+</div>
+<div class="row preference-block" >
+<ul>
+<ol>Language Preferenc <span class="icon-more-detila-bullet"> </span></ol>
+<ol>Applicant Preference <span class="icon-more-detila-bullet"> </span></ol>
+<ol>Visa Type <span class="icon-more-detila-bullet"> </span></ol>
+</ul>
+
+</div>
+<div class="row create-button-block">
+    <a class="add-new-button blue-button gird-button-top-mrg">Create</a>
+</div>
+
+</div>
+</div>
+
+
+
+
+  
+   <!-- Modal -->
+  
+
+   <div class="modal  right fade" id="myModal2" role="dialog" aria-labelledby="myModalLabel2">
+    <div class="modal-dialog otp-verify-modal" role="document">
+      <div class="modal-content otp-inner-block">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="icon-modal-close"></span></button>
+        </div>
+        <div class="modal-body">
+            <div class="tab-wrapper">
+                <ul class="tabs">
+                        <li class="tab-link active" data-tab="1">Rule Allocation</li>
+                   
+                </ul>
+            </div>
+        
+            <div class="content-wrapper">
+        
+                <div id="tab-1" class="tab-content active">
+
+                    <div class="row">
+                        <div class="treeview js-treeview">
+                            <ul>
+                              <li class="treeview-top-padding">
+                                <div class="treeview__level" data-level="">
+                                  <span class="level-title"><div class="can-toggle">
+                                    <input id="a" type="checkbox">
+                                    <label for="a">
+                                      <div class="can-toggle__switch" data-checked="OR" data-unchecked="AND"></div>
+                                    </label>
+                                  </div></span>
+                                  <div class="tree-add-icon">
+                                    <span class="icon-super-admin-pluse"></span>
+                                </div>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <div class="treeview__level" data-level="B">
+                                       <div class="search-outer-box">
+<div class="tree-serch-row-1">
+<div class="form-group ">
+    <select class="my-select selectpicker" data-container="body">
+        <option>Language </option>
+      </select>
+    </div>
+    <div class="form-group ">
+        <select class="my-select selectpicker" data-container="body">
+            <option>Is</option>
+          </select>
+        </div>
+        <div class="form-group ">
+            <input type="text" name="" class="form-control" placeholder="German ">
+            </div>
+            <div class="tree-sub-close-button">
+                <span class="icon-modal-close"></span>
+             </div>
+</div>
+
+                                       </div>
+                                        </div></li>
+
+                                        <li>
+                                            <div class="treeview__level" data-level="B">
+                                                <div class="search-outer-box">
+                                                    <div class="tree-serch-row-1">
+                                                        <div class="form-group ">
+                                                            <select class="my-select selectpicker" data-container="body">
+                                                                <option>Visa Type </option>
+                                                              </select>
+                                                            </div>
+                                                            <div class="form-group ">
+                                                                <select class="my-select selectpicker" data-container="body">
+                                                                    <option>Is</option>
+                                                                  </select>
+                                                                </div>
+                                                                <div class="form-group ">
+                                                                    <input type="text" name="" class="form-control" placeholder="Student ">
+                                                                    </div>
+                                                                    <div class="tree-sub-close-button">
+                                                                       <span class="icon-modal-close"></span>
+                                                                    </div>
+                                                        
+                                                    </div>
+                                                    
+                                                                                               </div>
+                                            </div></li>
+
+                              
+                                  
+                                    </ul>
+                                  </li>
+                      
+                                </ul>
+                              </li>
+                            </ul>
+                          </div>
+                      </div>
+                   
+                      <div class="row">
+                        <div class="add-filed-row">
+                            <a class="add-new-button blue-button gird-button-top-mrg">ADD RULE</a>
+                        </div>
+                      </div>
+
+                </div>
+        
+      
+        
+        
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js'></script>
+    <script src="js/scroll-tab.js"></script>
+    <script  src="js/topmenu.js"></script>
+       </body>
+</html>

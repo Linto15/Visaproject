@@ -93,10 +93,10 @@
   .topmenu-ul ul li a:hover i {
     color: #1A0DAB;
   }
-  .topmenu-ul ul li a:focus, a:hover {
+  .topmenu-ul ul li a:focus, a:hover ,   .topmenu-ul ul li a.active {
     color: #1A0DAB; 
   }
-  .topmenu-ul ul li a:focus i{
+  .topmenu-ul ul li a:focus i,  .topmenu-ul ul li a.active i{
     color: #1A0DAB; 
   }
   .top-social a {
@@ -166,6 +166,48 @@
 }
 .pad-l-30 {
     padding-left: 30px;
+}
+.suspend-popup-btn {
+    width: 48% !important;
+    float: left !important;
+}
+.suspend-popup-modal-outer1 {
+    width: 560px;
+    margin: 0px auto;
+}
+.marg-l-5{
+    margin-left: 5px;
+}
+.marg-r-5{
+    margin-right: 5px;
+}
+
+.suspend-popup-headtxt {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.suspend-button-blue {
+    color: #fff;
+    border: 1px solid #0517BE;
+    background: #0517BE;
+}
+.suspend-button-blue:hover {
+    border: 1px solid #0D192E;
+    background: #fff;
+    color: #0D192E;
+}
+.suspend-button-white{
+    border: 1px solid #0D192E;
+    background: #fff;
+    color: #0D192E;
+}
+.suspend-button-white:hover {
+    border: 1px solid #0517BE;
+    background: #0517BE;
+    color: #fff;
 }
   @media screen and (max-width: 1560px) {
     nav {
@@ -343,6 +385,7 @@
     color: #000;
     font-size: 15px; 
 }
+
   }
   
   @media screen and (max-width:768px) {
@@ -354,6 +397,10 @@
       padding-left: 36%;
       margin-top: 400px;
     }
+    .suspend-popup-modal-outer1 {
+        width: 90%;
+        margin: 0px auto;
+      }
   }
   @media screen and (max-width:600px) {
     .topmenu-ul ul {
