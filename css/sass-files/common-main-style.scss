@@ -237,6 +237,24 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .body-white-bg{
     background: $color-white;
 }
+.lavender-bg{
+    background-color: $lavender;
+}
+.light-green-bg{
+    background-color:$light-green;
+}
+.cement-gray-bg{
+    background-color: $cement-gray;
+}
+.light-red-bg{
+    background-color: $light-red;
+}
+.light-yellow-bg{
+    background-color: $light-yellow;
+}
+.bg-white{
+    background: $color-white;
+}
 /*======== Sign up setions Responsive style start===============*/
 @media only screen and (max-width: 1700px) {
 }
