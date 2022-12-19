@@ -8721,6 +8721,80 @@ thead th .right-icon {
   text-align: center;
 }
 
+.all-appo-modal-top-buttons {
+  width: 100%;
+  float: left;
+  display: block;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3] !important;
+      grid-template-columns: repeat(3, 1fr) !important;
+  gap: 30px 10px;
+  margin-bottom: 25px;
+  grid-auto-rows: minmax(0px, auto);
+}
+
+.all-appo-modal-top-buttons .all-appo-buttons {
+  width: 100%;
+  float: left;
+  text-align: center;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #525252;
+  padding: 8px 0;
+}
+
+.all-appo-modal-top-buttons .all-appo-buttons:hover {
+  background: #D9D9D9;
+  border: 1px solid #D9D9D9;
+}
+
+.all-appo-modal-top-buttons .all-appo-buttons.active {
+  background: #D9D9D9;
+  border: 1px solid #D9D9D9;
+}
+
+.form-group.time-drop-down {
+  width: auto;
+  float: left;
+  display: block;
+  padding: 0 !important;
+}
+
+.form-group.time-drop-down .bootstrap-select > .dropdown-toggle {
+  border: 0px solid #7B8EB0;
+  height: auto;
+  background: none;
+  line-height: 25px;
+}
+
+.form-group.time-drop-down .dropdown-toggle::before {
+  display: none;
+}
+
+.form-group.time-drop-down .dropdown-toggle::after {
+  display: none;
+}
+
+.form-group.time-drop-down .btn {
+  padding: 0;
+}
+
+.form-group.time-drop-down .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+  font-size: 13px;
+}
+
+.deactive-content-block {
+  opacity: 0.2;
+}
+
+.all-appointments-modal .form-group textarea {
+  height: 90px;
+  line-height: 14px;
+  min-height: 20px;
+}
+
 @media only screen and (max-width: 1360px) {
   .manage-appointments-main-outer .left-section, .manage-appointments-main-outer .right-section {
     width: 23%;
