@@ -144,6 +144,7 @@
   font-size: 15px;
   font-weight: 300;
   padding: 15px 35px;
+  text-transform: uppercase;
 }
 
 .nav > li > a:focus, .nav > li > a:hover {
@@ -254,19 +255,19 @@
   border-radius: 0px;
 }
 
-.document-table .table > thead > tr > th, .role-permission-table .table > thead > tr > th {
+.document-table table > thead > tr > th, .role-permission-table table > thead > tr > th {
   padding-left: 7px;
   vertical-align: middle;
   line-height: 32px;
   border: 0;
 }
 
-.document-table .table > tbody > tr > td:first-child, .document-table .table > thead > tr > th:first-child,
-.role-permission-table .table > tbody > tr > td:first-child, .role-permission-table .table > thead > tr > th:first-child {
+.document-table table > tbody > tr > td:first-child, .document-table table > thead > tr > th:first-child,
+.role-permission-table table > tbody > tr > td:first-child, .role-permission-table table > thead > tr > th:first-child {
   padding-left: 15px;
 }
 
-.document-table .table > tbody > tr > td, .role-permission-table .table > tbody > tr > td {
+.document-table table > tbody > tr > td, .role-permission-table table > tbody > tr > td {
   padding-left: 7px;
   padding-top: 0;
   padding-bottom: 0;
@@ -279,7 +280,7 @@
   margin-bottom: 0;
 }
 
-.document-table .table > thead > tr > th, .role-permission-table .table > thead > tr > th {
+.document-table table > thead > tr > th, .role-permission-table table > thead > tr > th {
   color: #525252;
   font-weight: 400;
 }
@@ -290,13 +291,13 @@
 }
 
 .document-table table tbody tr td, .role-permission-table table tbody tr td {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   background: #fff;
   padding-top: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
-.document-table .table, .role-permission-table .table {
+.document-table table, .role-permission-table table {
   border: 0;
   background: none;
   border-radius: 0;
@@ -305,7 +306,7 @@
   width: 100%;
 }
 
-.document-table .table thead, .document-table .table tbody, .role-permission-table .table thead, .role-permission-table .table tbody {
+.document-table table thead, .document-table table tbody, .role-permission-table table thead, .role-permission-table table tbody {
   width: 100%;
   float: left;
   display: block;
@@ -565,8 +566,60 @@ thead th .right-icon {
   line-height: 22px !important;
 }
 
+.right-button-align {
+  float: right;
+  width: auto;
+  margin-top: 15px;
+}
+
+.dolar-sign {
+  float: left;
+  width: 100%;
+  line-height: 16px;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.broder-0 {
+  border-bottom: 0;
+}
+
+.select-slot-clock-right-align {
+  position: absolute;
+  right: 0;
+  width: 34px;
+  border-left: 1px solid #D9D9D9;
+  height: 35px;
+  padding-left: 8px;
+  padding-top: 10px;
+}
+
+.select-slot-clock-right-align .svg-more-dot {
+  float: left;
+  margin-top: 7px;
+}
+
+.visa-tr {
+  border-bottom: 1px solid #808B9F !important;
+  padding-bottom: 22px !important;
+  padding-top: 22px !important;
+}
+
+.document-table table tbody.visa-box-table {
+  border-left: 1px solid #808B9F;
+  border-right: 1px solid #808B9F;
+}
+
+.select-slot-intervel-input.add-visa-fees input {
+  padding-left: 15px;
+}
+
+.create-entity-table {
+  margin-top: -3px;
+}
+
 @media only screen and (max-width: 1520px) {
-  .document-table .table > thead > tr > th, .role-permission-table .table > thead > tr > th {
+  .document-table table > thead > tr > th, .role-permission-table table > thead > tr > th {
     padding-left: 7px;
     vertical-align: middle;
     line-height: 32px;
@@ -576,10 +629,10 @@ thead th .right-icon {
 }
 
 @media only screen and (max-width: 1300px) {
-  .document-table .table > tbody > tr > td:first-child, .document-table .table > thead > tr > th:first-child, .role-permission-table .table > tbody > tr > td:first-child, .role-permission-table .table > thead > tr > th:first-child {
+  .document-table table > tbody > tr > td:first-child, .document-table table > thead > tr > th:first-child, .role-permission-table table > tbody > tr > td:first-child, .role-permission-table table > thead > tr > th:first-child {
     padding-left: 5px;
   }
-  .document-table .table > thead > tr > th, .role-permission-table .table > thead > tr > th {
+  .document-table table > thead > tr > th, .role-permission-table table > thead > tr > th {
     padding-left: 7px;
     vertical-align: middle;
     line-height: 32px;
@@ -628,9 +681,7 @@ thead th .right-icon {
   }
   .document-table table tbody {
     width: auto !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
   }
   .document-table .width-15 {
     width: 200px;
@@ -647,11 +698,14 @@ thead th .right-icon {
   .document-table .width-30 {
     width: 335px;
   }
+  .document-table .width-33 {
+    width: 400px;
+  }
   .document-table .width-12 {
     width: 120px;
   }
   .document-table .width-25 {
-    width: 250px;
+    width: 350px;
   }
   .document-table .width-20 {
     width: 250px;
@@ -667,6 +721,10 @@ thead th .right-icon {
     font-weight: 300;
     padding: 15px 35px;
   }
+  .width-85 {
+    width: 1000px;
+    float: left;
+  }
 }
 
 @media only screen and (max-width: 980px) {
@@ -675,6 +733,15 @@ thead th .right-icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .document-table .width-25 {
+    width: 250px;
+  }
+  .document-table .width-33 {
+    width: 350px;
+  }
+  .width-85 {
+    width: 900px;
   }
 }
 
@@ -697,6 +764,18 @@ thead th .right-icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .document-table .width-33 {
+    width: 250px;
+  }
+  .width-85 {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .width-85 {
+    width: 400px;
   }
 }
 /*# sourceMappingURL=mission-tabs.css.map */
