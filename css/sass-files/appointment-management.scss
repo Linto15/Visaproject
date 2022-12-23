@@ -411,7 +411,9 @@ margin-bottom: 30px;
         margin-bottom: 20px;
     }
 }
-
+.appointment-table table > tbody > tr > td .styled-checkbox:checked + label:after {
+    top: 13px;
+}
 @media only screen and (max-width: 1360px) {
     .appointment-table table > thead > tr > th {
 
