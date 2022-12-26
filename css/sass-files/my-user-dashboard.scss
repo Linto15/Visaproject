@@ -1,21 +1,21 @@
 .add-wized-innernew {
     width: 100%;
-    float: left;
-   
+    float: left; 
     border-radius: 8px;
     padding-top: 70px;
     padding-bottom: 70px;
+    box-shadow: 0px 5px 4px;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
     cursor: pointer;
   }
   .add-wized-innernew:hover {
     width: 100%;
-    float: left;
-    
+    float: left; 
     border-radius: 8px;
     padding-top: 70px;
     padding-bottom: 70px;
     background-color: #ECEDEF;
-    
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
   }
   .user-dash-txt {
     text-align: center;
@@ -30,7 +30,7 @@
     width: 100%;
     display: block;
     margin-top: 0px;
-    
+     
     display: grid; 
     grid-template-columns: repeat(6, 1fr) !important; 
     gap: 35px 35px;
@@ -49,14 +49,35 @@
     padding-bottom: 15px;
     font-weight: 400;
   }
+  .t-align-c {
+    text-align: center;
+}
+.user-dash-sub-txt1 {
+    font-size: 15px;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+.wizard-content-top .left {
+    width: auto;
+    float: left;
+    display: block;
+}
+.user-dash-head-box1 {
+    padding: 90px 70px 100px 0px;
+}
+.user-dash-txt-head {
+    float: left;
+    font-size: 28px;
+    font-weight: 800;
+    color: #000000;
+}
   @media only screen and (max-width: 1600px) {
        
     .user-dash-page-grid-6 {
       float: left;
       width: 100%;
       display: block;
-      margin-top: 0px;
-       
+      margin-top: 0px; 
       display: grid; 
       grid-template-columns: repeat(5, 1fr) !important;
       gap: 35px 35px;
@@ -74,7 +95,8 @@
       float: left;
       width: 100%;
       display: block;
-      margin-top: 0px; 
+      margin-top: 0px;
+       
       display: grid; 
       grid-template-columns: repeat(4, 1fr) !important;
       gap: 35px 35px;
@@ -88,7 +110,8 @@
       float: left;
       width: 100%;
       display: block;
-      margin-top: 0px; 
+      margin-top: 0px;
+       
       display: grid; 
       grid-template-columns: repeat(4, 1fr) !important;
       gap: 35px 35px;
@@ -102,7 +125,8 @@
       float: left;
       width: 100%;
       display: block;
-      margin-top: 0px; 
+      margin-top: 0px;
+       
       display: grid; 
       grid-template-columns: repeat(3, 1fr) !important;
       gap: 35px 35px;
@@ -116,7 +140,8 @@
       float: left;
       width: 100%;
       display: block;
-      margin-top: 0px; 
+      margin-top: 0px;
+       
       display: grid; 
       grid-template-columns: repeat(2, 1fr) !important;
       gap: 30px 30px;
@@ -134,7 +159,8 @@
       float: left;
       width: 100%;
       display: block;
-      margin-top: 0px; 
+      margin-top: 0px;
+      
       display: grid; 
       grid-template-columns: repeat(1, 1fr) !important;
       gap: 30px 30px;
