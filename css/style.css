@@ -9842,7 +9842,7 @@ a:focus, a:hover {
 }
 
 .appointment-management-modal-outer .modal-body {
-  padding: 15px 30px;
+  padding: 0px 30px 15px;
 }
 
 .appointment-management-button {
@@ -9924,6 +9924,181 @@ a:focus, a:hover {
   top: 13px;
 }
 
+.table-icon .icon-super-admin-delete {
+  font-size: 19px;
+  line-height: 10px;
+  float: right;
+  padding-top: 8px;
+}
+
+.delete-modal-twocoloum-inner {
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 15px 0;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.delete-modal-twocoloum-inner p {
+  float: left;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  width: 50%;
+  color: #525252;
+}
+
+.delete-modal-twocoloum-inner span {
+  float: left;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  width: 50%;
+  color: #000000;
+}
+
+.delete-modal-twocoloum-inner:first-child {
+  padding-top: 5px;
+}
+
+.delete-modal-twocoloum-inner:last-child {
+  border-bottom: 0;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.delete-button-outer {
+  width: 390px;
+  margin: 0px auto;
+}
+
+.delete-button-outer .inner-modal-flag--two-grid {
+  margin-bottom: 10px;
+}
+
+.border-top {
+  border-top: 1px solid #D9D9D9;
+  padding-top: 25px;
+}
+
+.key-list-table {
+  width: 70%;
+  float: left;
+  margin-top: 30px;
+  display: block;
+}
+
+.key-list-table table {
+  border: 0;
+  background: none;
+  border-radius: 0;
+  outline: none;
+  float: left;
+  margin-bottom: 0;
+  width: 100%;
+  border: 1px solid #D9D9D9;
+}
+
+.key-list-table table thead, .key-list-table table tbody {
+  width: 100%;
+  float: left;
+  display: block;
+  border-radius: 0px;
+}
+
+.key-list-table table thead tr {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  padding-left: 6px;
+  border-bottom: 1px solid #D9D9D9;
+  background: #F1F1F1;
+}
+
+.key-list-table table > thead > tr > th {
+  padding-left: 7px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  vertical-align: middle;
+  line-height: 32px;
+  border: 0;
+  font-size: 13px;
+}
+
+.key-list-table table > tbody > tr > td {
+  padding-left: 7px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 0;
+  vertical-align: middle;
+  line-height: 29px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0;
+  padding-right: 15px;
+  font-size: 13px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border-right: 1px solid #D9D9D9;
+}
+
+.key-list-table table > tbody > tr > td:last-child {
+  border-right: 0;
+  padding-left: 15px;
+}
+
+.key-list-table table tbody tr {
+  width: 100%;
+  float: left;
+  background: #fff;
+  border-radius: 0px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  padding-left: 6px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.key-list-table table tbody tr:last-child {
+  border-bottom: 0;
+}
+
+.no-payment-method {
+  padding-top: 15%;
+  float: left;
+}
+
+.no-payment-method .inner-payment-block {
+  width: 200px;
+  margin: 0px auto;
+}
+
+.no-payment-method .inner-payment-block .icon {
+  width: 48px;
+  margin: 0px auto;
+}
+
+.no-payment-method .inner-payment-block p {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.no-payment-method .inner-payment-block p a {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  display: block;
+}
+
 @media only screen and (max-width: 1360px) {
   .appointment-table table > thead > tr > th {
     font-size: 12px;
@@ -10002,6 +10177,12 @@ a:focus, a:hover {
   }
 }
 
+@media only screen and (max-width: 980px) {
+  .key-list-table .width-50 {
+    width: 50%;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .appointment-management-search .left {
     width: 100%;
@@ -10017,6 +10198,12 @@ a:focus, a:hover {
     -ms-grid-columns: (1fr)[1] !important;
         grid-template-columns: repeat(1, 1fr) !important;
   }
+  .delete-button-outer {
+    width: 90%;
+  }
+  .key-list-table {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -10030,6 +10217,59 @@ a:focus, a:hover {
   }
   .flag-modal .inner-modal-flag-top .gird-outer {
     width: 80%;
+  }
+  .delete-modal-twocoloum-inner p {
+    font-size: 15px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .delete-modal-twocoloum-inner span {
+    font-size: 15px;
+    width: 100%;
+  }
+  .key-list-table {
+    width: 100%;
+    float: left;
+    display: block;
+    overflow: scroll;
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow: auto;
+    margin-bottom: 15px;
+  }
+  .key-list-table table {
+    border-collapse: collapse;
+    /* overflow-x: auto; */
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: auto !important;
+    float: left;
+    max-width: 10000px;
+  }
+  .key-list-table table thead {
+    width: auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .key-list-table table tr {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .key-list-table table tbody {
+    width: auto !important;
+    display: block;
+  }
+  .key-list-table .width-50 {
+    width: 250px;
   }
 }
 
