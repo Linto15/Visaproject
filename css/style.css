@@ -1733,7 +1733,7 @@ img.green-tick {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
+ 
       grid-template-columns: repeat(4, 1fr);
   gap: 30px 30px;
   grid-auto-rows: minmax(0px, auto);
@@ -1918,7 +1918,7 @@ img.green-tick {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5];
+  
       grid-template-columns: repeat(5, 1fr);
   gap: 0px 30px;
   grid-auto-rows: minmax(0px, auto);
@@ -2237,7 +2237,7 @@ img.green-tick {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
+   
       grid-template-columns: repeat(3, 1fr);
   gap: 30px 30px;
   grid-auto-rows: minmax(0px, auto);
@@ -3253,11 +3253,11 @@ img.green-tick {
     padding-top: 13px;
   }
   .dashboard-block-section {
-    -ms-grid-columns: (1fr)[3];
+    
         grid-template-columns: repeat(3, 1fr);
   }
   .my-dashboard-top-grid {
-    -ms-grid-columns: (1fr)[4];
+ 
         grid-template-columns: repeat(4, 1fr);
   }
   /*======Dashboard MY APP STYLE START==============*/
@@ -3301,12 +3301,12 @@ img.green-tick {
 
 @media only screen and (max-width: 1300px) {
   .dashboard-block-section {
-    -ms-grid-columns: (1fr)[2];
+    
         grid-template-columns: repeat(2, 1fr);
   }
   /*======Dashboard MY APP STYLE START==============*/
   .my-appoinment-grid {
-    -ms-grid-columns: (1fr)[3];
+    
         grid-template-columns: repeat(3, 1fr);
   }
   .my-appoinment-block {
@@ -3321,12 +3321,12 @@ img.green-tick {
 @media only screen and (max-width: 1200px) {
   .my-dashboard-top-grid {
     gap: 23px 23px;
-    -ms-grid-columns: (1fr)[3];
+    
         grid-template-columns: repeat(3, 1fr);
   }
   /*======Dashboard MY APP STYLE START==============*/
   .my-appoinment-grid {
-    -ms-grid-columns: (1fr)[2];
+    
         grid-template-columns: repeat(2, 1fr);
   }
   .my-appoinment-block {
@@ -3412,7 +3412,7 @@ img.green-tick {
     margin-top: 22px;
   }
   .my-dashboard-top-grid {
-    -ms-grid-columns: (1fr)[2];
+     
         grid-template-columns: repeat(2, 1fr);
   }
   .my-dashboard-middle {
@@ -3541,7 +3541,7 @@ img.green-tick {
 
 @media only screen and (max-width: 767px) {
   .dashboard-block-section {
-    -ms-grid-columns: (1fr)[1];
+  
         grid-template-columns: repeat(1, 1fr);
   }
   .myappoinment-block-top {
@@ -3577,7 +3577,7 @@ img.green-tick {
   }
   /*======Dashboard MY APP STYLE START==============*/
   .my-appoinment-grid {
-    -ms-grid-columns: (1fr)[1];
+   
         grid-template-columns: repeat(1, 1fr);
   }
   .my-appoinmentcancel-bt {
@@ -3607,7 +3607,7 @@ img.green-tick {
 
 @media only screen and (max-width: 480px) {
   .my-dashboard-top-grid {
-    -ms-grid-columns: (1fr)[1];
+    
         grid-template-columns: repeat(1, 1fr);
   }
   .aponment-schdule-block .right-block {
@@ -3785,7 +3785,7 @@ img.green-tick {
   margin-top: 20px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3] !important;
+  
       grid-template-columns: repeat(3, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
@@ -4075,7 +4075,7 @@ img.green-tick {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4] !important;
+  
       grid-template-columns: repeat(4, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
@@ -4090,7 +4090,7 @@ img.green-tick {
   margin-top: 30px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4] !important;
+  
       grid-template-columns: repeat(4, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
@@ -4159,7 +4159,7 @@ img.green-tick {
   display: block;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4] !important;
+  
       grid-template-columns: repeat(4, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
@@ -4178,7 +4178,7 @@ img.green-tick {
   display: block;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5] !important;
+   
       grid-template-columns: repeat(5, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
@@ -5344,7 +5344,7 @@ a:focus, a:hover {
   margin-top: 25px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
+ 
       grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
@@ -5460,7 +5460,7 @@ a:focus, a:hover {
     width: 80%;
   }
   .add-wizrd-top-grid-1 {
-    -ms-grid-columns: (1fr)[3] !important;
+    
         grid-template-columns: repeat(3, 1fr) !important;
     gap: 20px 20px;
   }
@@ -5481,7 +5481,7 @@ a:focus, a:hover {
 
 @media only screen and (max-width: 1300px) {
   .addwizrd-new-filed-block .row-2 .colum-grid {
-    -ms-grid-columns: (1fr)[3] !important;
+     
         grid-template-columns: repeat(3, 1fr) !important;
     gap: 20px 20px;
   }
@@ -5588,12 +5588,12 @@ a:focus, a:hover {
 
 @media only screen and (max-width: 768px) {
   .add-wizrd-top-grid-1, .wizard-management-gird, .add-wizrd-top-grid, .add-wizrd-top-grid-1, .addwizrd-new-filed-block .row-1, .addwizrd-new-filed-block .row-2 .colum-grid {
-    -ms-grid-columns: (1fr)[2] !important;
+ 
         grid-template-columns: repeat(2, 1fr) !important;
     gap: 20px 20px;
   }
   .tree-serch-row-1 {
-    -ms-grid-columns: (1fr)[2] !important;
+ 
         grid-template-columns: repeat(2, 1fr) !important;
     gap: 20px 20px;
   }
@@ -5645,7 +5645,7 @@ a:focus, a:hover {
 
 @media only screen and (max-width: 480px) {
   .add-wizrd-top-grid-1, .wizard-management-gird, .add-wizrd-top-grid, .add-wizrd-top-grid-1, .addwizrd-new-filed-block .row-1, .addwizrd-new-filed-block .row-2 .colum-grid {
-    -ms-grid-columns: (1fr)[1] !important;
+   
         grid-template-columns: repeat(1, 1fr) !important;
     gap: 20px 20px;
   }
@@ -5664,7 +5664,7 @@ a:focus, a:hover {
     padding: 0px 10px 30px;
   }
   .tree-serch-row-1 {
-    -ms-grid-columns: (1fr)[1] !important;
+    
         grid-template-columns: repeat(1, 1fr) !important;
   }
   .wizard-setp-list-inner-block .list-right a {
@@ -5888,7 +5888,7 @@ a:focus, a:hover {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3] !important;
+   
       grid-template-columns: repeat(3, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
@@ -5903,7 +5903,7 @@ a:focus, a:hover {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
+ 
       grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
@@ -6427,12 +6427,12 @@ thead th .right-icon {
 
 @media only screen and (max-width: 768px) {
   .tab-wizrd-top-box {
-    -ms-grid-columns: (1fr)[1] !important;
+  
         grid-template-columns: repeat(1, 1fr) !important;
     gap: 20px 20px;
   }
   .tab-wizrd-top-box2 {
-    -ms-grid-columns: (1fr)[1] !important;
+   
         grid-template-columns: repeat(1, 1fr) !important;
     gap: 20px 20px;
   }
@@ -7301,7 +7301,7 @@ thead th .right-icon {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
+  
       grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
@@ -7359,7 +7359,7 @@ thead th .right-icon {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
+   
       grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
@@ -7757,7 +7757,7 @@ thead th .right-icon {
   border: 1px solid #D9D9D9;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
+ 
       grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 0px;
   margin-top: 30px;
@@ -8021,7 +8021,7 @@ thead th .right-icon {
 @media only screen and (max-width: 767px) {
   .trackapp-detail-block {
     gap: 0px 0px;
-    -ms-grid-columns: (1fr)[1] !important;
+ 
         grid-template-columns: repeat(1, 1fr) !important;
   }
   .left-track-app-section {
@@ -8269,7 +8269,7 @@ thead th .right-icon {
   display: block;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
+ 
       grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 20px;
   margin-bottom: 25px;
@@ -8700,7 +8700,7 @@ thead th .right-icon {
   display: block;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3] !important;
+ 
       grid-template-columns: repeat(3, 1fr) !important;
   gap: 30px 10px;
   margin-bottom: 25px;
@@ -8854,7 +8854,7 @@ thead th .right-icon {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
+ 
       grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
@@ -9219,7 +9219,7 @@ a:focus, a:hover {
 
 @media only screen and (max-width: 1200px) {
   .calander-mangmt-top-grid {
-    -ms-grid-columns: (1fr)[1] !important;
+     
         grid-template-columns: repeat(1, 1fr) !important;
     gap: 30px 20px;
   }
@@ -9316,7 +9316,7 @@ a:focus, a:hover {
 
 @media only screen and (max-width: 980px) {
   .calander-mangmt-top-grid {
-    -ms-grid-columns: (1fr)[1] !important;
+    
         grid-template-columns: repeat(1, 1fr) !important;
     gap: 30px 20px;
   }
@@ -9467,7 +9467,7 @@ a:focus, a:hover {
   float: left;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3] !important;
+ 
       grid-template-columns: repeat(3, 1fr) !important;
   gap: 30px 20px;
   margin-bottom: 25px;
@@ -9818,7 +9818,7 @@ a:focus, a:hover {
   float: left;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
+  
       grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 10px;
   margin-bottom: 25px;
@@ -9842,7 +9842,7 @@ a:focus, a:hover {
 }
 
 .appointment-management-modal-outer .modal-body {
-  padding: 15px 30px;
+  padding: 0px 30px 15px;
 }
 
 .appointment-management-button {
@@ -9924,6 +9924,181 @@ a:focus, a:hover {
   top: 13px;
 }
 
+.table-icon .icon-super-admin-delete {
+  font-size: 19px;
+  line-height: 10px;
+  float: right;
+  padding-top: 8px;
+}
+
+.delete-modal-twocoloum-inner {
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 15px 0;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.delete-modal-twocoloum-inner p {
+  float: left;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  width: 50%;
+  color: #525252;
+}
+
+.delete-modal-twocoloum-inner span {
+  float: left;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  width: 50%;
+  color: #000000;
+}
+
+.delete-modal-twocoloum-inner:first-child {
+  padding-top: 5px;
+}
+
+.delete-modal-twocoloum-inner:last-child {
+  border-bottom: 0;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.delete-button-outer {
+  width: 390px;
+  margin: 0px auto;
+}
+
+.delete-button-outer .inner-modal-flag--two-grid {
+  margin-bottom: 10px;
+}
+
+.border-top {
+  border-top: 1px solid #D9D9D9;
+  padding-top: 25px;
+}
+
+.key-list-table {
+  width: 70%;
+  float: left;
+  margin-top: 30px;
+  display: block;
+}
+
+.key-list-table table {
+  border: 0;
+  background: none;
+  border-radius: 0;
+  outline: none;
+  float: left;
+  margin-bottom: 0;
+  width: 100%;
+  border: 1px solid #D9D9D9;
+}
+
+.key-list-table table thead, .key-list-table table tbody {
+  width: 100%;
+  float: left;
+  display: block;
+  border-radius: 0px;
+}
+
+.key-list-table table thead tr {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  padding-left: 6px;
+  border-bottom: 1px solid #D9D9D9;
+  background: #F1F1F1;
+}
+
+.key-list-table table > thead > tr > th {
+  padding-left: 7px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  vertical-align: middle;
+  line-height: 32px;
+  border: 0;
+  font-size: 13px;
+}
+
+.key-list-table table > tbody > tr > td {
+  padding-left: 7px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 0;
+  vertical-align: middle;
+  line-height: 29px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 0;
+  padding-right: 15px;
+  font-size: 13px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border-right: 1px solid #D9D9D9;
+}
+
+.key-list-table table > tbody > tr > td:last-child {
+  border-right: 0;
+  padding-left: 15px;
+}
+
+.key-list-table table tbody tr {
+  width: 100%;
+  float: left;
+  background: #fff;
+  border-radius: 0px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  padding-left: 6px;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.key-list-table table tbody tr:last-child {
+  border-bottom: 0;
+}
+
+.no-payment-method {
+  padding-top: 15%;
+  float: left;
+}
+
+.no-payment-method .inner-payment-block {
+  width: 200px;
+  margin: 0px auto;
+}
+
+.no-payment-method .inner-payment-block .icon {
+  width: 48px;
+  margin: 0px auto;
+}
+
+.no-payment-method .inner-payment-block p {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.no-payment-method .inner-payment-block p a {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  display: block;
+}
+
 @media only screen and (max-width: 1360px) {
   .appointment-table table > thead > tr > th {
     font-size: 12px;
@@ -10002,6 +10177,12 @@ a:focus, a:hover {
   }
 }
 
+@media only screen and (max-width: 980px) {
+  .key-list-table .width-50 {
+    width: 50%;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .appointment-management-search .left {
     width: 100%;
@@ -10014,8 +10195,14 @@ a:focus, a:hover {
   }
   .appointment-manage-top-right-gird {
     width: 100%;
-    -ms-grid-columns: (1fr)[1] !important;
+    
         grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .delete-button-outer {
+    width: 90%;
+  }
+  .key-list-table {
+    width: 100%;
   }
 }
 
@@ -10030,6 +10217,59 @@ a:focus, a:hover {
   }
   .flag-modal .inner-modal-flag-top .gird-outer {
     width: 80%;
+  }
+  .delete-modal-twocoloum-inner p {
+    font-size: 15px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .delete-modal-twocoloum-inner span {
+    font-size: 15px;
+    width: 100%;
+  }
+  .key-list-table {
+    width: 100%;
+    float: left;
+    display: block;
+    overflow: scroll;
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    overflow: auto;
+    margin-bottom: 15px;
+  }
+  .key-list-table table {
+    border-collapse: collapse;
+    /* overflow-x: auto; */
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: auto !important;
+    float: left;
+    max-width: 10000px;
+  }
+  .key-list-table table thead {
+    width: auto !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .key-list-table table tr {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .key-list-table table tbody {
+    width: auto !important;
+    display: block;
+  }
+  .key-list-table .width-50 {
+    width: 250px;
   }
 }
 
@@ -10574,7 +10814,7 @@ a:focus {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[6] !important;
+ 
       grid-template-columns: repeat(6, 1fr) !important;
   gap: 35px 35px;
   grid-auto-rows: minmax(0px, auto);
@@ -10631,7 +10871,7 @@ a:focus {
     margin-top: 0px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[5] !important;
+   
         grid-template-columns: repeat(5, 1fr) !important;
     gap: 35px 35px;
     grid-auto-rows: minmax(0px, auto);
@@ -10651,7 +10891,7 @@ a:focus {
     margin-top: 0px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[4] !important;
+   
         grid-template-columns: repeat(4, 1fr) !important;
     gap: 35px 35px;
     grid-auto-rows: minmax(0px, auto);
@@ -10667,7 +10907,7 @@ a:focus {
     margin-top: 0px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[4] !important;
+ 
         grid-template-columns: repeat(4, 1fr) !important;
     gap: 35px 35px;
     grid-auto-rows: minmax(0px, auto);
@@ -10683,7 +10923,7 @@ a:focus {
     margin-top: 0px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3] !important;
+ 
         grid-template-columns: repeat(3, 1fr) !important;
     gap: 35px 35px;
     grid-auto-rows: minmax(0px, auto);
@@ -10699,7 +10939,7 @@ a:focus {
     margin-top: 0px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2] !important;
+    
         grid-template-columns: repeat(2, 1fr) !important;
     gap: 30px 30px;
     grid-auto-rows: minmax(0px, auto);
@@ -10719,7 +10959,7 @@ a:focus {
     margin-top: 0px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1] !important;
+   
         grid-template-columns: repeat(1, 1fr) !important;
     gap: 30px 30px;
     grid-auto-rows: minmax(0px, auto);
@@ -11039,7 +11279,7 @@ a:focus {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
+  
       grid-template-columns: repeat(2, 1fr) !important;
   gap: 35px 8px;
   grid-auto-rows: minmax(0px, auto);
@@ -11077,7 +11317,7 @@ a:focus {
   margin-top: 0px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4] !important;
+ 
       grid-template-columns: repeat(4, 1fr) !important;
   gap: 35px 8px;
   grid-auto-rows: minmax(0px, auto);
@@ -11238,7 +11478,7 @@ a:focus {
     margin-top: 0px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2] !important;
+     
         grid-template-columns: repeat(2, 1fr) !important;
     gap: 35px 8px;
     grid-auto-rows: minmax(0px, auto);
@@ -11275,7 +11515,7 @@ a:focus {
     margin-top: 0px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2] !important;
+  
         grid-template-columns: repeat(2, 1fr) !important;
     gap: 35px 8px;
     grid-auto-rows: minmax(0px, auto);
@@ -11304,7 +11544,7 @@ a:focus {
     margin-top: 0px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2] !important;
+   
         grid-template-columns: repeat(2, 1fr) !important;
     gap: 35px 8px;
     grid-auto-rows: minmax(0px, auto);
@@ -11331,7 +11571,7 @@ a:focus {
     margin-top: 0px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1] !important;
+   
         grid-template-columns: repeat(1, 1fr) !important;
     gap: 15px 8px;
     grid-auto-rows: minmax(0px, auto);
@@ -11370,7 +11610,7 @@ a:focus {
     margin-top: 0px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1] !important;
+   
         grid-template-columns: repeat(1, 1fr) !important;
     gap: 35px 8px;
     grid-auto-rows: minmax(0px, auto);
