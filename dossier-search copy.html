@@ -1,0 +1,998 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Wizard Management</title>
+        
+    <!-- Bootstrap CSS -->
+ 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css'>
+  <link rel="stylesheet" href="css/fonts.css">
+           <link rel="stylesheet" href="css/style.css">
+    
+    </head>
+    <body class="body-bg-clr ">
+      <div class="row">
+        <div class="signup-top pad-l-30">
+            <div class="wizard-container top-bar-contnr">
+        <div class="signup-logo">
+        <img src="images/logo.svg" alt="logo" title="logo"/>
+        </div>
+        <nav  class="topmenu-ul">
+          <label class="toggle">
+              <i class="fa fa-bars"></i>
+          </label>
+          
+          <ul>
+            <label class="toggle menu-close-btn">
+              <i class="icon-modal-close f-15"></i>
+          </label>
+              <li><a  href='#'>
+               <i class="icon-new-lf-mydashboard top-menu-icon"></i> 
+                My Dashboard</a></li>
+              <li><a href='#'>
+                <i class="icon-dashboard-visa top-menu-icon"></i> 
+                Category Management</a></li>
+              <li ><a href='#'>
+                <i class="icon-calndr-top-menu top-menu-icon"></i>
+                Manage Appointments</a></li>
+              <li><a href='#'>
+                <i class="icon-menusearch-top-menu top-menu-icon"></i>
+                Dossier Search</a></li> 
+        
+                <div class='top-social-log-toogle  '>
+                  <div class="dash-log-icon "> <img src="images/user-login.svg" alt="logo" title="logo"/> </div>
+                  <div class="dash-log-txt"> Fiso Mathew
+                    <div>Visa Officer </div>
+                  </div>
+              </div>
+          </ul>
+          
+          <div class="socialtop">
+              <div class='top-social'>
+                  
+                  <a href='#'><i class='icon-dashboard-upport top-menu-icon'></i></a> 
+                  <a href="#"><i class='icon-new-lf-help top-menu-icon'></i></a>
+              </div>
+              <div class='top-social-log '>
+                <div class="dash-log-icon "> <img src="images/user-login.svg" alt="logo" title="logo"/> </div>
+                <div class="dash-log-txt"> Fiso Mathew
+                  <div>Visa Officer </div>
+                </div>
+            </div>
+          </div>
+        </nav>
+           </div>
+            </div>
+
+
+</div>
+
+<div class="row  wizard-top-main-outer">
+<div class="wizard-container">
+<div class="wizard-main-content-block">
+<div class="left-block">
+<div class="wizard-content-top">
+<div class="left wizard-main-head">Dossier Search </div>
+<div class="right">
+ 
+
+</div>
+<div class="wizard-sub-content-block">
+ 
+
+<div class="wizard-management-gird dossier-gird ">
+                               
+    <div class="form-group ">
+ 
+  <select class="my-select selectpicker" data-container="body">
+    <option>Applicaiton ID</option>
+  </select>
+</div>    
+    <div class="form-group dossier-m-r-15">
+     
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Start your search here..."  min="5" max="999" required>
+      <button type="submit"  class="input-search-sty"> <img src="images/search.svg"  /></button>				
+      <ul id="myUL">
+        <div class="search-dropdowwn-bg">
+            <div class="search-drop-white-box">
+                <div class="search-drop-left "> 
+                <li><a href="#">Kunal Narayan Sharma 
+                  <span class="search-drop-right "> 
+                  <span class="font-w-b">A09872</span>73783
+                 </span></a></li>
+                <li><a href="#">Md. Shaikh Ismail Pathan
+                  <span class="search-drop-right "> 
+                    <span class="font-w-b">A09872</span>73783
+                   </span>
+                </a></li>
+                <li><a href="#">Alan P. Thommas
+                  <span class="search-drop-right "> 
+                    <span class="font-w-b">A09872</span>73783
+                   </span>
+                </a></li>
+                <li><a href="#">Garry Powel Junior
+                  <span class="search-drop-right "> 
+                    <span class="font-w-b">A09872</span>73783
+                   </span>
+                </a></li>
+                <li><a href="#">Ashnarayan Swaminathan
+                  <span class="search-drop-right "> 
+                    <span class="font-w-b">A09872</span>73783
+                   </span>
+                </a></li>
+                <li><a href="#">Ho Yun Shin
+                  <span class="search-drop-right "> 
+                    <span class="font-w-b">A09872</span>73783
+                   </span>
+                </a></li>
+                <li><a href="#">Najmeh Boluhardt
+                  <span class="search-drop-right "> 
+                    <span class="font-w-b">A09872</span>73783
+                   </span>
+                </a></li>
+              </div>
+               
+            </div>
+        </div>
+      </ul>
+</div>
+        
+ 
+            
+    
+    </div>
+<div class="col-md-12 search-by-id">
+ <span><img class="light-ico" src="images/light.svg"  /></span> Search by Application ID, Name or Passport no.  <span class="clear-search">Clear Search</span>  
+</div>
+    <div class="wizard-setp-block">
+<div class="sub-left wizard-sub-mian-font dossier-pad-b dossi-sub-mian-font">Result by search</div>
+ 
+<div class="add-wized-inner ">
+  <div class="calendersty-table dossier-search-table">
+    <table class="table calender-table-sty dossier-table ">
+      <thead>
+        <tr class="thear-tr1 clendr-th-bordr dossier-thear-tr1">
+          <th class="col-md-4 width-25" scope="col"> Applicant Full Name </th>
+          <th class="col-md-4 width-25" scope="col">Applicant ID</th>  
+          <th class="col-md-4 width-25 dossi-t-al" scope="col">
+            DS160/DS260 No.
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr class="lookup-tr1 clendr-tr-bordr dossier-tr-bg">
+          <td class="col-md-4 width-25" scope="row">
+           <span><img class="dossi-user-ico" src="images/dossier-user.svg"  /></span> Kunal Narayan Sharma
+           <div>kunal@gmail.com</div>
+          </td>
+          <td class="col-md-4 width-25">
+            A0987273783
+          </td> 
+          <td class="col-md-4 width-25 dossi-t-al">  
+            US098765432
+            <div ><span class="clear-search">View</span>  </div>
+          </td>
+        </tr>
+         
+         
+        
+       
+      </tbody>
+    </table>
+  </div>    
+  
+</div> 
+<div class="sub-left wizard-sub-mian-font dossier-pad-b dossier-pad-t">Applicant Associations</div>
+<div class="add-wized-inner ">
+  <div class="calendersty-table dossier-search-table">
+    <table class="table calender-table-sty dossier-table ">
+       
+      <tbody>
+        
+        <tr class="dossi-user-tr clendr-tr-bordr">
+          <td class="col-md-4 width-25" scope="row">
+            <span><img class="dossi-user-ico" src="images/dossier-user.svg"  /></span> Payal Kunal Sharma
+            <div>payal12@gmail.com</div>
+          </td>
+          <td class="col-md-4 width-25">
+            A0987273783
+          </td> 
+          <td class="col-md-4 width-25 dossi-t-al">  
+            US098765432
+            <div ><span class="clear-search">View</span>  </div>
+          </td>
+        </tr>
+        <tr class="dossi-user-tr clendr-tr-bordr">
+          <td class="col-md-4 width-25" scope="row">
+            <span><img class="dossi-user-ico" src="images/dossier-user1.svg"  /></span>Rohit Kunal Sharma
+            <div>payal12@gmail.com</div>
+          </td>
+          <td class="col-md-4 width-25">
+            A0987273783
+          </td> 
+          <td class="col-md-4 width-25 dossi-t-al">  
+            US098765432
+            <div ><span class="clear-search">View</span>  </div>
+          </td>
+        </tr>
+         
+        
+       
+      </tbody>
+    </table>
+  </div>    
+  
+</div> 
+    </div>
+</div>
+</div>
+</div>
+<div class="right-block">
+    
+ 
+<div class="add-wizrd-top-grid dossi-grid-3 m-t-20 dossi-marg-min-1">
+
+        <div class="add-wized-inner ">
+            <div class="dossi-full-name">Full name</div>
+            <div class="dossi-full-name-b">Kunal Narayan Sharma</div>
+            <div class="dossi-full-name">Applicant Id: A0987273783</div>
+            <div class="dossi-full-name">DS160 No.: US098765432 </div>
+        </div>
+        <div class="add-wized-inner ">
+                <div class="form-group ">
+                  <label  class="dossi-top-box-txt">Select Dossier No.</label>
+                  <select class="my-select selectpicker dossi-top-box-input" data-container="body">
+                    <option>US098765432</option>
+                  </select>
+                  <label class="dossi-top-box-txt-green">CURRENT</label>
+                </div>
+        </div>
+        <div class="add-wized-inner ">
+          <div class="form-group ">
+              <div class="dossi-full-name-b1">Interview confirmation letter</div>
+              <label class="dossi-top-box-txt-green1">kunal_sharma_cus123456789.pdf <span class="clear-search-txt">View</span></label>
+              <div>
+                <a class="add-new-button blue-button dark-blue-button  apply-btn">Resend</a>
+              </div>
+                
+              </div>
+      </div>
+</div>
+  <div class="row">
+<div class="st-demo-header f-1"> 1</div>
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs dossier-top-tab" role="tablist" >
+  <li class="nav-item"><a class="nav-link active" href="#tab1" role="tab" data-toggle="tab">Application Info</a></li>
+  <li class="nav-item"><a class="nav-link" href="#tab2" role="tab" data-toggle="tab">Personal Info</a></li> 
+  <li class="nav-item"><a class="nav-link" href="#tab4" role="tab" data-toggle="tab">Address of Residence</a></li>
+  <li class="nav-item"><a class="nav-link" href="#tab5" role="tab" data-toggle="tab">Visa Fees</a></li>
+  <li class="nav-item"><a class="nav-link" href="#tab6" role="tab" data-toggle="tab">Appointments</a></li>
+  <li class="nav-item"><a class="nav-link" href="#tab7" role="tab" data-toggle="tab">Appointments</a></li>
+  <li class="nav-item"><a class="nav-link" href="#tab8" role="tab" data-toggle="tab">Documents</a></li>
+  <li class="nav-item"><a class="nav-link" href="#tab9" role="tab" data-toggle="tab">Information Services</a></li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content" >
+  <div role="tabpanel" class="tab-pane   active" id="tab1">
+    <div class="tab-cont-box">
+        
+      <div class="tab-inner-head-wdth1 "> 
+          <div class="user-dash-page-grid-2 ">
+            <div class=" "> 
+                
+              <p class="full-name-h4">US Nonimmigrant Visa (NIV - B1) </p>  
+                <p  class="appoi-name ">Appointment Booked</p> 
+              
+            </div>
+            <div> 
+              <p  class="appoi-type">Appointment Type</p> 
+              <p  class=" regular-txt">Regular </p>   
+            </div>
+        </div> 
+    </div> 
+    <div class="dossi-date-box1 brdr-break">
+    <div class=" dossi-apo-box">
+      <div class="user-dash-page-grid-4 ">
+        <div> 
+            <div class=" date-iocn-mac-box">
+              <img src="images/mac-clock.svg" class="date-iocn-mac-img">
+            </div>
+            <div class="date-iocn-mac-box-txt">
+              <p class="appoi-type m-b-0">Date Started</p> 
+              <p class=" regular-txt p-t-0">10.19.2022 </p>   
+            </div>
+              
+        </div>
+        <div> 
+          <div class=" date-iocn-mac-box">
+            <img src="images/mac-clock.svg" class="date-iocn-mac-img">
+          </div>
+          <div class="date-iocn-mac-box-txt">
+            <p class="appoi-type m-b-0">Fee Expiration</p> 
+            <p class=" regular-txt p-t-0">11.30.2022 </p>   
+          </div>
+            
+      </div>
+      <div> 
+        <div class=" date-iocn-mac-box">
+          <img src="images/mac-map.svg" class="date-iocn-mac-img">
+        </div>
+        <div class="date-iocn-mac-box-txt">
+          <p class="appoi-type m-b-0">Alloted OFC </p> 
+          <p class=" regular-txt p-t-0">Mumbai, Maharashtra </p>   
+        </div>
+          
+    </div>
+    <div> 
+      <div class=" date-iocn-mac-box">
+        <img src="images/mac-map.svg" class="date-iocn-mac-img">
+      </div>
+      <div class="date-iocn-mac-box-txt">
+        <p class="appoi-type m-b-0">Requested OFC </p> 
+        <p class=" regular-txt p-t-0">Mumbai, Maharashtra </p>   
+      </div>
+        
+  </div>
+    </div> 
+  </div>
+</div>
+ 
+ <div class="dossi-date-box">
+   
+  <ul class="nav nav-tabs process-model more-icon-preocess " role="tablist">
+    <li role="presentation"><a href="#discover" aria-controls="discover" role="tab" data-toggle="tab"><i class="fa fa-search" aria-hidden="true">
+      <img src="images/app-rnd-1.svg" class="round-tab-img">
+    </i>
+      <p>Account Created</p>
+      </a></li>
+    <li role="presentation"><a href="#strategy" aria-controls="strategy" role="tab" data-toggle="tab"><i class="fa fa-send-o" aria-hidden="true">
+      <img src="images/app-rnd-2.svg"  class="round-tab-img">
+    </i>
+      <p>Visa Selected</p>
+      </a></li>
+    <li role="presentation"><a href="#optimization" aria-controls="optimization" role="tab" data-toggle="tab"><i class="fa fa-qrcode" aria-hidden="true">
+      <img src="images/app-rnd-3.svg"  class="round-tab-img">
+    </i>
+      <p>Visa Fees Paid</p>
+      </a></li>
+    <li role="presentation"><a href="#content" aria-controls="content" role="tab" data-toggle="tab"><i class="fa fa-newspaper-o" aria-hidden="true">
+      <img src="images/app-rnd-4.svg"  class="round-tab-img">
+    </i>
+      <p>Delivery Selected</p>
+      </a></li>
+    <li role="presentation"   class="active"><a href="#reporting" aria-controls="reporting" role="tab" data-toggle="tab"><i class="fa fa-clipboard" aria-hidden="true">
+      <img src="images/app-rnd-5.svg"  class="round-tab-img">
+    </i>
+      <p>Booked Appointment</p>
+      </a></li>
+      <li  role="presentation" ><a href="#reporting1" aria-controls="reporting1" role="tab" data-toggle="tab"><i class="fa fa-clipboard" aria-hidden="true">
+        <img src="images/app-rnd-6.svg"  class="round-tab-img">
+      </i>
+        <p>Document Shipped</p>
+        </a></li>
+  </ul>
+ </div>
+  
+  </div>
+</div>
+  <div role="tabpanel" class="tab-pane fade  " id="tab2">
+    
+    <div class="tab-cont-box">
+      <div class="wizard-setp-block tab-wizrd-top-box m-t-20">
+        <div class="sub-left wizard-sub-mian-font gird-button-top-mrg">Add Visa Categories</div>
+        <div class="sub-left wizard-sub-mian-font">
+          <div class="form-group ">
+            <label>Select Visa Type</label>
+            <select class="my-select selectpicker" data-container="body">
+              <option>Non Immigrant (NIV)</option>
+            </select>
+          </div>
+           
+        </div>
+        <div class="add-step-right gird-button-top-mrg">
+          <a class="add-new-button blue-button apply-f-r apply-btn">Apply Changes</a>
+          
+        </div>
+    </div>  
+    <div class="document-table ">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="col-md-2 width-25" scope="col"> 
+            <input class="styled-checkbox styled-checkbox1 " id="styled-checkbox-4" type="checkbox" value="value1">
+            <label for="styled-checkbox-4"> </label>
+          </th>
+          <th  class="col-md-4 width-25" scope="col">Visa Categories</th>
+          <th class="col-md-4 width-25" scope="col">Class</th>
+          <th class="col-md-2 width-25" scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td class="col-md-2 width-25" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-5" type="checkbox" value="value1">
+            <label for="styled-checkbox-5"> </label>
+          </td>
+          <td class="col-md-4 width-25">Business / Tourist Visa</td>
+          <td class="col-md-4 width-25">B1 / B2 </td>
+          <td class="col-md-2 width-25"> 
+                <a href="" class="icons-list icon-super-admin-document doc-ico-right p-t-8" data-toggle="modal" data-target="#myModal2"></a>
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8"></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-md-2 width-25" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-6" type="checkbox" value="value1">
+            <label for="styled-checkbox-6"> </label>
+          </td>
+          <td class="col-md-4 width-25">Work Visa</td>
+          <td class="col-md-4 width-25">H, L, O, P, Q</td>
+          <td class="col-md-2 width-25"> 
+                <a href="" class="icons-list icon-super-admin-document doc-ico-right p-t-8" data-toggle="modal" data-target="#myModal2"></a>
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8"></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-md-2 width-25" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-7" type="checkbox" value="value1">
+            <label for="styled-checkbox-7"> </label>
+          </td>
+          <td class="col-md-4 width-25">Student Visa</td>
+          <td class="col-md-4 width-25">F1, M1</td>
+          <td class="col-md-2 width-25"> 
+                <a href="" class="icons-list icon-super-admin-document doc-ico-right p-t-8" data-toggle="modal" data-target="#myModal2"></a>
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8"></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>   
+  </div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade  " id="tab4">
+    
+    <div class="tab-cont-box">
+      <div class="wizard-setp-block tab-wizrd-top-box2 m-t-20">
+        <div class="sub-left wizard-sub-mian-font gird-button-top-mrg">Add Currency</div>
+         
+        <div class="add-step-right gird-button-top-mrg">
+          <a class="add-new-button blue-button apply-f-r apply-btn">Apply Changes</a>
+          
+        </div>
+    </div>  
+    <div class="document-table ">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="col-md-2 width-25" scope="col"> 
+            <input class="styled-checkbox styled-checkbox1 " id="styled-checkbox-9" type="checkbox" value="value1">
+            <label for="styled-checkbox-9"> </label>
+          </th>
+          <th  class="col-md-4 width-25" scope="col">Currency</th>
+          <th class="col-md-4 width-25" scope="col">Symbol</th>
+          <th class="col-md-2 width-25" scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td class="col-md-2 width-25" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-10" type="checkbox" value="value1">
+            <label for="styled-checkbox-10"> </label>
+          </td>
+          <td class="col-md-4 width-25">Indian Rupee</td>
+          <td class="col-md-4 width-25">₹</td>
+          <td class="col-md-2 width-25"> 
+                
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-md-2 width-25" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-11" type="checkbox" value="value1">
+            <label for="styled-checkbox-11"> </label>
+          </td>
+          <td class="col-md-4 width-25">US Dollar</td>
+          <td class="col-md-4 width-25">$</td>
+          <td class="col-md-2 width-25"> 
+             
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-md-2 width-25" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-13" type="checkbox" value="value1">
+            <label for="styled-checkbox-13"> </label>
+          </td>
+          <td class="col-md-4 width-25">Euro</td>
+          <td class="col-md-4 width-25"> </td>
+          <td class="col-md-2 width-25"> 
+               
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>   
+  </div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade  " id="tab5">
+
+    <div class="tab-cont-box">
+      <div class="wizard-setp-block tab-wizrd-top-box2 m-t-20">
+        <div class="sub-left wizard-sub-mian-font gird-button-top-mrg">Add Languages</div>
+         
+        <div class="add-step-right gird-button-top-mrg">
+          <a class="add-new-button blue-button apply-f-r apply-btn">Apply Changes</a>
+          
+        </div>
+    </div>  
+    <div class="document-table ">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="col-md-2 width-33" scope="col">
+            <input class="styled-checkbox styled-checkbox1 " id="styled-checkbox-14" type="checkbox" value="value1">
+            <label for="styled-checkbox-14"> </label>
+          </th>
+          <th  class="col-md-8 width-33" scope="col"> Language</th>
+           
+          <th class="col-md-2 width-33" scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td class="col-md-2 width-33" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-15" type="checkbox" value="value1">
+            <label for="styled-checkbox-15"> </label>
+          </td>
+          <td class="col-md-8 width-33">English</td>
+          
+          <td class="col-md-2 width-33"> 
+                
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-md-2 width-33" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2" id="styled-checkbox-16" type="checkbox" value="value1">
+            <label for="styled-checkbox-16"> </label>
+          </td>
+          <td class="col-md-8 width-33">Hindi</td>
+         
+          <td class="col-md-2 width-33"> 
+             
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-md-2 width-33" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2" id="styled-checkbox-17" type="checkbox" value="value1">
+            <label for="styled-checkbox-17"> </label>
+          </td>
+          <td class="col-md-8 width-33">Marathi</td>
+          
+          <td class="col-md-2 width-33"> 
+               
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>   
+  </div>
+
+  </div>
+  <div role="tabpanel" class="tab-pane fade  " id="tab6">
+    
+
+    <div class="tab-cont-box">
+      <div class="wizard-setp-block tab-wizrd-top-box2 m-t-20">
+        <div class="sub-left wizard-sub-mian-font gird-button-top-mrg">Add OFC</div>
+         
+        <div class="add-step-right gird-button-top-mrg">
+          <a class="add-new-button blue-button apply-f-r apply-btn">Apply Changes</a>
+          
+        </div>
+    </div>  
+    <div class="document-table ">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="col-md-2 width-33" scope="col">
+            <input class="styled-checkbox styled-checkbox1 " id="styled-checkbox-18" type="checkbox" value="value1">
+            <label for="styled-checkbox-18"> </label>
+          </th>
+          <th  class="col-md-8 width-33" scope="col"> OFC List</th>
+           
+          <th class="col-md-2 width-33" scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td class="col-md-2 width-33" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-19" type="checkbox" value="value1">
+            <label for="styled-checkbox-19"> </label>
+          </td>
+          <td class="col-md-8 width-33">Pune</td>
+          
+          <td class="col-md-2 width-33"> 
+                
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-md-2 width-33" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-20" type="checkbox" value="value1">
+            <label for="styled-checkbox-20"> </label>
+          </td>
+          <td class="col-md-8 width-33">Nashik</td>
+         
+          <td class="col-md-2 width-33"> 
+             
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-md-2 width-33" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-21" type="checkbox" value="value1">
+            <label for="styled-checkbox-21"> </label>
+          </td>
+          <td class="col-md-8 width-33">Hyderabad</td>
+          
+          <td class="col-md-2 width-33"> 
+               
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>   
+  </div>
+  </div>
+  <div role="tabpanel" class="tab-pane fade  " id="tab7">
+    
+
+
+    <div class="tab-cont-box">
+      <div class="wizard-setp-block tab-wizrd-top-box2 m-t-20">
+        <div class="sub-left wizard-sub-mian-font gird-button-top-mrg">Add Post</div>
+         
+        <div class="add-step-right gird-button-top-mrg">
+          <a class="add-new-button blue-button apply-f-r apply-btn">Apply Changes</a>
+          
+        </div>
+    </div>  
+    <div class="document-table ">
+    <table class="table">
+      <thead>
+        <tr>
+          <th class="col-md-2 width-25" scope="col"> 
+            <input class="styled-checkbox styled-checkbox1 " id="styled-checkbox-22" type="checkbox" value="value1">
+            <label for="styled-checkbox-22"> </label>
+          </th>
+          <th  class="col-md-8 width-25" scope="col"> Post List</th>
+           
+          <th class="col-md-2 width-25" scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td class="col-md-2 width-25" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-23" type="checkbox" value="value1">
+            <label for="styled-checkbox-23"> </label>
+          </td>
+          <td class="col-md-8 width-25">Mumbai</td>
+          
+          <td class="col-md-2 width-25"> 
+                
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-md-2 width-25" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-24" type="checkbox" value="value1">
+            <label for="styled-checkbox-24"> </label>
+          </td>
+          <td class="col-md-8 width-25">Pune</td>
+         
+          <td class="col-md-2 width-25"> 
+             
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+        <tr>
+          <td class="col-md-2 width-25" scope="row">
+            <input class="styled-checkbox styled-checkboxnew2 " id="styled-checkbox-25" type="checkbox" value="value1">
+            <label for="styled-checkbox-25"> </label>
+          </td>
+          <td class="col-md-8 width-25">Hyderabad</td>
+          
+          <td class="col-md-2 width-25"> 
+               
+                <a href="" class="icons-list icon-super-admin-tree-cion1 p-t-8 p-l-20"></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>   
+  </div>
+  </div>
+   
+
+  <div role="tabpanel" class="tab-pane fade  " id="tab8">
+    
+
+
+    <div class="tab-cont-box">
+      <div class="wizard-setp-block tab-wizrd-top-box2 m-t-20 broder-0">
+        <div class="sub-left wizard-sub-mian-font gird-button-top-mrg">Add Visa Fees</div>
+         
+        <div class="add-step-right">
+          <div class="right-button-align">
+          <a class="add-step-button">Add row +</a>
+          <a class="add-step-button m-l-15 blue-button">Done</a>
+        </div>
+        </div>
+    </div>  
+    <div class="document-table ">
+      <table class="table">
+        <thead>
+          <tr class="thear-tr ">
+            <th class="col-md-4 width-25" scope="col"> Visa Type</th>
+            <th  class="col-md-4 width-25" scope="col">Local Currency</th> 
+            <th class="col-md-4 width-25" scope="col">$ Exchange Rate</th>
+            <th class="col-md-4 width-25" scope="col">Periods</th>
+          </tr>
+        </thead>
+        <tbody class="visa-box-table">
+          
+          <tr class="visa-tr ">
+            <td class="col-md-4 width-25" scope="row">
+              <div class="form-group select-slot-intervel-input  add-visa-fees">
+                <div class="select-slot-clock-right-align">
+                  <svg width="15" height="4" viewBox="0 0 15 4" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-more-dot">
+                    <path d="M1.75568 3.11364C1.4053 3.11364 1.10464 2.98816 0.853693 2.73722C0.602746 2.48627 0.477273 2.18561 0.477273 1.83523C0.477273 1.48485 0.602746 1.18419 0.853693 0.933239C1.10464 0.682292 1.4053 0.556818 1.75568 0.556818C2.10606 0.556818 2.40672 0.682292 2.65767 0.933239C2.90862 1.18419 3.03409 1.48485 3.03409 1.83523C3.03409 2.06723 2.97491 2.2803 2.85653 2.47443C2.7429 2.66856 2.58902 2.82481 2.39489 2.94318C2.20549 3.05682 1.99242 3.11364 1.75568 3.11364ZM7.26349 3.11364C6.91312 3.11364 6.61245 2.98816 6.36151 2.73722C6.11056 2.48627 5.98509 2.18561 5.98509 1.83523C5.98509 1.48485 6.11056 1.18419 6.36151 0.933239C6.61245 0.682292 6.91312 0.556818 7.26349 0.556818C7.61387 0.556818 7.91454 0.682292 8.16548 0.933239C8.41643 1.18419 8.5419 1.48485 8.5419 1.83523C8.5419 2.06723 8.48272 2.2803 8.36435 2.47443C8.25071 2.66856 8.09683 2.82481 7.9027 2.94318C7.71331 3.05682 7.50024 3.11364 7.26349 3.11364ZM12.7713 3.11364C12.4209 3.11364 12.1203 2.98816 11.8693 2.73722C11.6184 2.48627 11.4929 2.18561 11.4929 1.83523C11.4929 1.48485 11.6184 1.18419 11.8693 0.933239C12.1203 0.682292 12.4209 0.556818 12.7713 0.556818C13.1217 0.556818 13.4223 0.682292 13.6733 0.933239C13.9242 1.18419 14.0497 1.48485 14.0497 1.83523C14.0497 2.06723 13.9905 2.2803 13.8722 2.47443C13.7585 2.66856 13.6046 2.82481 13.4105 2.94318C13.2211 3.05682 13.008 3.11364 12.7713 3.11364Z" fill="black"/>
+                    </svg>
+                </div>
+                   <input type="text" class="form-control" placeholder="Business Tourist Visa ">
+                 </div>
+            </td>
+            <td class="col-md-4 width-25">
+              <div class="form-group select-slot-intervel-input add-visa-fees">
+                <div class="select-slot-clock-right-align">
+                  <svg width="15" height="4" viewBox="0 0 15 4" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-more-dot">
+                    <path d="M1.75568 3.11364C1.4053 3.11364 1.10464 2.98816 0.853693 2.73722C0.602746 2.48627 0.477273 2.18561 0.477273 1.83523C0.477273 1.48485 0.602746 1.18419 0.853693 0.933239C1.10464 0.682292 1.4053 0.556818 1.75568 0.556818C2.10606 0.556818 2.40672 0.682292 2.65767 0.933239C2.90862 1.18419 3.03409 1.48485 3.03409 1.83523C3.03409 2.06723 2.97491 2.2803 2.85653 2.47443C2.7429 2.66856 2.58902 2.82481 2.39489 2.94318C2.20549 3.05682 1.99242 3.11364 1.75568 3.11364ZM7.26349 3.11364C6.91312 3.11364 6.61245 2.98816 6.36151 2.73722C6.11056 2.48627 5.98509 2.18561 5.98509 1.83523C5.98509 1.48485 6.11056 1.18419 6.36151 0.933239C6.61245 0.682292 6.91312 0.556818 7.26349 0.556818C7.61387 0.556818 7.91454 0.682292 8.16548 0.933239C8.41643 1.18419 8.5419 1.48485 8.5419 1.83523C8.5419 2.06723 8.48272 2.2803 8.36435 2.47443C8.25071 2.66856 8.09683 2.82481 7.9027 2.94318C7.71331 3.05682 7.50024 3.11364 7.26349 3.11364ZM12.7713 3.11364C12.4209 3.11364 12.1203 2.98816 11.8693 2.73722C11.6184 2.48627 11.4929 2.18561 11.4929 1.83523C11.4929 1.48485 11.6184 1.18419 11.8693 0.933239C12.1203 0.682292 12.4209 0.556818 12.7713 0.556818C13.1217 0.556818 13.4223 0.682292 13.6733 0.933239C13.9242 1.18419 14.0497 1.48485 14.0497 1.83523C14.0497 2.06723 13.9905 2.2803 13.8722 2.47443C13.7585 2.66856 13.6046 2.82481 13.4105 2.94318C13.2211 3.05682 13.008 3.11364 12.7713 3.11364Z" fill="black"/>
+                    </svg>
+                </div>
+                   <input type="text" class="form-control" placeholder="Indian Rupee ">
+                 </div>
+            </td>
+            
+            <td class="col-md-4 width-25"> 
+              <div class="form-group select-slot-intervel-input">
+                <div class="select-slot-clock">
+                  <div class="dolar-sign">₹</div>  
+                </div>
+                   <input type="text" class="form-control" placeholder="82.6833">
+                 </div>
+            </td>
+            <td class="col-md-4 width-25"> 
+              <div class="form-group select-slot-intervel-input">
+                <div class="select-slot-clock">
+                    <img src="images/date-calander.svg">
+                </div>
+                   <input type="text" class="form-control" placeholder="12/22/2022  -  12/31/2022 ">
+                 </div>
+   
+            </td>
+          </tr>
+          <tr class="visa-tr ">
+            <td class="col-md-4 width-25" scope="row">
+              <div class="form-group select-slot-intervel-input  add-visa-fees">
+                <div class="form-group select-slot-intervel-input ">
+                <div class="select-slot-clock-right-align">
+                  <svg width="15" height="4" viewBox="0 0 15 4" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-more-dot">
+                    <path d="M1.75568 3.11364C1.4053 3.11364 1.10464 2.98816 0.853693 2.73722C0.602746 2.48627 0.477273 2.18561 0.477273 1.83523C0.477273 1.48485 0.602746 1.18419 0.853693 0.933239C1.10464 0.682292 1.4053 0.556818 1.75568 0.556818C2.10606 0.556818 2.40672 0.682292 2.65767 0.933239C2.90862 1.18419 3.03409 1.48485 3.03409 1.83523C3.03409 2.06723 2.97491 2.2803 2.85653 2.47443C2.7429 2.66856 2.58902 2.82481 2.39489 2.94318C2.20549 3.05682 1.99242 3.11364 1.75568 3.11364ZM7.26349 3.11364C6.91312 3.11364 6.61245 2.98816 6.36151 2.73722C6.11056 2.48627 5.98509 2.18561 5.98509 1.83523C5.98509 1.48485 6.11056 1.18419 6.36151 0.933239C6.61245 0.682292 6.91312 0.556818 7.26349 0.556818C7.61387 0.556818 7.91454 0.682292 8.16548 0.933239C8.41643 1.18419 8.5419 1.48485 8.5419 1.83523C8.5419 2.06723 8.48272 2.2803 8.36435 2.47443C8.25071 2.66856 8.09683 2.82481 7.9027 2.94318C7.71331 3.05682 7.50024 3.11364 7.26349 3.11364ZM12.7713 3.11364C12.4209 3.11364 12.1203 2.98816 11.8693 2.73722C11.6184 2.48627 11.4929 2.18561 11.4929 1.83523C11.4929 1.48485 11.6184 1.18419 11.8693 0.933239C12.1203 0.682292 12.4209 0.556818 12.7713 0.556818C13.1217 0.556818 13.4223 0.682292 13.6733 0.933239C13.9242 1.18419 14.0497 1.48485 14.0497 1.83523C14.0497 2.06723 13.9905 2.2803 13.8722 2.47443C13.7585 2.66856 13.6046 2.82481 13.4105 2.94318C13.2211 3.05682 13.008 3.11364 12.7713 3.11364Z" fill="black"/>
+                    </svg>
+                </div>
+                   <input type="text" class="form-control" placeholder="Select Visa Type ">
+                 </div>
+            </td>
+            <td class="col-md-4 width-25">
+              <div class="form-group select-slot-intervel-input add-visa-fees">
+                <div class="select-slot-clock-right-align">
+                  <svg width="15" height="4" viewBox="0 0 15 4" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg-more-dot">
+                    <path d="M1.75568 3.11364C1.4053 3.11364 1.10464 2.98816 0.853693 2.73722C0.602746 2.48627 0.477273 2.18561 0.477273 1.83523C0.477273 1.48485 0.602746 1.18419 0.853693 0.933239C1.10464 0.682292 1.4053 0.556818 1.75568 0.556818C2.10606 0.556818 2.40672 0.682292 2.65767 0.933239C2.90862 1.18419 3.03409 1.48485 3.03409 1.83523C3.03409 2.06723 2.97491 2.2803 2.85653 2.47443C2.7429 2.66856 2.58902 2.82481 2.39489 2.94318C2.20549 3.05682 1.99242 3.11364 1.75568 3.11364ZM7.26349 3.11364C6.91312 3.11364 6.61245 2.98816 6.36151 2.73722C6.11056 2.48627 5.98509 2.18561 5.98509 1.83523C5.98509 1.48485 6.11056 1.18419 6.36151 0.933239C6.61245 0.682292 6.91312 0.556818 7.26349 0.556818C7.61387 0.556818 7.91454 0.682292 8.16548 0.933239C8.41643 1.18419 8.5419 1.48485 8.5419 1.83523C8.5419 2.06723 8.48272 2.2803 8.36435 2.47443C8.25071 2.66856 8.09683 2.82481 7.9027 2.94318C7.71331 3.05682 7.50024 3.11364 7.26349 3.11364ZM12.7713 3.11364C12.4209 3.11364 12.1203 2.98816 11.8693 2.73722C11.6184 2.48627 11.4929 2.18561 11.4929 1.83523C11.4929 1.48485 11.6184 1.18419 11.8693 0.933239C12.1203 0.682292 12.4209 0.556818 12.7713 0.556818C13.1217 0.556818 13.4223 0.682292 13.6733 0.933239C13.9242 1.18419 14.0497 1.48485 14.0497 1.83523C14.0497 2.06723 13.9905 2.2803 13.8722 2.47443C13.7585 2.66856 13.6046 2.82481 13.4105 2.94318C13.2211 3.05682 13.008 3.11364 12.7713 3.11364Z" fill="black"/>
+                    </svg>
+                </div>
+                   <input type="text" class="form-control" placeholder="Select Currency ">
+                 </div>
+            </td>
+            
+            <td class="col-md-4 width-25"> 
+              <div class="form-group select-slot-intervel-input">
+                <div class="select-slot-clock">
+                  <div class="dolar-sign">₹</div>  
+                </div>
+                   <input type="text" class="form-control" placeholder="Exchange Rate">
+                 </div>
+            </td>
+            <td class="col-md-4 width-25"> 
+              <div class="form-group select-slot-intervel-input">
+                <div class="select-slot-clock">
+                    <img src="images/date-calander.svg">
+                </div>
+                   <input type="text" class="form-control" placeholder="--/--/----    -   --/--/---- ">
+                 </div>
+   
+            </td>
+          </tr>
+         
+        </tbody>
+      </table>
+    </div>  
+  </div>
+  </div>
+   
+
+  <div role="tabpanel" class="tab-pane fade  " id="tab9">
+    
+
+
+    <div class="tab-cont-box">
+      <div class="wizard-setp-block tab-wizrd-top-box2 m-t-20 broder-0">
+        <div class="sub-left wizard-sub-mian-font gird-button-top-mrg">Payment Methods</div>
+         
+        <div class="add-step-right">
+          <div class="right-button-align">
+          <a class="add-step-button">Add row +</a>
+        </div>
+        </div>
+    </div>
+
+    <div class="row no-payment-method border-top">
+<div class="inner-payment-block">
+<div class="icon">
+  <img src="images/no-payment-method.svg" alt="" title=""/>
+</div>
+<p>No payment method found, <a href="">
+  click on add new</a></p>
+
+</div>
+
+    </div>
+
+
+
+  </div>
+  </div>
+
+</div>
+
+</div>         
+
+</div>
+
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+    </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal  right fade" id="myModal2" role="dialog" aria-labelledby="myModalLabel2">
+        <div class="modal-dialog otp-verify-modal" role="document">
+          <div class="modal-content otp-inner-block">
+            <div class="modal-header">
+                <div class="wizard-heder-modal-sub">
+                <div class="modal-head-new">Section Information</div>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="icon-modal-close"></span></button>
+            </div>
+        </div>
+            <div class="modal-body">
+          <div class="row section-information-inner">
+            <div class="col-md-8  section-information-input ">
+                <div class="form-group ">
+                    <label>Information Label</label>
+                    <input type="text" name="" class="form-control" placeholder="Valid Passport Number  ">
+                </div>
+            </div>
+            <div class="col-md-12  section-information-input margin-top-30">
+                <div class="form-group ">
+                    <textarea name="message" spellcheck="false"></textarea>
+                  </div>
+            </div>
+            <div class="form-group ">
+              <label>Select State</label>
+              <select class="my-select selectpicker" data-container="body">
+                <option>Maharashtra</option>
+              </select>
+            </div>
+          </div>
+              
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+      <script src='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js'></script>
+      <script src="js/fileupload.js"></script>
+    <script src="js/scroll-tab.js"></script>
+    <script src="js/tree-view-new.js"></script>
+    <script  src="js/sidebar.js"></script>
+    <script  src="js/mission-tab.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script>
+  var UL = document.getElementById("myUL");
+  // hilde the list by default
+  UL.style.display = "none";
+  
+  var searchBox = document.getElementById("myInput");
+  
+  // show the list when the input receive focus
+  searchBox.addEventListener("focus",  function(){
+      // UL.style.display = "block";
+  });
+  
+  // hide the list when the input receive focus
+  searchBox.addEventListener("blur", function(){
+      UL.style.display = "none";
+  });
+  
+  
+  function myFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("myInput");
+      ul = document.getElementById("myUL");
+      filter = input.value.toUpperCase();
+      // if the input is empty hide the list
+      if(filter.trim().length < 1) {
+          ul.style.display = "none";
+          return false;
+      } else {
+          ul.style.display = "block";
+      }
+      
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          
+          // This is when you want to find words that contain the search string
+       if (a.innerHTML.toUpperCase().indexOf(filter) > -1) { 
+          li[i].style.display = "";
+       } else {
+          li[i].style.display = "none";
+      } 
+      
+      // This is when you want to find words that start the search string
+      /*if (a.innerHTML.toUpperCase().startsWith(filter)) {
+          li[i].style.display = "";
+      } else {
+          li[i].style.display = "none";
+      }*/
+      }
+  }
+  </script>	
+      </body>
+</html>

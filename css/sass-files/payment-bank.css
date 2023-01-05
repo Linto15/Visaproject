@@ -163,12 +163,6 @@
   padding-left: 25px !important;
 }
 
-.bank-deosit-table table, th, td {
-  border: 1px solid #D9D9D9 !important;
-  border-collapse: separate !important;
-  border-spacing: 3px !important;
-}
-
 .tr-bg {
   background-color: #D9D9D9;
 }

@@ -428,18 +428,10 @@
     .booked-apo-box {
         width: 80%;
     }
-    .process-model li::after { 
-        right: -65px;
-        top: 25px;
-        width: 65%; 
-    }
+    
 }
 @media screen and (max-width: 1500px) {
-.process-model li::after {
-    right: -44px;
-    top: 25px;
-    width: 57%;
-}
+ 
 }
 @media screen and (max-width: 1200px) {
 
@@ -472,7 +464,7 @@
     }
     .process-model li {
         display: inline-block;
-        width: 18%;
+       
         text-align: center;
         float: none;
     }
@@ -522,7 +514,7 @@
     }
     .process-model li {
         display: inline-block;
-        width: 30%;
+      
         text-align: center;
         
     }
@@ -557,7 +549,7 @@
     }
     .process-model li {
         display: inline-block;
-        width: 35%;
+      
         text-align: center;
         
     }
@@ -573,9 +565,7 @@
         line-height: 46px;
         width: 50px;
     }
-    .more-icon-preocess.process-model li::after {
-        top: 24px;
-    }
+    
     .user-dash-page-grid-4 {
         float: left;
         width: 100%;
@@ -603,9 +593,7 @@
     .more-icon-preocess.process-model li p {
         font-size: 8px;
     }
-    .more-icon-preocess.process-model li::after {
-        top: 18px;
-    }
+    
     .process-model.more-icon-preocess {
         text-align: center;
     }
