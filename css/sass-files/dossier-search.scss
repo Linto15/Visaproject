@@ -728,6 +728,19 @@ font-weight: 600;
   grid-auto-rows: minmax(0px, auto); 
   padding-bottom: 30px;
 }
+.clander-icon-edit {
+  right: 12px;
+  top: 6px;
+  width: 20px;
+}
+.date-label-group {
+  position: relative;
+  height: 35px;
+  
+  box-sizing: border-box;
+  border-radius: 5px;
+  
+}
 @media only screen and (max-width: 2050px){
   .search-drop-left {
     width: 19.5%;
