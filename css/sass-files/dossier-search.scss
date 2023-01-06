@@ -496,6 +496,10 @@
   padding-bottom: 0px;
   font-size: 14px;
 }
+.visa-green {
+  font-size: 14px;
+  color: #06A345; 
+}
 .visa-table-green {
   font-size: 14px;
   color: #06A345;
@@ -510,6 +514,9 @@
   font-size: 14px;
   color: #0517BE;
   margin-top: -15px;
+}
+.visa-table-yellow{
+  background-color: #FFF9E4 !important;
 }
 .f-b {
   font-weight: 600;
@@ -798,6 +805,12 @@
 .show-change-box .panel-title { 
   width: 19% !important;
 }
+.brdr-break {
+  border-bottom: 1px solid #ddd;
+  min-height: 75px;
+  margin-bottom: 25px;
+  padding-bottom: 170px;
+}
     }
     @media only screen and (max-width: 980px){
       .search-drop-left {
@@ -903,6 +916,12 @@
   .show-change-box .panel-title { 
     width: 26% !important;
   }
+  .brdr-break {
+    border-bottom: 1px solid #ddd;
+    min-height: 75px;
+    margin-bottom: 25px;
+    padding-bottom: 220px;
+  }
         }
         @media only screen and (max-width: 668px){
           
@@ -912,6 +931,20 @@
         .show-change-box .panel-title { 
           width: 35% !important;
         }
+        .brdr-break {
+          border-bottom: 1px solid #ddd;
+          min-height: 75px;
+          margin-bottom: 25px;
+          padding-bottom: 253px;
+        }
+          }
+          @media only screen and (max-width: 588px){
+            .brdr-break {
+              border-bottom: 1px solid #ddd;
+              min-height: 75px;
+              margin-bottom: 25px;
+              padding-bottom: 373px;
+            }
           }
         @media only screen and (max-width: 488px){
           .dossier-gird {
@@ -956,6 +989,12 @@
         gap: 35px 8px;
         grid-auto-rows: minmax(0px, auto);
         padding-bottom: 30px;
+      }
+      .brdr-break {
+        border-bottom: 1px solid #ddd;
+        min-height: 75px;
+        margin-bottom: 25px;
+        padding-bottom: 353px;
       }
           }
         
