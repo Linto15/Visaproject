@@ -13694,6 +13694,16 @@ a:focus {
   color: #06A345;
 }
 
+.visa-blue {
+  font-size: 14px;
+  color: #0517BE;
+}
+
+.visa-red {
+  font-size: 14px;
+  color: #FF0000;
+}
+
 .visa-table-green {
   font-size: 14px;
   color: #06A345;
@@ -13894,7 +13904,7 @@ a:focus {
     font-size: 11px;
   }
   .visa-fee-table .width-33 {
-    width: 400px;
+    width: 300px;
   }
   .visa-fee-table {
     width: 100%;
