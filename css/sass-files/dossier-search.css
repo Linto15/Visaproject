@@ -557,6 +557,9 @@
   color: #525252;
   font-weight: 400;
   font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .visa-fee-table table tbody tr td, .role-permission-table table tbody tr td {
@@ -565,6 +568,28 @@
   padding-top: 0px;
   padding-bottom: 0px;
   font-size: 14px;
+}
+
+.visa-table-green {
+  font-size: 14px;
+  color: #06A345;
+  margin-top: -15px;
+}
+
+.visa-table-red {
+  font-size: 14px;
+  color: #FF0000;
+  margin-top: -15px;
+}
+
+.visa-table-blue {
+  font-size: 14px;
+  color: #0517BE;
+  margin-top: -15px;
+}
+
+.f-b {
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 2050px) {
