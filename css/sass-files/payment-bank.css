@@ -193,7 +193,7 @@
   margin-bottom: 25px;
 }
 
-.modal-notify.left .modal-dialog, .modal.right .modal-dialog {
+.modal-notify.left .modal-dialog, .modal-notify.modal.right .modal-dialog {
   position: relative !important;
   margin: auto;
   width: 50%;
