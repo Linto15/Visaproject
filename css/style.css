@@ -11097,7 +11097,7 @@ a:focus {
 
 .process-model li {
   display: inline-block;
-  width: 13%;
+  width: 10%;
   text-align: center;
   float: none;
 }
@@ -11448,7 +11448,7 @@ a:focus {
   }
   .process-model li {
     display: inline-block;
-    width: 16%;
+    width: 10%;
     text-align: center;
     float: none;
   }
@@ -14282,7 +14282,7 @@ a:focus {
   }
   .process-model li {
     display: inline-block;
-    width: 13%;
+    width: 10% !important;
     text-align: center;
     float: none;
   }

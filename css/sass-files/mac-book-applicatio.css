@@ -124,7 +124,7 @@
 
 .process-model li {
   display: inline-block;
-  width: 13%;
+  width: 10%;
   text-align: center;
   float: none;
 }
@@ -475,7 +475,7 @@
   }
   .process-model li {
     display: inline-block;
-    width: 16%;
+    width: 10%;
     text-align: center;
     float: none;
   }
