@@ -433,6 +433,20 @@
   top: -30px;
 }
 
+.b-0 {
+  border-bottom: 0px solid #808B9F;
+}
+
+.wdth-50 {
+  width: 50% !important;
+}
+
+.date-support-right {
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
 @media only screen and (max-width: 2180px) {
   .dotted-box-width {
     width: 69%;

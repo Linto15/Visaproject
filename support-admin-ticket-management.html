@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Wizard Management</title>
+        
+    <!-- Bootstrap CSS -->
+  
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+           <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="bg-white">
+        <div class="row">
+            <div class="signup-top pad-l-30">
+                <div class="wizard-container top-bar-contnr">
+            <div class="signup-logo">
+            <img src="images/logo.svg" alt="logo" title="logo"/>
+            </div>
+            <nav  class="topmenu-ul">
+              <label class="toggle">
+                  <i class="fa fa-bars"></i>
+              </label>
+              
+              <ul>
+                <label class="toggle menu-close-btn">
+                  <i class="icon-modal-close f-15"></i>
+              </label>
+                  <li><a  href='#'>
+                   <i class="icon-new-lf-mydashboard top-menu-icon"></i> 
+                    My Dashboard</a></li>
+                  <li><a href='#'>
+                    <i class="icon-dashboard-visa top-menu-icon"></i> 
+                    Category Management</a></li>
+                  <li ><a href='#'  >
+                    <i class="icon-calndr-top-menu top-menu-icon"></i>
+                    Manage Appointments</a></li>
+                  <li><a href='#'>
+                    <i class="icon-menusearch-top-menu top-menu-icon"></i>
+                    Dossier Search</a></li> 
+            
+                    <div class='top-social-log-toogle  '>
+                      <div class="dash-log-icon "> <img src="images/user-login.svg" alt="logo" title="logo"/> </div>
+                      <div class="dash-log-txt"> Fiso Mathew
+                        <div>Visa Officer </div>
+                      </div>
+                  </div>
+              </ul>
+              
+              <div class="socialtop">
+                  <div class='top-social'>
+                      
+                      <a href='#'><i class='icon-dashboard-upport top-menu-icon'></i></a> 
+                      <a href="#"><i class='icon-new-lf-help top-menu-icon'></i></a>
+                  </div>
+                  <div class='top-social-log '>
+                    <div class="dash-log-icon "> <img src="images/user-login.svg" alt="logo" title="logo"/> </div>
+                    <div class="dash-log-txt"> Fiso Mathew
+                      <div>Visa Officer </div>
+                    </div>
+                </div>
+              </div>
+            </nav>
+               </div>
+                </div>
+
+
+</div>
+
+<div class="row wizard-top-main-outer appointment-management-outer">
+<div class="wizard-container">
+<div class="col-md-12 top-main-head-outer">
+    <div class="wizard-main-head">Support ticket management</div>
+    
+    <div class="row appointment-management-search">
+        <div class="left">
+<div class="form-group search-outer">
+    <span class="fa fa-search form-control-feedback"></span>
+    <input type="text" class="form-control" placeholder="Search by name, ticket ID and cust. ID">
+  </div>
+</div>
+
+    </div>
+
+    <div class="row appointment-management-search">
+        <div class="left">
+            <div class="wizard-main-head">Support Logs <span class="support-mumb">Mumbai</span></div>
+</div>
+<div class="right">
+<div class="appointment-manage-top-right-gird">
+    <div class="form-group ">
+          <select class="my-select selectpicker" data-container="body">
+            <option>Select status</option>
+          </select>
+        </div>    
+        <div class="form-group ">
+            <select class="my-select selectpicker" data-container="body">
+              <option>Select Category</option>
+            </select>
+          </div>  
+        <div class="form-group select-slot-intervel-input add-visa-fees">
+            <div class="select-slot-clock-right ">
+                <img src="images/date-calander.svg">
+            </div>
+               <input type="text" class="form-control" placeholder="Select Date ">
+             </div>
+     
+
+</div>
+
+</div>
+    </div>
+
+    <div class="row">
+        <div class=" appointment-table">
+            <table class="table">
+                <thead>
+                  <tr class="thear-tr-new  tr-dark-gray-bg">
+                
+                    <th class="col-md-1 width-5">    #</th>
+                      <th class="col-md-3 width-10"> Ticket ID</th>
+                    <th class="col-md-2 width-5">Status </th>
+                    <th class="col-md-3 width-10">Category</th> 
+                    <th class="col-md-2 width-10">Created Date &nbsp;&nbsp;<span><svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.75 4.2H0L4.125 0V14H2.75V4.2ZM6.875 11.9V0H8.25V9.8H11L6.875 14V11.9Z" fill="black"/>
+                        </svg></span> </th>
+                    <th class="col-md-2 width-10"> Created By</th>
+                    <th class="col-md-2 width-10">Customer ID.</th> 
+                    <th class="col-md-2 width-10">Ticket Type </th>
+                    <th class="col-md-3 width-10">Last Modified Date &nbsp;&nbsp;<span><svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.75 4.2H0L4.125 0V14H2.75V4.2ZM6.875 11.9V0H8.25V9.8H11L6.875 14V11.9Z" fill="black"/>
+                        </svg></span></th> 
+                    <th class="col-md-2 width-10"> Last Modified By</th>
+                    <th class="col-md-1 width-5"> </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                  <tr>
+                      <td class="col-md-1 width-5">   1</td>
+                          <td class="col-md-3 width-10"> A123474674</td>
+                        <td class="col-md-2 width-5 status-open support-clr-red "> Open </td>
+                        <td class="col-md-3 width-10">Fees and Payment</td> 
+                        <td class="col-md-2 width-10">01/07/2023</td>
+                        <td class="col-md-2 width-10"> James Roland </td>
+                        <td class="col-md-2 width-10">A2139384900</td> 
+                        <td class="col-md-2 width-10">Not Defined </td>
+                        <td class="col-md-3 width-10">
+                            01/07/2023 
+                        </td> 
+                        <td class="col-md-2 width-10">
+                            Fiso Mathew
+                       </td>
+                      <td class="col-md-1 width-5"><div class="table-two-icon-new " >
+                        <a href="" class="icons-list icon-view-icon float-align-left table-icons"  data-toggle="modal" data-target="#myModal-22"></a>
+                    </div> </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-1 width-5">   2</td>
+                            <td class="col-md-3 width-10"> A123474674</td>
+                          <td class="col-md-2 width-5 status-progress support-clr-red ">  Open </td>
+                          <td class="col-md-3 width-10">Fees and Payment</td> 
+                          <td class="col-md-2 width-10">01/07/2023</td>
+                          <td class="col-md-2 width-10"> James Roland </td>
+                          <td class="col-md-2 width-10">A2139384900</td> 
+                          <td class="col-md-2 width-10">Not Defined </td>
+                          <td class="col-md-3 width-10">
+                              01/07/2023 
+                          </td> 
+                          <td class="col-md-2 width-10">
+                              Fiso Mathew
+                         </td>
+                        <td class="col-md-1 width-5"><div class="table-two-icon-new ">
+                          <a href="" class="icons-list icon-view-icon float-align-left table-icons"  data-toggle="modal" data-target="#myModal-22"></a>
+                      </div> </td>
+                      </tr>
+                      <tr>
+                        <td class="col-md-1 width-5">   3</td>
+                            <td class="col-md-3 width-10"> A123474674</td>
+                          <td class="col-md-2 width-5 status-resolved support-clr-oarng"> In Progress  </td>
+                          <td class="col-md-3 width-10">Fees and Payment</td> 
+                          <td class="col-md-2 width-10">01/07/2023</td>
+                          <td class="col-md-2 width-10"> James Roland </td>
+                          <td class="col-md-2 width-10">A2139384900</td> 
+                          <td class="col-md-2 width-10">Not Defined </td>
+                          <td class="col-md-3 width-10">
+                              01/07/2023 
+                          </td> 
+                          <td class="col-md-2 width-10">
+                              Fiso Mathew
+                         </td>
+                        <td class="col-md-1 width-5"><div class="table-two-icon-new ">
+                          <a href="" class="icons-list icon-view-icon float-align-left table-icons"  data-toggle="modal" data-target="#myModal-22"></a>
+                      </div> </td>
+                      </tr>
+                      <tr>
+                        <td class="col-md-1 width-5">   4</td>
+                            <td class="col-md-3 width-10"> A123474674</td>
+                          <td class="col-md-2 width-5 status-open support-clr-green"> Resolved </td>
+                          <td class="col-md-3 width-10">Fees and Payment</td> 
+                          <td class="col-md-2 width-10">01/07/2023</td>
+                          <td class="col-md-2 width-10"> James Roland </td>
+                          <td class="col-md-2 width-10">A2139384900</td> 
+                          <td class="col-md-2 width-10">Not Defined </td>
+                          <td class="col-md-3 width-10">
+                              01/07/2023 
+                          </td> 
+                          <td class="col-md-2 width-10">
+                              Fiso Mathew
+                         </td>
+                        <td class="col-md-1 width-5"><div class="table-two-icon-new ">
+                          <a href="" class="icons-list icon-view-icon float-align-left table-icons"  data-toggle="modal" data-target="#myModal-22"></a>
+                      </div> </td>
+                      </tr>
+                      <tr>
+                        <td class="col-md-1 width-5">   5</td>
+                            <td class="col-md-3 width-10"> A123474674</td>
+                          <td class="col-md-2 width-5 status-open support-clr-oarng">In Progress  </td>
+                          <td class="col-md-3 width-10">Fees and Payment</td> 
+                          <td class="col-md-2 width-10">01/07/2023</td>
+                          <td class="col-md-2 width-10"> James Roland </td>
+                          <td class="col-md-2 width-10">A2139384900</td> 
+                          <td class="col-md-2 width-10">Not Defined </td>
+                          <td class="col-md-3 width-10">
+                              01/07/2023 
+                          </td> 
+                          <td class="col-md-2 width-10">
+                              Fiso Mathew
+                         </td>
+                        <td class="col-md-1 width-5"><div class="table-two-icon-new ">
+                          <a href="" class="icons-list icon-view-icon float-align-left table-icons"   data-toggle="modal" data-target="#myModal-22"></a>
+                      </div> </td>
+                      </tr>
+                      
+                   
+                   
+                </tbody>
+              </table>
+
+        
+          </div>
+          <div class="row">
+            <div class="Pager2" aria-label="pagination example">
+                <div class="page-out-of">
+                    <div class="page-text">Page</div>
+                    <div class="form-group ">
+                        <select class="my-select selectpicker" data-container="body">
+                            <option>1</option>
+                            <option>2</option>
+                          </select>
+                        </div>
+<div class="of-text">of 10</div>
+                </div>
+                <ul class="pagination pagination-circle justify-content-center">
+            
+            
+                    <!--Arrow left-->
+                    <li class="page-item disabled">
+                        <a class="page-link" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Next">
+                            <span class="icon-left-arrow"></span>
+                        </a>
+                    </li>
+            
+                    <!--Numbers-->
+                    <li class="page-item active"><a class="page-link">1</a></li>
+                    <li class="page-item"><a class="page-link">2</a></li>
+                    <li class="page-item"><a class="page-link">3</a></li>
+                    <li class="page-item"><a class="page-link page-blank-age">...</a></li>
+                    <li class="page-item"><a class="page-link">10</a></li>
+            
+                    <!--Arrow right-->
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Next">
+                            <span class="icon-right-arrow-1"></span>
+                        </a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li> 
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div></div>
+</div>
+
+  
+ <!-- Modal -->
+ <div class="modal  right fade"  id="myModal-22" role="dialog" aria-labelledby="myModal-22">
+  <div class="modal-dialog otp-verify-modal" role="document">
+    <div class="modal-content otp-inner-block">
+      <div class="modal-header dossi-marg-b-25" >
+        <div class=" wizard-sub-mian-font wizard-sub-mian-font-popup">P293889930 &nbsp;&nbsp;&nbsp;<span><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M13.2889 0V1.64681H1.91111V13.0979H0V1.64681C0 1.18723 0.185185 0.797872 0.555556 0.478723C0.925926 0.159574 1.37778 0 1.91111 0H13.2889ZM16.1333 3.29362C16.637 3.29362 17.0741 3.45319 17.4444 3.77234C17.8148 4.09149 18 4.46809 18 4.90213V16.3532C18 16.8128 17.8148 17.2021 17.4444 17.5213C17.0741 17.8404 16.637 18 16.1333 18H5.68889C5.15556 18 4.7037 17.8404 4.33333 17.5213C3.96296 17.2021 3.77778 16.8128 3.77778 16.3532V4.90213C3.77778 4.46809 3.96296 4.09149 4.33333 3.77234C4.7037 3.45319 5.15556 3.29362 5.68889 3.29362H16.1333ZM16.1333 16.3532V4.90213H5.68889V16.3532H16.1333Z" fill="black"></path>
+            </svg></span>
+            <div class="wizard-sub-sub-font-popup">
+                <span class="wizard-sub-sub1-font-popup">Subject:</span><span>Name change on invoice - in
+                    Fees and Payment</span>
+            </div>
+        </div>
+        <div class="wizard-sub-button-popup-right  close-ticke-right">
+
+
+            <div class="wizard-sub-button-popup wizard-sub-button-popup1 wizard-sub-button-popup-flex dossi-model-right-btn">
+                <button class="view-dossi-button">View Dossier</button>
+                <button class="btn btn-primary">Close Ticket</button>
+            </div> 
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="icon-modal-close wizard-sub-button-popup-close"></span></button>
+        </div>
+    </div>
+      <div class="modal-body ">
+        <div class="row border-top">
+         
+          <div class="col-md-8 border-right card scrollbar-deep-purple bordered-deep-purple thin">
+              <div class="dossi-ticket-typ-txt">
+                <form class="ticket-radio">
+                  <label class="radio-inline font-w-600 f-14 ">
+                      Ticket type:
+                  </label>
+                  <label class="radio-inline">
+                      <input type="radio" name="optradio"><span class="radio-input font-w-600">Enquiry</span>
+                  </label>
+                  <label class="radio-inline">
+                      <input type="radio" name="optradio"><span class="radio-input font-w-600">Incident</span>
+                  </label>
+                </form>
+              </div>
+              <div class="popup-left-details" id="testDiv2">
+                  
+                  <div class="dossier-scroll-500">
+                    <div class="inquiry-popup">
+
+                      <div class=" green-border-focus">
+                          <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Ticket Details:
+                          </label>
+                          <label for="" class="inquiry-popup-right-p">11/29/2022</label>
+                          <textarea class=" text-form text-form-popup" id="exampleFormControlTextarea5" rows="3"> </textarea>
+                          <p class="inquiry-textarea-b">By, James Roland via eMail</p>
+                          <div class=" wizard-sub-mian-font wizard-sub-mian-font-popup">
+                              <div class="wizard-sub-sub-font-popup">
+                                  <span class="wizard-sub-sub1-font-popup">Attachments:</span><span class="wizard-sub-sub1-font-popup-blue-span">pan-card.jpg,</span><span class="wizard-sub-sub1-font-popup-blue-span">Adhar-card.jpg</span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <br>
+                  <div class="inquiry-popup inquiry-popup-textnext margin-top-40">
+
+                      <div class=" green-border-focus">
+                          <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Reply
+                              Sent</label>
+                              <label for="" class="inquiry-popup-right-p">11/29/2022</label>
+                          <textarea class=" text-form text-form-popup" id="exampleFormControlTextarea5" rows="3"></textarea>
+                          <p class="inquiry-textarea-f">By, James Roland via eMail</p>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="dossier-scroll-footer">
+                    <div class="inquiry-popup ">
+
+                      <div class=" green-border-focus">
+                          <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Reply in this
+                              thread
+                          </label>
+                          <textarea class=" text-form" id="exampleFormControlTextarea5" rows="3"> </textarea>
+                      </div>
+                  </div>
+                  <div class="popup-buttons popup-buttons-left dossi-flot-l ">
+                      <button class="btn btn-primary">Submit</button>
+
+                  </div>
+                  </div>
+                  
+              </div>
+
+          </div>
+          <div class="col-md-4">
+              <div class="popup-right-details">
+                  <div class="inquiry-popup ">
+
+                      <div class=" green-border-focus">
+                          <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Note for
+                              me</label>
+                          <div>
+                          <p> Hi Fiso,</p> 
+                          <p class="dossi-p-t-20">This customer has applied for the expedite business visa. Please take this on priority</p>
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="inquiry-popup inquiry-popup-textnext">
+
+                      <div class=" green-border-focus">
+                          <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Assign Query
+                              to</label>
+                              <div class="form-group "> 
+                                <select class="my-select selectpicker" data-container="body">
+                                  <option>Fiso Mathew</option>
+                                </select>
+                              </div> 
+                      </div>
+                  </div>
+                  <div class="inquiry-popup inquiry-popup-note">
+
+                      <div class=" green-border-focus">
+                          <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Add
+                              Note</label>
+                          <textarea class=" text-form" id="exampleFormControlTextarea5" rows="3"> </textarea>
+                      </div>
+                  </div>
+                  <div class="popup-buttons">
+                      <button class="btn btn-primary">Send Note</button>
+
+                  </div>
+              </div>
+          </div>
+
+      </div>
+        
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js'></script>
+    <script  src="js/topmenu.js"></script>
+       </body>
+</html>

@@ -319,6 +319,36 @@ margin-top:20px
 .modal-zindex {
     z-index: 5556;
 }
+.floating-labl-new {
+    font-size: 14px !important;
+    font-weight: 300;
+    top: 12px !important;
+}
+.floating-label-group .bootstrap-select > .dropdown-toggle {
+    line-height: 14px !important;
+}
+.application-business-select1 .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    font-weight: 600;
+    font-size: 12px;
+}
+.thear-tr-new { 
+    background-color: #F1F0F0;
+}
+.support-mumb {
+    color: #0517BE;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+.support-clr-red {
+    color: #FF0000;
+}
+.support-clr-oarng {
+    color: #F95B02;
+}
+.support-clr-green {
+    color: #06A345;
+}
   @media only screen and (max-width: 1200px) {
 .table-preview-modal-outer-popup-form-popup {
     width: 85% !important;

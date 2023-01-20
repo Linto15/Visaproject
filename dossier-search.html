@@ -14,7 +14,7 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css'>
   <link rel="stylesheet" href="css/fonts.css"> 
            <link rel="stylesheet" href="css/style.css">
-    
+        
     </head>
     <body class="body-bg-clr ">
       <div class="row">
@@ -88,12 +88,11 @@
 
 <div class="wizard-management-gird dossier-gird ">
                                
-    <div class="form-group ">
- 
-  <select class="my-select selectpicker" data-container="body">
-    <option>Applicaiton ID</option>
-  </select>
-</div>    
+    <div class="form-group "> 
+      <select class="my-select selectpicker" data-container="body">
+        <option>Applicaiton ID</option>
+      </select>
+    </div>    
     <div class="form-group dossier-m-r-15">
      
       <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Start your search here..."  min="5" max="999" required>
@@ -289,7 +288,7 @@
       <div class="tab-inner-head-wdth1 "> 
           <div class="user-dash-page-grid-2 ">
             <div class=" "> 
-                
+              
               <p class="full-name-h4">US Nonimmigrant Visa (NIV - B1) </p>  
                 <p  class="appoi-name ">Appointment Booked</p> 
               
@@ -851,7 +850,7 @@
           <div class="visa-red doc-f-14 nfo-ser-f-l">
             Pending
           </div>
-          <div class="visa-blue doc-f-14 nfo-ser-f-r">
+          <div class="visa-blue doc-f-14 nfo-ser-f-r" data-toggle="modal" data-target="#myModal">
             View
           </div>
         </div>
@@ -882,7 +881,7 @@
                       <div class=" doc-f-14 nfo-ser-f-l">
                         Expired
                       </div>
-                      <div class="visa-blue doc-f-14 nfo-ser-f-r">
+                      <div class="visa-blue doc-f-14 nfo-ser-f-r"  data-toggle="modal" data-target="#myModal">
                         View
                       </div>
                     </div>
@@ -911,7 +910,7 @@
                         <div class="visa-green doc-f-14 nfo-ser-f-l">
                           Resolved
                         </div>
-                        <div class="visa-blue doc-f-14 nfo-ser-f-r">
+                        <div class="visa-blue doc-f-14 nfo-ser-f-r"  data-toggle="modal" data-target="#myModal">
                           View
                         </div>
                       </div>
@@ -937,7 +936,7 @@
               <div class="visa-green doc-f-14 nfo-ser-f-l">
                 Resolved
               </div>
-              <div class="visa-blue doc-f-14 nfo-ser-f-r">
+              <div class="visa-blue doc-f-14 nfo-ser-f-r"  data-toggle="modal" data-target="#myModal">
                 View
               </div>
             </div>
@@ -1002,41 +1001,180 @@
     </div>
     </div>
     <!-- Modal -->
-    <div class="modal  right fade" id="myModal2" role="dialog" aria-labelledby="myModalLabel2">
-        <div class="modal-dialog otp-verify-modal" role="document">
-          <div class="modal-content otp-inner-block">
-            <div class="modal-header">
-                <div class="wizard-heder-modal-sub">
-                <div class="modal-head-new">Section Information</div>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="icon-modal-close"></span></button>
-            </div>
-        </div>
-            <div class="modal-body">
-          <div class="row section-information-inner">
-            <div class="col-md-8  section-information-input ">
-                <div class="form-group ">
-                    <label>Information Label</label>
-                    <input type="text" name="" class="form-control" placeholder="Valid Passport Number  ">
-                </div>
-            </div>
-            <div class="col-md-12  section-information-input margin-top-30">
-                <div class="form-group ">
-                    <textarea name="message" spellcheck="false"></textarea>
+    <div class="modal  right fade"  id="myModal" role="dialog" aria-labelledby="myModalLabel2">
+        <div class="modal-dialog otp-verify-modal modal-dialog-footer" role="document">
+          <div class="modal-content otp-inner-block border-radius15">
+            <div class="modal-header dossi-marg-b-25" >
+              <div class=" wizard-sub-mian-font wizard-sub-mian-font-popup">P293889930 &nbsp;&nbsp;&nbsp;<span><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.2889 0V1.64681H1.91111V13.0979H0V1.64681C0 1.18723 0.185185 0.797872 0.555556 0.478723C0.925926 0.159574 1.37778 0 1.91111 0H13.2889ZM16.1333 3.29362C16.637 3.29362 17.0741 3.45319 17.4444 3.77234C17.8148 4.09149 18 4.46809 18 4.90213V16.3532C18 16.8128 17.8148 17.2021 17.4444 17.5213C17.0741 17.8404 16.637 18 16.1333 18H5.68889C5.15556 18 4.7037 17.8404 4.33333 17.5213C3.96296 17.2021 3.77778 16.8128 3.77778 16.3532V4.90213C3.77778 4.46809 3.96296 4.09149 4.33333 3.77234C4.7037 3.45319 5.15556 3.29362 5.68889 3.29362H16.1333ZM16.1333 16.3532V4.90213H5.68889V16.3532H16.1333Z" fill="black"></path>
+                  </svg></span>
+                  <div class="wizard-sub-sub-font-popup">
+                      <span class="wizard-sub-sub1-font-popup">Subject:</span><span class="dossi-span-sub-tx">Name change on invoice - in
+                          Fees and Payment</span>
                   </div>
-            </div>
-            <div class="form-group ">
-              <label>Select State</label>
-              <select class="my-select selectpicker" data-container="body">
-                <option>Maharashtra</option>
-              </select>
-            </div>
+              </div>
+              <div class="wizard-sub-button-popup-right close-ticke-right">
+
+
+                  <div class="wizard-sub-button-popup wizard-sub-button-popup-flex dossi-model-right-btn">
+                      <button class="btn btn-primary">Close Ticket</button>
+                      <span class="wizard-sub-button-popup-flex-right dossi-marg-l-25"  data-toggle="modal" data-target="#myModal-2"><a><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M3 9V15C3 17.8284 3 19.2426 3.87868 20.1213C4.75736 21 6.17157 21 9 21H15C17.8284 21 19.2426 21 20.1213 20.1213C21 19.2426 21 17.8284 21 15V9C21 6.17157 21 4.75736 20.1213 3.87868C19.2426 3 17.8284 3 15 3H9" stroke="#333333" stroke-width="2" stroke-linecap="round"></path>
+                                  <path d="M15 15V16H16V15H15ZM7.70711 6.29289C7.31658 5.90237 6.68342 5.90237 6.29289 6.29289C5.90237 6.68342 5.90237 7.31658 6.29289 7.70711L7.70711 6.29289ZM14 8V15H16V8H14ZM15 14H8V16H15V14ZM15.7071 14.2929L7.70711 6.29289L6.29289 7.70711L14.2929 15.7071L15.7071 14.2929Z" fill="#333333"></path>
+                              </svg></a>
+                      </span>
+                              
+                  </div> 
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="icon-modal-close wizard-sub-button-popup-close top-42"></span></button>
+              </div>
           </div>
-              
-            </div>
+            
     
           </div>
         </div>
       </div>
+       <!-- Modal -->
+    <div class="modal  right fade"  id="myModal-2" role="dialog" aria-labelledby="myModalLabel2">
+      <div class="modal-dialog otp-verify-modal  modal-dialog-footer1" role="document">
+        <div class="modal-content otp-inner-block  border-radius15">
+          <div class="modal-header dossi-marg-b-25" >
+            <div class=" wizard-sub-mian-font wizard-sub-mian-font-popup">P293889930 &nbsp;&nbsp;&nbsp;<span><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.2889 0V1.64681H1.91111V13.0979H0V1.64681C0 1.18723 0.185185 0.797872 0.555556 0.478723C0.925926 0.159574 1.37778 0 1.91111 0H13.2889ZM16.1333 3.29362C16.637 3.29362 17.0741 3.45319 17.4444 3.77234C17.8148 4.09149 18 4.46809 18 4.90213V16.3532C18 16.8128 17.8148 17.2021 17.4444 17.5213C17.0741 17.8404 16.637 18 16.1333 18H5.68889C5.15556 18 4.7037 17.8404 4.33333 17.5213C3.96296 17.2021 3.77778 16.8128 3.77778 16.3532V4.90213C3.77778 4.46809 3.96296 4.09149 4.33333 3.77234C4.7037 3.45319 5.15556 3.29362 5.68889 3.29362H16.1333ZM16.1333 16.3532V4.90213H5.68889V16.3532H16.1333Z" fill="black"></path>
+                </svg></span>
+                <div class="wizard-sub-sub-font-popup">
+                    <span class="wizard-sub-sub1-font-popup">Subject:</span><span>Name change on invoice - in
+                        Fees and Payment</span>
+                </div>
+            </div>
+            <div class="wizard-sub-button-popup-right  close-ticke-right">
+
+
+                <div class="wizard-sub-button-popup wizard-sub-button-popup-flex dossi-model-right-btn">
+                    <button class="btn btn-primary">Close Ticket</button>
+                    <span class="wizard-sub-button-popup-flex-right dossi-marg-l-25"  data-dismiss="modal" aria-label="Close"><a><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 9V15C3 17.8284 3 19.2426 3.87868 20.1213C4.75736 21 6.17157 21 9 21H15C17.8284 21 19.2426 21 20.1213 20.1213C21 19.2426 21 17.8284 21 15V9C21 6.17157 21 4.75736 20.1213 3.87868C19.2426 3 17.8284 3 15 3H9" stroke="#333333" stroke-width="2" stroke-linecap="round"></path>
+                                <path d="M15 15V16H16V15H15ZM7.70711 6.29289C7.31658 5.90237 6.68342 5.90237 6.29289 6.29289C5.90237 6.68342 5.90237 7.31658 6.29289 7.70711L7.70711 6.29289ZM14 8V15H16V8H14ZM15 14H8V16H15V14ZM15.7071 14.2929L7.70711 6.29289L6.29289 7.70711L14.2929 15.7071L15.7071 14.2929Z" fill="#333333"></path>
+                            </svg></a>
+                    </span>
+                            
+                </div> 
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" class="icon-modal-close wizard-sub-button-popup-close  top-42"></span></button>
+            </div>
+        </div>
+          <div class="modal-body ">
+            <div class="row border-top">
+             
+              <div class="col-md-8 border-right card scrollbar-deep-purple bordered-deep-purple thin">
+                  <div class="dossi-ticket-typ-txt">
+                    <form class="ticket-radio">
+                      <label class="radio-inline font-w-600 f-14 ">
+                          Ticket type:
+                      </label>
+                      <label class="radio-inline">
+                          <input type="radio" name="optradio"><span class="radio-input font-w-600">Enquiry</span>
+                      </label>
+                      <label class="radio-inline">
+                          <input type="radio" name="optradio"><span class="radio-input font-w-600">Incident</span>
+                      </label>
+                    </form>
+                  </div>
+                  <div class="popup-left-details" id="testDiv2">
+                      
+                      <div class="dossier-scroll-500">
+                        <div class="inquiry-popup">
+
+                          <div class=" green-border-focus">
+                              <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Ticket Details:
+                              </label>
+                              <label for="" class="inquiry-popup-right-p">11/29/2022</label>
+                              <textarea class=" text-form text-form-popup" id="exampleFormControlTextarea5" rows="3"> </textarea>
+                              <p class="inquiry-textarea-b">By, James Roland via eMail</p>
+                              <div class=" wizard-sub-mian-font wizard-sub-mian-font-popup">
+                                  <div class="wizard-sub-sub-font-popup">
+                                      <span class="wizard-sub-sub1-font-popup">Attachments:</span><span class="wizard-sub-sub1-font-popup-blue-span">pan-card.jpg,</span><span class="wizard-sub-sub1-font-popup-blue-span">Adhar-card.jpg</span>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <br>
+                      <div class="inquiry-popup inquiry-popup-textnext margin-top-40">
+
+                          <div class=" green-border-focus">
+                              <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Reply
+                                  Sent</label>
+                                  <label for="" class="inquiry-popup-right-p">11/29/2022</label>
+                              <textarea class=" text-form text-form-popup" id="exampleFormControlTextarea5" rows="3"></textarea>
+                              <p class="inquiry-textarea-f">By, James Roland via eMail</p>
+                          </div>
+                      </div>
+                      </div>
+                      <div class="dossier-scroll-footer">
+                        <div class="inquiry-popup ">
+
+                          <div class=" green-border-focus">
+                              <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Reply in this
+                                  thread
+                              </label>
+                              <textarea class=" text-form" id="exampleFormControlTextarea5" rows="3"> </textarea>
+                          </div>
+                      </div>
+                      <div class="popup-buttons popup-buttons-left dossi-flot-l ">
+                          <button class="btn btn-primary">Submit</button>
+
+                      </div>
+                      </div>
+                      
+                  </div>
+
+              </div>
+              <div class="col-md-4">
+                  <div class="popup-right-details">
+                      <div class="inquiry-popup ">
+
+                          <div class=" green-border-focus">
+                              <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Note for
+                                  me</label>
+                              <div>
+                              <p> Hi Fiso,</p> 
+                              <p class="dossi-p-t-20">This customer has applied for the expedite business visa. Please take this on priority</p>
+
+                              </div>
+                          </div>
+                      </div>
+                      <div class="inquiry-popup inquiry-popup-textnext">
+
+                          <div class=" green-border-focus">
+                              <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Assign Query
+                                  to</label>
+                                  <div class="form-group "> 
+                                    <select class="my-select selectpicker" data-container="body">
+                                      <option>Fiso Mathew</option>
+                                    </select>
+                                  </div> 
+                          </div>
+                      </div>
+                      <div class="inquiry-popup inquiry-popup-note">
+
+                          <div class=" green-border-focus">
+                              <label for="exampleFormControlTextarea5" class="inquiry-popup-p">Add
+                                  Note</label>
+                              <textarea class=" text-form" id="exampleFormControlTextarea5" rows="3"> </textarea>
+                          </div>
+                      </div>
+                      <div class="popup-buttons">
+                          <button class="btn btn-primary">Send Note</button>
+
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+            
+          </div>
+  
+        </div>
+      </div>
+    </div>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js'></script>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
       <script src='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js'></script>
