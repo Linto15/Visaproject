@@ -122,7 +122,7 @@ display: block;
     width:auto;
     float: right;
     background: $primary-blue;
-    padding: 6px 23px 10px;
+    padding: 8px 23px 8px;
     color: #fff;
     text-align: center;
     border:0;   font-weight: $font-weight-300;
@@ -141,12 +141,21 @@ font-size: 26px;
     padding-left: 15px;
     padding-right: 15px;
     .place-mission-two-grid{
-    width: 335px;
+    // width: 335px;
+    // float: left;
+    // display: block;
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr) !important;
+    // gap: 30px 20px;
+    // margin-bottom: 25px;
+    // grid-auto-rows: minmax(0px, auto);
+
+    width: 275px;
     float: left;
     display: block;
     display: grid;
     grid-template-columns: repeat(2, 1fr) !important;
-    gap: 30px 20px;
+    /* gap: 30px 20px; */
     margin-bottom: 25px;
     grid-auto-rows: minmax(0px, auto);
     }
@@ -255,12 +264,16 @@ border-bottom: 1px solid $light-white-gray;
     border-bottom: 1px solid $light-white-gray;
     display: block;
     padding-bottom: 30px;
-    padding-top: 25px;
+    padding-top: 10px;
     font-size: $common-small-font;
     color: $gray-text-color;
     padding-left: 15px;
     padding-right: 15px;
-}   
+} 
+.slot-dte-outer-block-popupp 
+{
+    padding: 0px 15px !important;
+} 
  .slot-tittle{
     width: 100%;
     float: left;
@@ -582,7 +595,7 @@ img{
             width: 25%;
     }
     .pluse-button {
-        padding: 6px 17px 10px;
+        padding: 8px 17px 8px;
 
     }
 }
@@ -653,4 +666,146 @@ img{
     .all-appointments-modal-outer {
         width: 90%;
     }
+}
+
+.place-mission-two-grid-new-change
+{
+    float: right !important;
+    width: 460px;
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px 20px;
+    margin-bottom: 25px;
+    grid-auto-rows: minmax(0px, auto);
+}
+.prev
+{
+    font-size: 18px;
+  
+    padding-right: 5px
+}
+.nex
+{
+    font-size: 18px;
+  
+    padding-left: 5px
+}
+
+
+.select-slot-clock img{
+    height: 14px;
+}
+.selectpicker-popup
+{
+    border:none;
+}
+.selectpicker-popup button
+{
+    border:none !important;
+}
+.add-rules-top-popup
+{
+    border-bottom: 1px solid #D9D9D9 !important;
+}
+.add-step-button-popup
+{
+    min-width: 95px !important;
+    width: auto;
+    float: left;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #0D192E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 0px 2px;
+    background-color: transparent !important;
+}
+.month-pagination
+{
+   
+}
+.month-pagination li {
+    display: inline-block !important;
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 15px;
+    padding: 9px 15px;
+    /* border: solid 1px #000; */
+    margin: -2px;
+    border: solid 1px #D9D9D9;
+    /* border-radius: 5px; */
+}
+.month-pagination li:first-child
+{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #D9D9D9;
+}
+.month-pagination li:last-child
+{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.selected-data
+{
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+}
+.selected-data
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    line-height: 2.5;
+    text-align: center;
+}
+.month
+{
+    height: 48px;
+    line-height: 3.8;
+}
+.bootstrap-select > .selectpicker-popup
+{
+    border:none;
+    box-shadow: none;
+}
+.my-select-popup button
+{
+    border:none !important;
+}
+.my-select-popup
+{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.my-select-popupp
+{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.add-rule-div
+{
+    padding: 91px 15px 0px;
+}
+.slot-dte-outer-block-popup
+{
+    padding: 0px 15px;
+}
+.add-rules-top-comon
+{
+    padding-top: 30px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.add-rules-topp
+{
+    padding: 9px 0px 0px;
 }
