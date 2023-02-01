@@ -15944,7 +15944,7 @@ a:focus {
 }
 
 .padding-formbuilder {
-  padding: 0px 40px !important;
+  padding: 0px 30px !important;
 }
 
 .selectpicker-formbuilder .bootstrap-select {
@@ -16029,10 +16029,10 @@ a:focus {
 
 .add-button-formbuild {
   min-width: 155px;
-  width: 96%;
+  width: 100%;
   float: left;
   text-align: center;
-  padding: 10px;
+  padding: 8px;
   border: 1px solid #0D192E;
   border-radius: 8px;
   font-weight: 600;
@@ -16073,11 +16073,11 @@ a:focus {
   fill: #14A38B;
 }
 
-.edit-icon-form a svg {
+.edit-icon-form a svg path {
   color: #14A38B;
 }
 
-.edit-icon-form a svg:hover {
+.edit-icon-form a svg path:hover {
   color: #14A38B;
 }
 
@@ -16106,7 +16106,8 @@ a:focus {
 .create-hilidy1 {
   padding-top: 20px;
   padding-bottom: 15px;
-  font-size: 18px;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .drop_box {
@@ -16127,6 +16128,106 @@ a:focus {
   flex-direction: column;
   border: 3px dotted #a3a3a3;
   border-radius: 5px;
+}
+
+.formbuilder-second-colunm {
+  margin-top: -4px;
+  padding: 30px;
+}
+
+.bord-formbuildr {
+  border-bottom: 0px solid #808B9F;
+  border: 0.5px solid #808B9F;
+}
+
+.formbuild-preview-drop {
+  padding: 2px 0px;
+  font-size: 12px;
+}
+
+.formbuild-preview-drop::after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  right: 14px;
+  width: 8px;
+  height: 1.5px;
+  background: #555;
+  z-index: 99;
+  -webkit-transform: rotate(-40deg);
+  transform: rotate(-40deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: 0;
+}
+
+.formbuild-preview-drop::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  width: 8px;
+  height: 1.5px;
+  background: #555;
+  z-index: 99;
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: 0;
+}
+
+.dropdown-menu-formbuildr {
+  padding: 0;
+  width: 100%;
+  margin-left: -20px;
+  margin-top: 22px;
+}
+
+.can-toggle label .can-toggle__switch:after {
+  content: attr(data-unchecked);
+  position: absolute;
+  z-index: 5;
+  text-transform: uppercase;
+  text-align: center;
+  background: #D1345D;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.form-buld-bordr-b {
+  border-bottom: 1px solid #808B9F;
+}
+
+.formbuld-assign-ticket {
+  margin-top: 5px;
+  padding-bottom: 40px;
+}
+
+.create-hilidy2 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+a:focus, a:hover {
+  color: #0D192E;
+}
+
+.calander-management-table-outer .table-two-icon1 {
+  width: 55px;
+  margin: -3px 0px;
+}
+
+.calander-management-table-outer .table-two-icon2 {
+  width: 75px;
+  margin: -3px 0px;
+}
+
+.table-td-icon-form {
+  margin-top: 7px;
+  margin-right: 8px;
 }
 
 @media only screen and (max-width: 1470px) {
@@ -16210,5 +16311,39 @@ a:focus {
     background-color: #F1F0F0;
     border-bottom: 1px solid #c5c4c4;
   }
+}
+
+.icons-delete-ticket {
+  width: 20px;
+  float: none;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: 300;
+  margin-right: 15px;
+}
+
+.rule-input {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.tab-link-ticket {
+  margin: 0 15px 0 0;
+  list-style: none;
+  padding: 25px 0px 20px;
+  color: #0D192E;
+  cursor: pointer;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  border-bottom: solid 3px rgba(255, 255, 255, 0);
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600;
+  float: left;
+  width: auto;
+}
+
+.opcty-0 {
+  opacity: 0;
 }
 /*# sourceMappingURL=style.css.map */
