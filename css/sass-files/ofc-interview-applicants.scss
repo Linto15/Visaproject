@@ -1,0 +1,272 @@
+.select-slot-time-left {
+    position: absolute;
+    left: 0;
+    width: 38px;
+    border-right: 1px solid #D9D9D9;
+    height: 25px;
+    padding-left: 10px;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 25px;
+}
+.select-slot-intervel-input.add-visa-fees1 input {
+    padding-left: 45px;
+}
+.ofc-interview-gird-2 {
+    width: 500px;
+    float: left;
+    display: -ms-grid;
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px 20px;
+    margin-bottom: 25px;
+    grid-auto-rows: minmax(0px, auto);
+}
+.ofc-intervie-table table > tbody > tr > td { 
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+.m-t-0{
+    margin-top: 0px !important;
+    margin: 0px 0px;
+}
+.ofc-green-clr {
+    color: #2B8600;
+    font-weight: 400;
+}
+.ofc-t-a-l {
+    text-align: left !important;
+}
+.ofc-download-icon-svg {
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+.ofc-m-l-15 {
+    margin-left: 15px;
+}
+.ofc-model-head {
+    margin-top: 0px;
+}
+.tab-link-ofc { 
+    font-weight: 300 !important; 
+    list-style: none;
+    padding: 10px 40px 24px;
+    color: #0D192E;
+}
+.tab-link-ofc.active {
+    font-weight: 600 !important; 
+}
+.ofc-p-b-30 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D9D9D9;
+    margin-bottom: 30px;
+}
+.ofc-interview-page-grid-3 {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-top: 0px;
+    display: -ms-grid;
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 35px 8px;
+    grid-auto-rows: minmax(0px, auto);
+    padding-bottom: 30px;
+}
+.ofc-customer-profile-img {
+    width: 160px;
+}
+.ofc-customer-profile-box-left {
+    width: 30%;
+    float: left;
+}
+.ofc-customer-profile-box-right {
+    width: 70%;
+    float: left;
+}
+.biometric-btn {
+    padding: 20px 20px;
+    margin-left: 15px;
+    width: 225px;
+    margin-bottom: 10px;
+}
+.biometric-btn-box{
+    float: right;
+    margin-right: 20px;
+}
+.biometric-btn-box-top { 
+    border-top: 1px solid #D9D9D9;
+    padding-top: 30px;
+    width: 100%;
+    float: right;
+    bottom: 0;
+    position: fixed;
+    background-color: #fff;
+}
+.ofc-documebt-box-left {
+    width: 80%;
+    float: left;
+    padding: 10px;
+}
+.ofc-documebt-box-right {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+.ofc-documebt-box-txt{
+    line-height: 40px;
+    font-size: 14px;
+}
+.ofc-thumb-img {
+     
+    padding-right: 0px;
+}
+@media only screen and (max-width: 1700px){
+    .ofc-customer-profile-img {
+        width: 140px;
+    }
+    .ofc-documebt-box-left {
+        width: 80%;
+        float: left;
+        padding: 10px;
+    }
+    .ofc-documebt-box-right {
+        width: 20%;
+        float: left;
+        padding: 10px;
+    }
+    .ofc-documebt-box-txt {
+        line-height: 40px;
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 1500px){
+.ofc-intervie-table table > thead > tr > th {
+    padding-left: 7px;
+    vertical-align: middle;
+    line-height: 32px;
+    border: 0;
+    font-size: 13px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ofc-intervie-table table > tbody > tr > td { 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tab-link-ofc { 
+    font-weight: 300 !important; 
+    list-style: none;
+    padding: 10px 20px 24px;
+    color: #0D192E;
+}
+.ofc-documebt-box-left {
+    width: 77%;
+    float: left;
+    padding: 10px;
+}
+.ofc-documebt-box-right {
+    width: 23%;
+    float: left;
+    padding: 10px;
+}
+.ofc-documebt-box-txt {
+    line-height: 25px;
+    font-size: 11px;
+}
+}
+@media only screen and (max-width: 1200px){
+    .ofc-interview-gird-2 {
+        width: 100%;
+        float: left;
+        display: -ms-grid;
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 30px 20px;
+        margin-bottom: 25px;
+        grid-auto-rows: minmax(0px, auto);
+    }
+    .ofc-customer-profile-img {
+        width: 140px;
+        margin-bottom: 30px;
+    }
+     
+    
+}
+@media only screen and (max-width: 980px){
+    .ofc-customer-profile-box-left {
+        width: 100%;
+        float: left;
+    }
+    .ofc-customer-profile-box-right {
+        width: 100%;
+        float: left;
+    }
+    .biometric-btn {
+        padding: 20px 20px;
+        margin-left: 15px;
+        width: 47%;
+        margin-bottom: 10px;
+    } 
+    .biometric-btn-box {
+        float: right;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .ofc-documebt-box-left {
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    .ofc-documebt-box-right {
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    .ofc-thumb-img {
+        float: left;
+        padding-right: 15px;
+        width: 33%;
+        margin-bottom: 30px;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .ofc-interview-gird-2 {
+        width: 100%;
+        float: left;
+        display: -ms-grid;
+        display: grid; 
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 30px 20px;
+        margin-bottom: 25px;
+        grid-auto-rows: minmax(0px, auto);
+    }
+    .ofc-interview-page-grid-3 {
+        float: left;
+        width: 100%;
+        display: block;
+        margin-top: 0px;
+        display: -ms-grid;
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 35px 8px;
+        grid-auto-rows: minmax(0px, auto);
+        padding-bottom: 30px;
+    }
+    .biometric-btn {
+        padding: 20px 20px;
+        margin-left: 15px;
+        width: 45%;
+        margin-bottom: 10px;
+    } 
+    .ofc-documebt-box-txt {
+        line-height: 40px;
+        font-size: 11px;
+    }
+}
+
