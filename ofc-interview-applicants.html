@@ -340,7 +340,7 @@
         <div class="tab-wrapper ofc-model-head">
               <ul class="tabs">
                       <li class="tab-link tab-link-ofc active" data-tab="1">Customer Profile</li>
-                      <li class="tab-link tab-link-ofc" data-tab="2">Documents</li>
+                      <li class="tab-link tab-link-ofc ofc-doc-tab" data-tab="2">Documents</li>
                       <li class="tab-link tab-link-ofc" data-tab="3">Comments</li>
               </ul>
           </div>
@@ -351,22 +351,30 @@
 
                     <div class="row  ofc-p-b-30">
                           <div class="ofc-customer-profile-box-left">
-                            <img src="images/customer-profile.svg" class="ofc-customer-profile-img">
+                            
+                            <div class="ofc-interview-page-grid-2">
+                                  <div>
+                                    <img src="images/customer-profile.svg" class="ofc-customer-profile-img">
+                                  </div>
+                                  <div>
+                                    <div class="ofc-single-grid">  
+                                      <p class="appoi-type m-b-0">First name</p> 
+                                      <p class=" regular-txt p-t-0 clor-blck"> Kunal </p>   
+                                    </div>
+                                    <div class="ofc-single-grid">  
+                                      <p class="appoi-type m-b-0">Middle name</p> 
+                                      <p class=" regular-txt p-t-0 clor-blck">Narayan </p>   
+                                    </div>
+                                    <div class="ofc-single-grid">  
+                                      <p class="appoi-type m-b-0">Last name</p> 
+                                      <p class=" regular-txt p-t-0 clor-blck">Sharma </p>   
+                                    </div>
+                                  </div>
+                              </div>
                           </div>
                           <div class="ofc-customer-profile-box-right">
-                            <div class="ofc-interview-page-grid-3">
-                              <div>  
-                                    <p class="appoi-type m-b-0">First name</p> 
-                                    <p class=" regular-txt p-t-0 clor-blck"> Kunal </p>   
-                              </div>
-                              <div>  
-                                <p class="appoi-type m-b-0">Middle name</p> 
-                                <p class=" regular-txt p-t-0 clor-blck">Narayan </p>   
-                              </div>
-                              <div>  
-                                <p class="appoi-type m-b-0">Last name</p> 
-                                <p class=" regular-txt p-t-0 clor-blck">Sharma </p>   
-                              </div>
+                            <div class="ofc-interview-page-grid-2">
+                             
                               <div>  
                                 <p class="appoi-type m-b-0">Applicant ID</p> 
                                 <p class=" regular-txt p-t-0 clor-blck">A12345678 </p>   
@@ -395,7 +403,7 @@
                           </div>
                           </div>
                     </div>
-                    <div class="row ">
+                    <div class="row m-b-40">
                       <div class="ofc-interview-page-grid-3">
                         <div>  
                               <p class="appoi-type m-b-0">Dossier No.</p> 
@@ -469,7 +477,7 @@
               </div>
       
               <div id="tab-3" class="tab-content">
-                <div class="row custom-regex-block">
+                <div class="row custom-regex-block m-b-40">
                 <div class="col-md-12  custom-regex-inner-setion">
                   <div class="form-group ">
                     <textarea  class="form-control" name="w3review" rows="4" cols="50">
@@ -506,5 +514,7 @@
     <script src='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js'></script>
     <script  src="js/topmenu.js"></script>
     <script src="js/scroll-tab.js"></script>
+    
+
        </body>
 </html>

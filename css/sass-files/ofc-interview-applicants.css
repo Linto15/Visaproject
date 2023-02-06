@@ -90,17 +90,31 @@
   padding-bottom: 30px;
 }
 
+.ofc-interview-page-grid-2 {
+  float: left;
+  width: 100%;
+  display: block;
+  margin-top: 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2] !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+  gap: 35px 8px;
+  grid-auto-rows: minmax(0px, auto);
+  padding-bottom: 30px;
+}
+
 .ofc-customer-profile-img {
   width: 160px;
 }
 
 .ofc-customer-profile-box-left {
-  width: 30%;
+  width: 50%;
   float: left;
 }
 
 .ofc-customer-profile-box-right {
-  width: 70%;
+  width: 50%;
   float: left;
 }
 
@@ -238,6 +252,20 @@
   color: #FF6B00 !important;
 }
 
+.ofc-single-grid {
+  gap: 35px 8px;
+  grid-auto-rows: minmax(0px, auto);
+  padding-bottom: 30px;
+}
+
+.ofc-doc-tab {
+  display: block;
+}
+
+.m-b-40 {
+  margin-bottom: 40px;
+}
+
 @media only screen and (max-width: 1700px) {
   .ofc-customer-profile-img {
     width: 140px;
@@ -350,6 +378,15 @@
     width: 33%;
     margin-bottom: 30px;
   }
+  .tab-link-ofc {
+    font-weight: 300 !important;
+    list-style: none;
+    padding: 10px 10px 17px;
+    color: #0D192E;
+  }
+  .ofc-doc-tab {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -378,14 +415,35 @@
     padding-bottom: 30px;
   }
   .biometric-btn {
-    padding: 20px 20px;
-    margin-left: 15px;
+    padding: 15px 10px;
+    margin-left: 10px;
     width: 45%;
     margin-bottom: 10px;
+    font-size: 13px;
   }
   .ofc-documebt-box-txt {
     line-height: 40px;
     font-size: 11px;
+  }
+  .tab-link {
+    padding: 10px 10px 25px;
+    font-size: 12px;
+    margin: 0 8px 0 0;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .tab-link {
+    padding: 10px 5px 25px;
+    font-size: 11px;
+    margin: 0 8px 0 0;
+  }
+  .biometric-btn {
+    padding: 15px 10px;
+    margin-left: 0px;
+    width: 98%;
+    margin-bottom: 15px;
+    font-size: 13px;
   }
 }
 /*# sourceMappingURL=ofc-interview-applicants.css.map */
