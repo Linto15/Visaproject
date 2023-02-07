@@ -236,6 +236,29 @@ gap: 35px 8px;
 .m-b-40 {
     margin-bottom: 40px;
 }
+.drop_box1 p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #000;
+}
+.browse-file-button { 
+    padding: 8px 45px; 
+    font-weight: 300; 
+}
+.drag-drop-browser-left{
+    float: left;
+    padding-top: 10px;
+}
+.drag-drop-browser-right{
+    float: left;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.browes-t-a-l{
+    text-align: left;
+}
 @media only screen and (max-width: 1700px){
     .ofc-customer-profile-img {
         width: 140px;
