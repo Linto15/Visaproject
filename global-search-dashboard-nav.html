@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Wizard Management</title>
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel='stylesheet'
+        href='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel='stylesheet'
+        href='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css'>
+
+    <link rel='stylesheet'
+        href='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/css/bootstrap-select.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body-bg-clr ">
+    <div class="row">
+        <div class="signup-top pad-l-30">
+            <div class="wizard-container top-bar-contnr">
+                <div class="signup-logo">
+                    <img src="images/logo.svg" alt="logo" title="logo" />
+                </div>
+                <nav class="topmenu-ul topmenu-ul-global">
+
+                    <label class="toggle">
+                        <i class="fa fa-bars"></i>
+                      </label>
+                    <ul class="topmenu-ul-global-ul">
+                        <label class="toggle menu-close-btn">
+                            <i class="icon-modal-close f-15"></i>
+                          </label>
+                        <div class="left">
+                            <div class="form-group search-outer">
+                                <span class="fa fa-arrow-left form-control-arrow"></span>
+                                <span class="fa fa-search form-control-feedback"></span>
+                                <input type="text" id="search-markets" class="form-control"
+                                    placeholder="Search Unique cust ID, name, email, DOB, passport no. or DS160/DS260 no.  ">
+                            </div>
+
+                        </div>
+                    </ul>
+
+
+
+                    <div class="socialtop">
+                        <div class='top-social'>
+
+                            <a href='#'><i class='icon-dashboard-upport top-menu-icon'></i></a>
+                            <a href="#"><i class='icon-new-lf-help top-menu-icon'></i></a>
+                        </div>
+                        <div class='top-social-log '>
+                            <div class="dash-log-icon "> <img src="images/user-login.svg" alt="logo" title="logo" />
+                            </div>
+                            <div class="dash-log-txt"> Fiso Mathew
+                                <div>Visa Officer </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row  ">
+        <div class="">
+            <div class="">
+                <ul class="nav nav-tabs nav-tabs-global global-tabs" role="tablist">
+                    <li class="nav-item"><a class="nav-link active" href="#tab1" role="tab" data-toggle="tab"><span><svg
+                                     width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.019 13.4265L11.0193 11.0162C11.0194 9.68482 9.94011 8.60545 8.60872 8.60545H3.2108C1.8796 8.60545 0.800408 9.68452 0.800259 11.0157L0.799988 13.4265M15.1998 13.4267L15.2 11.0163C15.2001 9.68495 14.1208 8.60558 12.7894 8.60558M10.5547 1.04387C11.1467 1.4831 11.5304 2.18724 11.5304 2.98098C11.5304 3.77473 11.1467 4.47887 10.5547 4.9181M8.37034 2.98085C8.37034 4.31216 7.2911 5.3914 5.95979 5.3914C4.62849 5.3914 3.54925 4.31216 3.54925 2.98085C3.54925 1.64955 4.62849 0.570312 5.95979 0.570312C7.2911 0.570312 8.37034 1.64955 8.37034 2.98085Z"
+                                        stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></span> Dossier Result</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#tab2" role="tab" data-toggle="tab"><span><svg  class="svg-verti-align"
+                                    width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.65329 4.74523C10.5532 4.89605 11.3707 5.32109 12.0233 5.97237C12.6759 6.62364 13.0984 7.43945 13.2529 8.33752M9.7907 1.80078C11.3913 2.07157 12.8511 2.82911 14.012 3.98426C15.173 5.14284 15.9286 6.59964 16.2 8.19697M14.9497 14.552C14.9497 14.552 14.0807 15.4055 13.8677 15.6558C13.5208 16.026 13.1121 16.2008 12.5763 16.2008C12.5248 16.2008 12.4698 16.2008 12.4183 16.1973C11.3981 16.1322 10.4501 15.7346 9.73915 15.3953C7.79507 14.4561 6.08799 13.1227 4.66943 11.4328C3.49817 10.024 2.71504 8.72142 2.19639 7.32289C1.87696 6.46938 1.76017 5.8044 1.8117 5.17712C1.84604 4.77607 2.00061 4.44358 2.2857 4.15907L3.45695 2.99021C3.62526 2.83253 3.80386 2.74684 3.97904 2.74684C4.19543 2.74684 4.3706 2.87709 4.48051 2.98678C4.48395 2.99021 4.48738 2.99364 4.49082 2.99707C4.70034 3.19245 4.89956 3.39469 5.10908 3.61063C5.21556 3.72032 5.32547 3.83001 5.43538 3.94313L6.37307 4.8789C6.73716 5.24225 6.73716 5.57817 6.37307 5.94151C6.27347 6.04091 6.17729 6.14032 6.07768 6.23629C5.78916 6.53108 6.01581 6.30489 5.71699 6.57226C5.71012 6.57911 5.70325 6.58254 5.69981 6.5894C5.40442 6.88418 5.45938 7.17212 5.52121 7.3675C5.52464 7.37778 5.52807 7.38806 5.53151 7.39835C5.77538 7.98792 6.11886 8.54322 6.64094 9.20477L6.64438 9.2082C7.59237 10.3736 8.59189 11.282 9.69445 11.9778C9.83528 12.0669 9.97954 12.1389 10.1169 12.2075C10.2406 12.2692 10.3574 12.3275 10.457 12.3892C10.4707 12.396 10.4845 12.4063 10.4982 12.4132C10.615 12.4714 10.7249 12.4988 10.8382 12.4988C11.1233 12.4988 11.3019 12.3206 11.3603 12.2623L12.0336 11.5904C12.1504 11.4739 12.3358 11.3334 12.5522 11.3334C12.7652 11.3334 12.9404 11.467 13.0468 11.5836C13.0503 11.587 13.0503 11.587 13.0537 11.5904L14.9463 13.4791C15.3 13.8288 14.9497 14.552 14.9497 14.552Z"
+                                        stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></span> Inquiry / Incident</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#tab3" role="tab" data-toggle="tab"><span><svg  class="svg-verti-align"
+                                    width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.77486 16.2007H4.27485C3.28074 16.2007 2.47485 15.3948 2.47486 14.4007L2.47493 3.60077C2.47494 2.60666 3.28082 1.80078 4.27493 1.80078H12.3751C13.3692 1.80078 14.1751 2.60667 14.1751 3.60078V7.20078M5.62514 5.40078H11.0251M5.62514 8.10078H11.0251M11.0251 11.6662V13.8745C11.0251 14.9658 12.1887 15.9666 13.2799 15.9666C14.3711 15.9666 15.5251 14.9658 15.5251 13.8745V11.0851C15.5251 10.5074 15.193 9.92116 14.4543 9.92116C13.6639 9.92116 13.2799 10.5074 13.2799 11.0851V13.7583M5.62514 10.8008H8.32514"
+                                        stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></span> Documents</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tab4" role="tab" data-toggle="tab"><span><svg  class="svg-verti-align"
+                                    width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M5.85 5.85H12.15M5.85 9.45H12.15M4.32 2.25H13.68C14.3262 2.25 14.85 2.85442 14.85 3.6V15.75L12.9 14.4L10.95 15.75L9 14.4L7.05 15.75L5.1 14.4L3.15 15.75V3.6C3.15 2.85442 3.67383 2.25 4.32 2.25Z"
+                                        stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></span> Invoices</a></li>
+
+
+                </ul>
+                <div class="tab-content tab-content-global">
+                    <div role="tabpanel" class="tab-pane   active" id="tab1">
+                        <div class="tab-cont-box">
+                            <div class=" appointment-table">
+                                <table class="table">
+                                    <thead class="tab-table-head">
+                                        <tr class="table-row-gray">
+
+
+                                            <th class="col-md-4 width-33"> Applicant Full Name</th>
+                                            <th class="col-md-4 width-33"> Applicant ID </th>
+                                            <th class="col-md-4 width-34">Email ID</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+
+
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="Pager2" aria-label="pagination example">
+                                  <div class="page-out-of">
+                                    <div class="page-text">Page</div>
+                                    <div class="form-group ">
+                                      <select class="my-select selectpicker" data-container="body">
+                                        <option>1</option>
+                                        
+                                      </select>
+                                    </div>
+                                    <div class="of-text">of 10</div>
+                                  </div>
+                                  <ul class="pagination pagination-circle justify-content-center">
+                    
+                    
+                                    <!--Arrow left-->
+                                    <li class="page-item disabled">
+                                      <a class="page-link" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span class="icon-left-arrow"></span>
+                                      </a>
+                                    </li>
+                    
+                                    <!--Numbers-->
+                                    <li class="page-item active"><a class="page-link">1</a></li>
+                                    <li class="page-item"><a class="page-link">2</a></li>
+                                    <li class="page-item"><a class="page-link">3</a></li>
+                                    <li class="page-item"><a class="page-link page-blank-age">...</a></li>
+                                    <li class="page-item"><a class="page-link">10</a></li>
+                    
+                                    <!--Arrow right-->
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span class="icon-right-arrow-1"></span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                    </li>
+                    
+                    
+                    
+                                  </ul>
+                                </div>
+                    
+                              </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade  " id="tab2">
+
+                        <div class="tab-cont-box">
+                            <div class=" appointment-table">
+                                <table class="table">
+                                    <thead class="tab-table-head">
+                                        <tr class="table-row-gray">
+
+
+                                            <th class="col-md-4 width-33"> created by</th>
+                                            <th class="col-md-4 width-33"> ticket ID </th>
+                                            <th class="col-md-4 width-34">category</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+
+
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34">kunal@gmail.com</td>
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="Pager2" aria-label="pagination example">
+                                  <div class="page-out-of">
+                                    <div class="page-text">Page</div>
+                                    <div class="form-group ">
+                                      <select class="my-select selectpicker" data-container="body">
+                                        <option>1</option>
+                                        
+                                      </select>
+                                    </div>
+                                    <div class="of-text">of 10</div>
+                                  </div>
+                                  <ul class="pagination pagination-circle justify-content-center">
+                    
+                    
+                                    <!--Arrow left-->
+                                    <li class="page-item disabled">
+                                      <a class="page-link" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span class="icon-left-arrow"></span>
+                                      </a>
+                                    </li>
+                    
+                                    <!--Numbers-->
+                                    <li class="page-item active"><a class="page-link">1</a></li>
+                                    <li class="page-item"><a class="page-link">2</a></li>
+                                    <li class="page-item"><a class="page-link">3</a></li>
+                                    <li class="page-item"><a class="page-link page-blank-age">...</a></li>
+                                    <li class="page-item"><a class="page-link">10</a></li>
+                    
+                                    <!--Arrow right-->
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span class="icon-right-arrow-1"></span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                    </li>
+                    
+                    
+                    
+                                  </ul>
+                                </div>
+                    
+                              </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade  " id="tab3">
+
+                        <div class="tab-cont-box">
+                            <div class=" appointment-table">
+                                <table class="table">
+                                    <thead class="tab-table-head">
+                                        <tr class="table-row-gray">
+
+
+                                            <th class="col-md-4 width-33"> UPLOADED by</th>
+                                            <th class="col-md-4 width-33"> Document </th>
+                                            <th class="col-md-4 width-34">Status</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+
+
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 submit-table">Submitted</td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 not-sub-tab">Not Submitted</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 submit-table">Submitted</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 reject">Rejected</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 delivered">Delivered</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 pending">Pending</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 pending">Pending</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 pending">Pending</td>
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="Pager2" aria-label="pagination example">
+                                  <div class="page-out-of">
+                                    <div class="page-text">Page</div>
+                                    <div class="form-group ">
+                                      <select class="my-select selectpicker" data-container="body">
+                                        <option>1</option>
+                                        
+                                      </select>
+                                    </div>
+                                    <div class="of-text">of 10</div>
+                                  </div>
+                                  <ul class="pagination pagination-circle justify-content-center">
+                    
+                    
+                                    <!--Arrow left-->
+                                    <li class="page-item disabled">
+                                      <a class="page-link" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span class="icon-left-arrow"></span>
+                                      </a>
+                                    </li>
+                    
+                                    <!--Numbers-->
+                                    <li class="page-item active"><a class="page-link">1</a></li>
+                                    <li class="page-item"><a class="page-link">2</a></li>
+                                    <li class="page-item"><a class="page-link">3</a></li>
+                                    <li class="page-item"><a class="page-link page-blank-age">...</a></li>
+                                    <li class="page-item"><a class="page-link">10</a></li>
+                    
+                                    <!--Arrow right-->
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span class="icon-right-arrow-1"></span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                    </li>
+                    
+                    
+                    
+                                  </ul>
+                                </div>
+                    
+                              </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade  " id="tab4">
+
+                        <div class="tab-cont-box">
+                            <div class=" appointment-table">
+                                <table class="table">
+                                    <thead class="tab-table-head">
+                                        <tr class="table-row-gray">
+
+
+                                            <th class="col-md-4 width-33"> UPLOADED by</th>
+                                            <th class="col-md-4 width-33"> invoice DATE </th>
+                                            <th class="col-md-4 width-34">Invoice</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr>
+
+
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 submit-pdf">kunalsharmacus123456789.pdf</td>
+
+
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 submit-pdf">kunalsharmacus123456789.pdf</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 submit-pdf">kunalsharmacus123456789.pdf</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 submit-pdf">kunalsharmacus123456789.pdf</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 submit-pdf">kunalsharmacus123456789.pdf</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 submit-pdf">kunalsharmacus123456789.pdf</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 submit-pdf">kunalsharmacus123456789.pdf</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="col-md-4 width-33"> Kunal Narayan Sharma </td>
+                                            <td class="col-md-4 width-33"> 009710</td>
+                                            <td class="col-md-4 width-34 submit-pdf">kunalsharmacus123456789.pdf</td>
+                                        </tr>
+
+
+
+                                    </tbody>
+                                </table>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="Pager2" aria-label="pagination example">
+                                  <div class="page-out-of">
+                                    <div class="page-text">Page</div>
+                                    <div class="form-group ">
+                                      <select class="my-select selectpicker" data-container="body">
+                                        <option>1</option>
+                                        <option>2</option>
+                                      </select>
+                                    </div>
+                                    <div class="of-text">of 10</div>
+                                  </div>
+                                  <ul class="pagination pagination-circle justify-content-center">
+                    
+                    
+                                    <!--Arrow left-->
+                                    <li class="page-item disabled">
+                                      <a class="page-link" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span class="icon-left-arrow"></span>
+                                      </a>
+                                    </li>
+                    
+                                    <!--Numbers-->
+                                    <li class="page-item active"><a class="page-link">1</a></li>
+                                    <li class="page-item"><a class="page-link">2</a></li>
+                                    <li class="page-item"><a class="page-link">3</a></li>
+                                    <li class="page-item"><a class="page-link page-blank-age">...</a></li>
+                                    <li class="page-item"><a class="page-link">10</a></li>
+                    
+                                    <!--Arrow right-->
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span class="icon-right-arrow-1"></span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item">
+                                      <a class="page-link" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                    </li>
+                    
+                    
+                    
+                                  </ul>
+                                </div>
+                    
+                              </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <!-- Modal -->
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js'></script>
+    <script src="js/fileupload.js"></script>
+    <script src="js/scroll-tab.js"></script>
+    <script src="js/tree-view-new.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script>
+        $('#search-markets').focus(function () {
+            $('div.display-div').css('display', 'flex');
+            $(document).bind('focusin.display-div click.display-div', function (e) {
+                if ($(e.target).closest('.display-div, #search-markets').length) return;
+                $(document).unbind('.display-div');
+                $('div.display-div').slideUp(300);
+            });
+        });
+        // $('div.display-div').hide();
+        $('div.display-div').css('display', 'flex');
+        $("#search-markets").focusout(function () {
+            $('div.display-div').hide();
+        });
+    </script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap-select@1.14.0-beta3/dist/js/bootstrap-select.min.js'></script>
+    <script src="js/fileupload.js"></script>
+    <script src="js/scroll-tab.js"></script>
+    <script src="js/tree-view-new.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/mission-tab.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+  
+        <script src="js/topmenu.js"></script>
+
+
+
+
+</body>
+
+</html>
