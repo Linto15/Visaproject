@@ -29,7 +29,8 @@
         "sass-files/formbuilder.scss",
         "sass-files/ticket-assignment.scss",
         "sass-files/ofc-interview-applicants.scss",
-        "sass-files/global-search-dashboard.scss"
+        "sass-files/global-search-dashboard.scss",
+        "sass-files/appoinment-letter.scss"
     ],
     "names": [],
     "file": "style.css"
