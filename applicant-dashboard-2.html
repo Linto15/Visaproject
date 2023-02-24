@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Dashboard</title>
+
+    <!-- Bootstrap CSS -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'>
+  <link rel="stylesheet" href="css/fonts.css">
+           <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <div class="sidebar menu_body" id="menubody">
+        <div class="sidebarinner">
+        <div class="logo-details">
+         <img src="images/dashboard-logo.svg"/>
+        </div>
+        <ul class="nav-links">
+          <li class="active">
+            <a href="#" >
+             <div class="icon-new-lf-mydashboard"></div>
+              <span class="link-name">My Dashboard</span>
+            </a>
+               </li>
+               <li>
+                <a href="#">
+                  <div class="icon-new-lf-myapplication"></div>
+                  <span class="link-name">My Application</span>
+                </a>          </li>
+          <li>
+            <a href="#">
+              <div class="icon-new-lf-doucments"></div>
+              <span class="link-name">Documents</span>
+            </a>          </li>
+          <li>
+            <a href="#">
+              <div class="icon-new-lf-notification"></div>
+              <span class="link-name">Notifications</span>
+            </a>
+               </li>
+          <li>
+            <a href="#">
+              <div class="icon-new-lf-support"></div>
+              <span class="link-name">Support</span>
+            </a>
+          </li>
+                    <li>
+            <a href="#">
+              <div class="icon-new-lf-help"></div>
+              <span class="link-name">Help</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <div class="icon-new-lf-signout"></div>
+              <span class="link-name">Sign Out</span>
+            </a>
+          </li>
+
+    </ul>
+
+
+
+    <div class="dashboaard-side-nav-footer">
+<img src="images/sidebar-profile-icon.svg" alt="" title=""/>
+<div class="right">
+<p>Kunal Sharma</p>
+<span>Kunal@gmail.com</span>
+</div>
+
+    </div>
+
+      </div>
+    </div>
+
+
+    <div class="humburger" id="hambuger_menu">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+
+
+
+
+      <section class="home-section my-dashboard-content">
+      <div class="row my-dashboard-top">
+<div class="col-md-12 top-main-head">My Dashboard</div>
+<div class="col-md-12 top-text-my-dashboard">You have 1 active application...</div>
+      </div>
+      <div class="row my-dashboard-middle">
+        <div class="col-md-12 padding-left-0 padding-right-0">
+
+		<!-- top tab -->
+
+
+<section id="toptbss">
+  <div class="container padding0">
+
+      <ul class="nav nav-tabs">
+
+        <li class="active"><a data-toggle="tab" href="#appointmentrequest">
+          <div id="tabiconss" class="gird-left-icon">
+            <img src="images/appointment-request-icon.svg"></div>
+          <div class="count-block">03 </div>
+          <div class="count-status light-orange-text">/ 03 Active </div>
+          <div class="dashbrd-inner-text">Total Appoinment Requests</div></a>
+        </li>
+
+        <li><a data-toggle="tab" href="#totalsupportticket">
+          <div id="tabiconss" class="gird-left-icon">
+          <img src="images/support-ticket.svg">
+          </div>
+          <div class="count-block">02 </div>
+          <div class="count-status green-text">/ 01 Open </div>
+          <div class="dashbrd-inner-text">Total Support Tickets</div></a>
+</li>
+
+        <li><a data-toggle="tab" href="#appointmentscheduled">
+          <div id="tabiconss" class="gird-left-icon">
+          <span class="icon-total-schedule1"></span>
+          </div>
+          <div class="count-block">02 </div>
+          <div class="count-status gray-light-text">/ 03 Expired </div>
+          <div class="dashbrd-inner-text">Total Appointment Scheduled</div>
+        </a></li>
+
+        <li><a data-toggle="tab" href="#documentrequired">
+          <div id="tabiconss" class="gird-left-icon">
+<span class="icon-new-lf-doucments"></span>
+</div>
+<div class="count-block">10 </div>
+<div class="count-status red-text">/ 10 Pending </div>
+<div class="dashbrd-inner-text">Documents Required</div></a>
+</li>
+      </ul>
+
+      <div class="tab-content">
+        <div id="appointmentrequest" class="tab-pane fade in active">
+          <div class="row dashboard-bottom-block">
+          <div class="col-md-12 sub-head dashboard-sub-head padding-left-0 padding-right-0">My Appointment Requests</div>
+          <div class="dashboard-block-section">
+            <div class="dashboard-taskbox">
+              <div class="create-whitebox">
+           <div class="myappoinment-block-top">
+          <div class="sub-head ">US Nonimmigrant Visa(NIV)</div>
+          <div class="request-block">Request In Progress</div>
+           </div>
+           <div class="myappoinment-block-bottom">
+
+            <div class="cspace">
+            <div class="aponment-schdule">Appointment scheduled</div>
+            <div class="aponment-schdule-block">
+             <span class="icon-adult-icon"></span>
+          <div class="right-block">Adult Applicants  - <span class="green-text">1</span> / 2 </div>
+
+            </div>
+            <div class="aponment-schdule-block">
+              <span class="icon-child-applicant"></span>
+              <div class="right-block">Child Applicants   - <span class="green-text">1</span> / 1 </div>
+
+            </div>
+            <div class="appoinment-class-business">
+          <p>Business / Tourist (B1/B2) - 2</p>
+          <p>Student (M1) - 1</p>
+            </div>
+           </div></div>
+          <div class="create-taskbutton">VIEW DETAILS</div>
+            </div>
+              </div>
+
+                <div class="dashboard-taskbox">
+                  <div class="create-task-inner-block">
+                    <div class="align-center-display">
+                      <div class="inner-img">
+                  <img src="images/add-more-aplicant.svg" alt="" title="">
+                </div>
+                </div>
+                  <div class="addmore-aplicant-button" data-toggle="modal" data-target="#exampleModal">ADD MORE APPLICANTS</div>
+                </div>
+                  </div>
+
+          </div>
+          </div>
+  </div>
+
+        <div id="totalsupportticket" class="tab-pane fade">
+          <div class="row dashboard-bottom-block">
+  <div class="col-md-12 sub-head dashboard-sub-head padding-left-0 padding-right-0">My Support Ticket</div>
+  <div class="dashboard-block-section">
+    <div class="dashboard-taskbox">
+      <div class="create-whitebox">
+   <div class="supportticket-block-top">
+  <div class="sub-head-ticket-number ">Ticket Number</div>
+  <div class="request-block">#A123474674 <span class="replymsg">2 New Reply</span></div>
+  <div class="inprogress">In Progress</div>
+   </div>
+   <div class="myappoinment-block-bottom">
+
+    <div class="sepratesectin">
+    <span class="subjest">Subject</span>
+    <p>Invoice showing wrong applicant name for my B1/B2 Business Visa application</p>
+    </div>
+
+    <div class="sepratesectin">
+    <span class="subjest">Category</span>
+    <p>Fees and payment</p>
+    </div>
+
+    <div class="sepratesectin">
+    <span class="subjest">Topic</span>
+    <p>My payment got declined and its showing
+  under process with my bank after...</p>
+    </div>
+
+    <div class="create-taskbutton">VIEW DETAILS</div>
+
+   </div>
+    </div>
+      </div>
+
+  	<div class="dashboard-taskbox">
+      <div class="create-whitebox">
+   <div class="supportticket-block-top">
+  <div class="sub-head-ticket-number ">Ticket Number</div>
+  <div class="request-block">#B87839390</div>
+  <div class="closedd">Closed</div>
+   </div>
+   <div class="myappoinment-block-bottom">
+
+    <div class="sepratesectin">
+    <span class="subjest">Subject</span>
+    <p>Invoice showing wrong applicant name for my B1/B2 Business Visa application</p>
+    </div>
+
+    <div class="sepratesectin">
+    <span class="subjest">Category</span>
+    <p>Fees and payment</p>
+    </div>
+
+    <div class="sepratesectin">
+    <span class="subjest">Topic</span>
+    <p>My payment got declined and its showing
+  under process with my bank after...</p>
+    </div>
+
+    <div class="create-taskbutton">VIEW DETAILS</div>
+
+   </div>
+    </div>
+      </div>
+
+        <div class="dashboard-taskbox">
+          <div class="create-task-inner-block">
+            <div class="align-center-display">
+              <div class="inner-img">
+          <img src="images/create-new-ticket.png" alt="" title="">
+        </div>
+        </div>
+          <a href="#"><div class="addmore-aplicant-button" data-toggle="modal" data-target="#exampleModal">Create New Ticket</div></a>
+
+  		<!-- close ticket model -->
+
+        </div>
+          </div>
+
+  </div>
+  </div>
+        </div>
+
+
+        <div id="appointmentscheduled" class="tab-pane fade">
+          <div class="row dashboard-bottom-block">
+  <div class="col-md-12 sub-head dashboard-sub-head padding-left-0 padding-right-0">My Appointments</div>
+                          <div class="row">
+                          <form class="visapllcationss">
+                          <label>Visa Application <span class="starr">*</span></label>
+
+
+<select id="clshng" class="minimal">
+  <option>US Non-Immigrant Visa (NIV) - Current</option>
+  <option>Option 1</option>
+  <option>Option 2</option>
+</select>
+
+                          </form>
+                          </div>
+                          <script>
+                          $('.select2').select2();
+                          </script>
+                          </div>
+
+
+                          <div class="dashboard-block-section">
+                          <div class="dashboard-taskbox">
+                          <div class="create-whitebox">
+                          <div class="supportticket-block-top">
+                          <div class="usernamess ">Kunal Sharma</div>
+                          <div class="appointmentschedule">Appointment scheduled</div>
+                          <div class="locationst"><img class="light-ico" src="images/location.svg"> In Mumbai, Maharashtra</div>
+                          <div class="timezoness">
+                            <img class="light-ico" src="images/clock-icon.svg">Tuesday, October 29
+  <span class="tm">8:00 am - 9:00 am </span>
+                          </div>
+                          </div>
+                          <div class="myappoinment-block-bottom">
+
+                          <div class="sepratesectin">
+                          <span class="visanvt">US Nonimmigrant Visa (NIV) </span>
+                          <p>Business / Tourist (B1/B2)</p>
+                          <span class="documentdo"><img class="light-ico" src="images/document-icon.svg"> Download Document</span>
+                          </div>
+
+
+
+                          <div class="reschedulebtn">ReSCHEDULE</div>
+                          <div class="cancelbtn">CANCEL</div>
+
+                          </div>
+                          </div>
+                          </div>
+
+                          <div class="dashboard-taskbox">
+                            <div class="create-whitebox">
+                            <div class="supportticket-block-top">
+                            <div class="usernamess ">Kunal Sharma</div>
+                            <div class="appointmentschedule">Appointment scheduled</div>
+                            <div class="locationst"><img class="light-ico" src="images/location.svg"> In Mumbai, Maharashtra</div>
+                            <div class="timezoness">
+                              <img class="light-ico" src="images/clock-icon.svg">Tuesday, October 29
+    <span class="tm">8:00 am - 9:00 am </span>
+                            </div>
+                            </div>
+                            <div class="myappoinment-block-bottom">
+
+                            <div class="sepratesectin">
+                            <span class="visanvt">US Nonimmigrant Visa (NIV) </span>
+                            <p>Business / Tourist (B1/B2)</p>
+                            <span class="documentdo"><img class="light-ico" src="images/document-icon.svg"> Download Document</span>
+                            </div>
+
+
+
+                            <div class="reschedulebtn">ReSCHEDULE</div>
+                            <div class="cancelbtn">CANCEL</div>
+
+                            </div>
+                            </div>
+                          </div>
+
+                          <div class="dashboard-taskbox">
+                            <div class="create-whitebox">
+                            <div class="supportticket-block-top">
+                            <div class="usernamess ">Kunal Sharma</div>
+                            <div class="appointmentschedule">Appointment scheduled</div>
+                            <div class="locationst"><img class="light-ico" src="images/location.svg"> In Mumbai, Maharashtra</div>
+                            <div class="timezoness">
+                              <img class="light-ico" src="images/clock-icon.svg">Tuesday, October 29
+    <span class="tm">8:00 am - 9:00 am </span>
+                            </div>
+                            </div>
+                            <div class="myappoinment-block-bottom">
+
+                            <div class="sepratesectin">
+                            <span class="visanvt">US Nonimmigrant Visa (NIV) </span>
+                            <p>Business / Tourist (B1/B2)</p>
+                            <span class="documentdo"><img class="light-ico" src="images/document-icon.svg"> Download Document</span>
+                            </div>
+
+
+
+                            <div class="reschedulebtn">ReSCHEDULE</div>
+                            <div class="cancelbtn">CANCEL</div>
+
+
+                            </div>
+                            </div> </div>  </div> </div>
+
+
+                            <div id="documentrequired" class="tab-pane fade">
+                              <div class="row dashboard-bottom-block">
+                      <div class="col-md-12 sub-head dashboard-sub-head padding-left-0 padding-right-0">My Documents</div>
+                                              <div class="row">
+                                              <form class="visapllcationss">
+                                              <label>Visa Application <span class="starr">*</span></label>
+                                              <select class="minimal">
+                                                <option>US Non-Immigrant Visa (NIV) - Current</option>
+                                                <option>Option 1</option>
+                                                <option>Option 2</option>
+                                              </select>
+                                              </form>
+                                              </div>
+                                              <script>
+                                              $('.select2').select2();
+                                              </script>
+                                              </div>
+
+
+                                              <div class="dashboard-block-section">
+                          <div class="dashboard-taskbox">
+                          <div class="create-whitebox">
+                          <div class="supportticket-block-top">
+                          <div class="usernamess ">Kunal Sharma</div>
+                          <div class="appointmentscheduleclor">5/7 Documents Pending</div>
+
+                          </div>
+                          <div class="myappoinment-block-bottom">
+    <div class="pendingdocs">
+<ul>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Passport <span class="righticons"><img src="images/rightgreen.svg" class="light-ico"></span></li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Aadhar Card <span class="righticons"><img src="images/rightgreen.svg" class="light-ico"></span></li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Residential Proof</li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Bank Statement</li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Police Verificaiton</li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Employer NOC</li>
+<li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Sponsor's address proof </li>
+    </ul></div>
+
+
+
+                          <div class="gotdocs">Got the Documents</div>
+
+                          </div>
+                          </div>
+                          </div>
+
+                          <div class="dashboard-taskbox">
+                          <div class="create-whitebox">
+                          <div class="supportticket-block-top">
+                          <div class="usernamess ">Kunal Sharma</div>
+                          <div class="appointmentscheduleclor">5/7 Documents Pending</div>
+
+                          </div>
+                          <div class="myappoinment-block-bottom">
+    <div class="pendingdocs">
+<ul>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Passport <span class="righticons"><img src="images/rightgreen.svg" class="light-ico"></span></li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Aadhar Card <span class="righticons"><img src="images/rightgreen.svg" class="light-ico"></span></li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Residential Proof</li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Bank Statement</li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Police Verificaiton</li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Employer NOC</li>
+<li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Sponsor's address proof </li>
+    </ul></div>
+
+
+
+                          <div class="gotdocs">Got the Documents</div>
+
+                          </div>
+                          </div>
+                          </div>
+
+                          <div class="dashboard-taskbox">
+                          <div class="create-whitebox">
+                          <div class="supportticket-block-top">
+                          <div class="usernamess ">Kunal Sharma</div>
+                          <div class="appointmentschedulegrn">5/7 Documents Pending</div>
+
+                          </div>
+                          <div class="myappoinment-block-bottom">
+    <div class="pendingdocs">
+<ul>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Passport <span class="righticons"><img src="images/rightgreen.svg" class="light-ico"></span></li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Aadhar Card <span class="righticons"><img src="images/rightgreen.svg" class="light-ico"></span></li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Residential Proof <span class="righticons"><img src="images/rightgreen.svg" class="light-ico"></span></li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Bank Statement <span class="righticons"><img src="images/rightgreen.svg" class="light-ico"></span></li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Police Verificaiton <span class="righticons"><img src="images/rightgreen.svg" class="light-ico"></span></li>
+  <li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Employer NOC <span class="righticons"><img src="images/rightgreen.svg" class="light-ico"></span></li>
+<li><img class="light-ico" id="documenttbs" src="images/document-icon.svg"> Sponsor's address proof <span class="righticons"><img src="images/rightgreen.svg" class="light-ico"></span></li>
+    </ul></div>
+
+
+
+                          <div class="gotdocs">Got the Documents</div>
+
+                          </div>
+                          </div>
+                          </div>
+                         </div>
+                        </div>
+
+</section>
+
+
+		<!-- close -->
+
+
+        </div>
+
+      </div>
+
+
+      </section>
+
+      <!-- form model -->
+
+      <!-- Modal -->
+      <div class="modal right fade in" id="exampleModal" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+      	  <div class="mhead">
+      <span class="ticketnm"> #A123474674</span> <img src="images/copy-icon.svg"  class="light-ico">
+
+      <img src="images/ticket-close-icon.svg" class="closeticket"><span class="tclosed"> Close ticket</span>
+
+      </div>
+
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div id="invoiceshoing" class="modal-body">
+      <p><b>Subject:</b> Invoice showing wrong applicant name for my B1/B2 Business Visa application - in Fees and Payment</p>
+
+      <div class="tdte">
+      <div class="col-md-12"><div class="row">
+      <div class="col-md-6 padding0"><span class="tds">Ticket Details:</span></div>
+      <div class="col-md-6 padding0 text-right"><span class="dtss">11/29/2022</span></div>
+      </div>
+      <div class="col-md-12 padding0">
+      <div class="detailsdoc">
+      <p>Dear Team, Kindly note that, I have following documents with me for interview
+      1. Pan Card 2. Aadhar Card
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat mattis porttitor. Sed varius nunc eu quam sodales</p>
+      </div>
+      </div></div>
+
+
+      <div class="col-md-12">
+      <span class="tds">Attachments: </span> &nbsp;&nbsp; <div class="documentproff"><a href="#">pan-card.jpg</a>, <a href="#">Adhar-card.jpg</a></div>
+      </div>
+      </div>
+
+      <div class="tdte">
+      <div class="col-md-12"><div class="row"><br>
+      <div class="col-md-6 padding0"><span class="tds">Reply From You </span></div>
+      <div class="col-md-6 padding0 text-right"><span class="dtss">11/29/2022</span></div>
+      </div>
+      <div class="col-md-12 padding0">
+      <div class="detailsdoc">
+      <p>Dear Sir, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat mattis porttitor. Sed varius nunc eu quam sodales aliquam. Curabitur ornare </p>
+      </div>
+      </div></div>
+
+      </div>
+
+
+      <div class="tdte">
+      <div class="col-md-12"><div class="row"><br>
+      <div class="col-md-6 padding0"><span class="tds">Reply From Support </span> &nbsp;&nbsp;<span class="newreply">New Reply</span></div>
+      <div class="col-md-6 padding0 text-right"><span class="dtss">11/29/2022</span></div>
+      </div>
+      <div class="col-md-12 padding0">
+      <div class="detailsdoc">
+      <p>Dear Sir, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur consequat mattis porttitor. Sed varius nunc eu quam sodales aliquam. Curabitur ornare </p>
+      </div>
+      </div>
+
+
+    </div></div>
+
+
+<div class="seprator"> &nbsp; </div>
+
+    <div class="col-md-12">
+<div class="col-md-6 padding0">
+  <div class="form-group">
+      <label for="exampleFormControlTextarea1"><span class="tds">Reply in this thread</span></label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your reply here..."></textarea>
+    </div>
+</div>
+<div class="col-md-6">
+  <div id="fnameds" class="frame">
+  	<div class="center">
+<div class="dropzone">
+  			<img src="images/Upload.svg" class="upload-icon">
+  			<input type="file" class="upload-input">
+        <button type="button" class="btn" name="uploadbutton">Upload Documents</button>
+  		</div>
+</div>
+  </div>
+</div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="attachmentsss"><p><a href="#">Pan Card</a>, <a href="#">Aadhar Card</a></p></div>
+    </div>
+
+</div>
+
+    <div class="modal-footer">
+              <button type="button" class="btn cancel" data-dismiss="modal">Cancel</button>
+              <button type="button" class="btn submit">Submit</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      		<!-- close -->
+
+
+    <script  src="js/sidebar.js"></script>
+       </body>
+</html>
