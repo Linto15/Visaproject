@@ -535,7 +535,14 @@ padding-top: 1px;
 .create-entity-table{
   margin-top: -3px;
 }
-
+.wizard-setp-list-inner-block .list-right a:hover .clone-svg path {
+  fill: #fff;
+  stroke: #14A38B;;
+}
+.wizard-setp-list-inner-block .list-right a:hover .clone-svg rect {
+  fill: #fff;
+  stroke: #14A38B;;
+}
 @media only screen and (max-width: 1520px) {
     
    

@@ -1164,12 +1164,8 @@ section#toptbss .nav-tabs {
 
 ul.nav.nav-tabs li {
   display: block;
-  background: #FFFFFF;
-  border: 1px solid #D9D9D9;
-  border-radius: 10px;
-  width: 100%;
+  border-radius: 0px;
   max-width: 268px;
-  margin: 6px;
 }
 
 div#tabiconss {
@@ -1223,7 +1219,7 @@ div#tabiconss img {
   padding: 24px;
   border-bottom: none !important;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 section#toptbss .tab-content {
