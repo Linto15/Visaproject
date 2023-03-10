@@ -65,10 +65,8 @@
   width: 100%;
   display: block;
   margin-top: 0px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3] !important;
-      grid-template-columns: repeat(3, 1fr) !important;
+  grid-template-columns: repeat(3, 1fr) !important;
   gap: 30px 30px;
   grid-auto-rows: minmax(0px, auto);
   padding-bottom: 30px;
@@ -96,10 +94,8 @@
   width: 100%;
   display: block;
   margin-top: 0px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
-      grid-template-columns: repeat(2, 1fr) !important;
+  grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 30px;
   grid-auto-rows: minmax(0px, auto);
   padding-bottom: 30px;
@@ -144,7 +140,7 @@
 }
 
 .inquiry-popup-p-font-p {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -185,19 +181,10 @@
 .drop_box {
   margin: 10px 0;
   padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   border: 3px dotted #a3a3a3;
   border-radius: 5px;
 }
@@ -222,7 +209,6 @@
   padding: 10px 20px;
   border: none;
   outline: none;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -246,7 +232,7 @@
 }
 
 .btn-popup {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -272,12 +258,8 @@
 .popup-buttons-forms-popup {
   margin-top: 20px;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .modal-content-popup {
@@ -294,7 +276,7 @@
 }
 
 .inquiry-popup-p-font-h {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -346,7 +328,7 @@
 }
 
 .support-popup-txt {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -404,20 +386,17 @@
     width: 85% !important;
   }
 }
-
 @media only screen and (max-width: 1900px) {
   .support-search-sty {
     left: 90%;
   }
 }
-
 @media only screen and (max-width: 1500px) {
   .support-drop-box {
     padding-top: 30px;
     width: 90%;
   }
 }
-
 @media only screen and (max-width: 1200px) {
   .support-drop-box {
     padding-top: 30px;
@@ -429,14 +408,12 @@
     padding: 50px 20px;
   }
   .support-grid-3 {
-    -ms-grid-columns: (1fr)[2] !important;
-        grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 30px 20px;
     grid-auto-rows: minmax(0px, auto);
     padding-bottom: 30px;
   }
 }
-
 @media only screen and (max-width: 980px) {
   .support-block-grid {
     float: left;
@@ -447,27 +424,22 @@
     left: 90%;
   }
   .support-grid-2 {
-    -ms-grid-columns: (1fr)[1] !important;
-        grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .support-search-sty {
     left: 86%;
   }
   .support-grid-3 {
-    -ms-grid-columns: (1fr)[1] !important;
-        grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-columns: repeat(1, 1fr) !important;
     gap: 30px 20px;
     grid-auto-rows: minmax(0px, auto);
     padding-bottom: 30px;
   }
 }
-
 @media only screen and (max-width: 640px) {
   .support-search-sty {
     left: 80%;
   }
-}
-/*# sourceMappingURL=support.css.map */
+}/*# sourceMappingURL=support.css.map */

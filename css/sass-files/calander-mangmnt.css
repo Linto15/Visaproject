@@ -3,10 +3,8 @@
   width: 100%;
   display: block;
   margin-top: 0px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
-      grid-template-columns: repeat(2, 1fr) !important;
+  grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
   padding-bottom: 30px;
@@ -46,7 +44,7 @@
   width: 100%;
   font-size: 15px;
   color: #9F9898;
-  font-family: 'Inter', sans-serif !important;
+  font-family: "Inter", sans-serif !important;
 }
 
 .custom-date-field span {
@@ -62,7 +60,7 @@
   padding-bottom: 10px;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
+input[type=date]::-webkit-calendar-picker-indicator {
   color: rgba(0, 0, 0, 0);
   opacity: 1;
   display: block;
@@ -193,8 +191,6 @@ thead th .right-icon {
 
 .calendersty-table table thead tr, .role-permission-table table thead tr {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   float: left;
   padding-left: 10px;
@@ -210,8 +206,6 @@ thead th .right-icon {
   border-radius: 0px;
   height: auto;
   padding-top: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-left: 10px;
   border-bottom: 1px solid #808B9F;
@@ -298,7 +292,7 @@ thead th .right-icon {
 }
 
 .form-control {
-  font-family: 'Inter', sans-serif !important;
+  font-family: "Inter", sans-serif !important;
 }
 
 .caland-add-sty-box {
@@ -321,7 +315,7 @@ a:focus, a:hover {
 }
 
 .opacity-0 {
-  opacity: .0;
+  opacity: 0;
 }
 
 .p-t-10 {
@@ -335,16 +329,12 @@ a:focus, a:hover {
     display: block;
     overflow: scroll;
     display: block;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     overflow: auto;
     margin-bottom: 15px;
   }
 }
-
 @media only screen and (max-width: 1520px) {
   .calendersty-table .table > thead > tr > th, .role-permission-table .table > thead > tr > th {
     padding-left: 7px;
@@ -354,7 +344,6 @@ a:focus, a:hover {
     font-size: 15px;
   }
 }
-
 @media only screen and (max-width: 1300px) {
   .calendersty-table .table > tbody > tr > td:first-child, .calendersty-table .table > thead > tr > th:first-child, .role-permission-table .table > tbody > tr > td:first-child, .role-permission-table .table > thead > tr > th:first-child {
     padding-left: 5px;
@@ -367,11 +356,9 @@ a:focus, a:hover {
     font-size: 15px;
   }
 }
-
 @media only screen and (max-width: 1200px) {
   .calander-mangmt-top-grid {
-    -ms-grid-columns: (1fr)[1] !important;
-        grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-columns: repeat(1, 1fr) !important;
     gap: 30px 20px;
   }
   .calendersty-table {
@@ -380,11 +367,8 @@ a:focus, a:hover {
     display: block;
     overflow: scroll;
     display: block;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     overflow: auto;
     margin-bottom: 15px;
   }
@@ -392,29 +376,22 @@ a:focus, a:hover {
     border-collapse: collapse;
     /* overflow-x: auto; */
     display: block;
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    width: auto  !important;
+    width: auto !important;
     float: left;
     max-width: 5000;
   }
   .calendersty-table table thead {
     width: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .calendersty-table table tr {
     width: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .calendersty-table table tbody {
     width: 100% !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .calendersty-table .width-15 {
@@ -464,24 +441,19 @@ a:focus, a:hover {
     margin-bottom: -20px;
   }
 }
-
 @media only screen and (max-width: 980px) {
   .calander-mangmt-top-grid {
-    -ms-grid-columns: (1fr)[1] !important;
-        grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-columns: repeat(1, 1fr) !important;
     gap: 30px 20px;
   }
   .calendersty-table table tbody {
     width: 100% !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .calendersty-table table {
     border-collapse: collapse;
     /* overflow-x: auto; */
     display: block;
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     width: 100% !important;
@@ -489,25 +461,19 @@ a:focus, a:hover {
     max-width: 5000;
   }
 }
-
 @media only screen and (max-width: 840px) {
   .calendersty-table table tbody {
     width: auto !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .calendersty-table table thead {
     width: auto !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .calendersty-table table {
     border-collapse: collapse;
     /* overflow-x: auto; */
     display: block;
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     width: 600px !important;
@@ -515,19 +481,15 @@ a:focus, a:hover {
     max-width: 5000;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .calendersty-table table thead {
     width: auto !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .calendersty-table table {
     border-collapse: collapse;
     /* overflow-x: auto; */
     display: block;
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     width: 500px !important;
@@ -539,24 +501,19 @@ a:focus, a:hover {
     margin-bottom: 20px;
   }
 }
-
 @media only screen and (max-width: 668px) {
   .calendersty-table table thead {
     width: auto !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .calendersty-table table {
     border-collapse: collapse;
     /* overflow-x: auto; */
     display: block;
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     width: 400px !important;
     float: left;
     max-width: 5000;
   }
-}
-/*# sourceMappingURL=calander-mangmnt.css.map */
+}/*# sourceMappingURL=calander-mangmnt.css.map */

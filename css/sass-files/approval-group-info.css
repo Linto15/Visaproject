@@ -42,8 +42,6 @@
 
 .wizard-sub-mian-font-aprove {
   font-weight: 700;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -71,8 +69,6 @@
   color: #0D192E;
   border: 1px solid #0D192E;
   background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -138,7 +134,7 @@
 .document-table-aprove .document-right-head {
   font-weight: 400;
   font-size: 12px;
-  color: #525252e0;
+  color: rgba(82, 82, 82, 0.8784313725);
 }
 
 .document-table-aprove table tbody tr {
@@ -150,8 +146,6 @@
   border-radius: 0px;
   height: auto;
   padding-top: 8px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding-left: 0px;
   border-bottom: 1px solid #d9d9d9;
@@ -211,9 +205,6 @@
 @media only screen and (max-width: 1070px) {
   .document-table-aprove table thead {
     width: 100% !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
-}
-/*# sourceMappingURL=approval-group-info.css.map */
+}/*# sourceMappingURL=approval-group-info.css.map */

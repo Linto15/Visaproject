@@ -157,10 +157,8 @@
   width: 100%;
   display: block;
   margin-top: 0px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[1] !important;
-      grid-template-columns: repeat(1, 1fr) !important;
+  grid-template-columns: repeat(1, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
   padding-bottom: 30px;
@@ -243,10 +241,8 @@
   width: 80%;
   display: block;
   margin-top: 0px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[5] !important;
-      grid-template-columns: repeat(5, 1fr) !important;
+  grid-template-columns: repeat(5, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
   padding-top: 35px;
@@ -330,17 +326,14 @@
     width: 100%;
     display: block;
     margin-top: 0px;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[4] !important;
-        grid-template-columns: repeat(4, 1fr) !important;
+    grid-template-columns: repeat(4, 1fr) !important;
     gap: 30px 20px;
     grid-auto-rows: minmax(0px, auto);
     padding-top: 35px;
     padding-bottom: 30px;
   }
 }
-
 @media only screen and (max-width: 1200px) {
   .notifi-tbl {
     width: 100%;
@@ -350,8 +343,6 @@
   }
   .notifi-tbl table thead {
     width: 100% !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .notifi-con-wizrd-top-head {
@@ -367,10 +358,8 @@
     width: 100%;
     display: block;
     margin-top: 0px;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3] !important;
-        grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(3, 1fr) !important;
     gap: 30px 20px;
     grid-auto-rows: minmax(0px, auto);
     padding-top: 35px;
@@ -382,7 +371,6 @@
     width: 100%;
   }
 }
-
 @media only screen and (max-width: 980px) {
   .notifi-add-step-right {
     width: 100%;
@@ -392,8 +380,6 @@
   }
   .notifi-tbl table thead {
     width: 100% !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .notifi-wizrd-top-grid-5 {
@@ -401,48 +387,39 @@
     width: 100%;
     display: block;
     margin-top: 0px;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3] !important;
-        grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(3, 1fr) !important;
     gap: 30px 20px;
     grid-auto-rows: minmax(0px, auto);
     padding-top: 35px;
     padding-bottom: 30px;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .notifi-wizrd-top-grid-5 {
     float: left;
     width: 100%;
     display: block;
     margin-top: 0px;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2] !important;
-        grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 30px 20px;
     grid-auto-rows: minmax(0px, auto);
     padding-top: 35px;
     padding-bottom: 30px;
   }
 }
-
 @media only screen and (max-width: 520px) {
   .notifi-wizrd-top-grid-5 {
     float: left;
     width: 100%;
     display: block;
     margin-top: 0px;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1] !important;
-        grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-columns: repeat(1, 1fr) !important;
     gap: 30px 20px;
     grid-auto-rows: minmax(0px, auto);
     padding-top: 35px;
     padding-bottom: 30px;
   }
-}
-/*# sourceMappingURL=notification-config.css.map */
+}/*# sourceMappingURL=notification-config.css.map */

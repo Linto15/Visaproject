@@ -3,10 +3,8 @@
   width: 100%;
   display: block;
   margin-top: 0px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
-      grid-template-columns: repeat(2, 1fr) !important;
+  grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 30px;
   grid-auto-rows: minmax(0px, auto);
   padding-bottom: 30px;
@@ -79,8 +77,7 @@
   background-color: #f1f1f1;
   min-width: 160px;
   overflow: auto;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -156,14 +153,11 @@
     width: 100% !important;
   }
 }
-
 @media only screen and (max-width: 1200px) {
   .nottifica-grid-2 {
-    -ms-grid-columns: (1fr)[1] !important;
-        grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-columns: repeat(1, 1fr) !important;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .noffitfy-table .width-15 {
     width: 200px !important;
@@ -174,10 +168,7 @@
     display: block;
     overflow: scroll;
     display: block;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     overflow: auto;
     margin-bottom: 15px;
@@ -186,7 +177,6 @@
     border-collapse: collapse;
     /* overflow-x: auto; */
     display: block;
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     width: 350px !important;
@@ -206,12 +196,9 @@
     border-radius: 0px;
     height: auto;
     padding-top: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin-top: 0px;
     padding-left: 6px;
     border-bottom: 1px solid #D9D9D9;
   }
-}
-/*# sourceMappingURL=notification-app.css.map */
+}/*# sourceMappingURL=notification-app.css.map */

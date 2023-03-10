@@ -19,14 +19,14 @@
   -webkit-text-emphasis: none;
   text-emphasis: none;
   text-align: left;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
 }
 
 .wizard-setp-list-formbuilder .list-right label {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -36,7 +36,7 @@
 
 .wizard-setp-list-formbuilder .input-span-block {
   background-color: #F1F0F0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -166,7 +166,7 @@
 }
 
 .last-block h1 {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -251,10 +251,8 @@
   width: 100%;
   display: block;
   margin-top: 20px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3] !important;
-      grid-template-columns: repeat(3, 1fr) !important;
+  grid-template-columns: repeat(3, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
 }
@@ -345,18 +343,9 @@
 .drop_box {
   margin: 10px 0;
   padding: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   border: 3px dotted #a3a3a3;
   border-radius: 5px;
@@ -378,7 +367,7 @@
 }
 
 .formbuild-preview-drop::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 30px;
   right: 14px;
@@ -386,15 +375,13 @@
   height: 1.5px;
   background: #555;
   z-index: 99;
-  -webkit-transform: rotate(-40deg);
   transform: rotate(-40deg);
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   border: 0;
 }
 
 .formbuild-preview-drop::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 30px;
   right: 20px;
@@ -402,9 +389,7 @@
   height: 1.5px;
   background: #555;
   z-index: 99;
-  -webkit-transform: rotate(40deg);
   transform: rotate(40deg);
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   border: 0;
 }
@@ -423,7 +408,6 @@
   text-transform: uppercase;
   text-align: center;
   background: #D1345D;
-  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
@@ -476,10 +460,8 @@ a:focus, a:hover {
     width: 100%;
     display: block;
     margin-top: 20px;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2] !important;
-        grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 30px 20px;
     grid-auto-rows: minmax(0px, auto);
   }
@@ -493,7 +475,6 @@ a:focus, a:hover {
     float: left;
   }
 }
-
 @media only screen and (max-width: 1300px) {
   .left-block-formbuilder {
     width: 100% !important;
@@ -507,7 +488,6 @@ a:focus, a:hover {
     width: 100% !important;
   }
 }
-
 @media only screen and (max-width: 980px) {
   .form-builder-right1 {
     width: 100%;
@@ -536,12 +516,10 @@ a:focus, a:hover {
     font-size: 14px;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .formbuilder-selectbox {
     min-height: 175px;
     background-color: #F1F0F0;
     border-bottom: 1px solid #c5c4c4;
   }
-}
-/*# sourceMappingURL=formbuilder.css.map */
+}/*# sourceMappingURL=formbuilder.css.map */

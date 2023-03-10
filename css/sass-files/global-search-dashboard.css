@@ -8,7 +8,6 @@
   font-size: 16px;
   top: 8px;
   color: #0d192e;
-  width: -webkit-fit-content !important;
   width: -moz-fit-content !important;
   width: fit-content !important;
 }
@@ -36,7 +35,7 @@
 }
 
 .select-head {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -45,7 +44,7 @@
 .choose-visa-middle-block .ul-list-select li {
   border-bottom: none;
   padding: 10px 0px;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 11px;
@@ -74,17 +73,11 @@
 }
 
 .display-div {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .display-div1 {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .wizard-setp-list-inner-block-global {
@@ -111,7 +104,7 @@
 }
 
 .global-hr {
-  border: 1px solid #d9d9d95c;
+  border: 1px solid rgba(217, 217, 217, 0.3607843137);
   width: 100%;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
@@ -120,8 +113,6 @@
 .rows-global {
   width: 100%;
   float: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -160,7 +151,7 @@
 }
 
 .nav-tabs-global > li > a {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -179,14 +170,14 @@
 }
 
 .tab-table-head th {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 11px;
 }
 
 .submit-table {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -194,7 +185,7 @@
 }
 
 .not-sub-tab {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -202,7 +193,7 @@
 }
 
 .reject {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -210,7 +201,7 @@
 }
 
 .delivered {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -218,7 +209,7 @@
 }
 
 .pending {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -226,7 +217,7 @@
 }
 
 .submit-pdf {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -285,7 +276,6 @@
     padding: 30px;
   }
 }
-
 @media only screen and (max-width: 1200px) {
   .nav-tabs-global {
     padding: 0px 0px !important;
@@ -342,7 +332,6 @@
     font-weight: 600;
   }
 }
-
 @media only screen and (max-width: 768px) {
   .rows-global .left-choose {
     font-size: 11px !important;
@@ -354,7 +343,6 @@
     font-weight: 600;
   }
 }
-
 .nav-tabs-global span {
   vertical-align: bottom !important;
   padding: 5px;
@@ -368,10 +356,8 @@ section#toptbs .tab-content {
   display: block;
   text-align: left;
   opacity: 0;
-  -webkit-transform: translateY(15px);
-          transform: translateY(15px);
-  -webkit-animation: fadeIn 0.5s ease 1 forwards;
-          animation: fadeIn 0.5s ease 1 forwards;
+  transform: translateY(15px);
+  animation: fadeIn 0.5s ease 1 forwards;
 }
 
 section#toptbs .nav-tabs {
@@ -400,7 +386,7 @@ div#tabiconss span.icon-new-lf-doucments {
 }
 
 .dashbrd-inner-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -408,7 +394,7 @@ div#tabiconss span.icon-new-lf-doucments {
 }
 
 .count-status.light-orange-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -417,7 +403,7 @@ div#tabiconss span.icon-new-lf-doucments {
 }
 
 .count-status.green-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -428,7 +414,7 @@ div#tabiconss span.icon-new-lf-doucments {
 }
 
 .count-status.gray-light-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -439,7 +425,7 @@ div#tabiconss span.icon-new-lf-doucments {
 }
 
 .count-status.red-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -459,7 +445,7 @@ div#tabiconss span.icon-new-lf-doucments {
 }
 
 .request-block {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -472,7 +458,7 @@ div#tabiconss span.icon-new-lf-doucments {
 }
 
 .appoinment-class-business p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -491,7 +477,7 @@ div#tabiconss span.icon-new-lf-myapplication {
 }
 
 .supportticket-block-top .request-block {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -511,7 +497,7 @@ span.replymsg {
 .inprogress {
   padding: 5px 0px 0px 0px;
   clear: both;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -520,7 +506,7 @@ span.replymsg {
 }
 
 .sub-head-ticket-number {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -536,7 +522,7 @@ span.replymsg {
 }
 
 .sepratesectin span.subjest {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -545,7 +531,7 @@ span.replymsg {
 }
 
 .sepratesectin p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -554,7 +540,7 @@ span.replymsg {
 }
 
 .closedd {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -575,7 +561,7 @@ span.replymsg {
   color: #fff;
   background: #0D192E;
   border-radius: 0px 0px 8px 8px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -613,20 +599,18 @@ span.tclosed {
   padding: 10px 20px;
   color: #fff;
   border-radius: 6px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
   float: right;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: center;
 }
 
 span.ticketnm {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -642,7 +626,7 @@ button.close {
 }
 
 #invoiceshoing p b {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -651,7 +635,7 @@ button.close {
 }
 
 #invoiceshoing p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 14px;
   line-height: 18px;
@@ -674,7 +658,7 @@ button.close {
 }
 
 .detailsdoc p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -683,7 +667,7 @@ button.close {
 }
 
 span.tds {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -692,7 +676,7 @@ span.tds {
 }
 
 span.dtss {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 12px;
@@ -712,7 +696,7 @@ span.dtss {
 .documentproff {
   float: left;
   display: contents;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -729,7 +713,7 @@ span.newreply {
   border-radius: 11px;
   color: #fff;
   padding: 5px 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 11px;
@@ -754,10 +738,8 @@ span.newreply {
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  -webkit-box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.25);
-          box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.25);
   overflow: hidden;
-  background: -webkit-gradient(linear, left bottom, right top, from(darkmagenta), to(hotpink));
   background: linear-gradient(to top right, darkmagenta 0%, hotpink 100%);
   color: #333;
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -801,7 +783,7 @@ div#invoiceshoing .form-group textarea {
 }
 
 .dropzone button.btn {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -814,8 +796,7 @@ div#invoiceshoing .form-group textarea {
 }
 
 .tmsd {
-  -webkit-box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.6);
-          box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.6);
   width: 100%;
   display: inline-block;
   margin-bottom: 30px;
@@ -842,7 +823,7 @@ div#exampleModal .modal-footer {
 }
 
 button.btn.cancel {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -859,7 +840,7 @@ button.btn.cancel {
 }
 
 button.btn.submit {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -911,7 +892,7 @@ form.visapllcationss label {
 
 /* my appointment */
 .usernamess {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -937,13 +918,11 @@ form.visapllcationss label {
 
 .locationst {
   font-style: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   color: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   clear: both;
 }
@@ -951,7 +930,7 @@ form.visapllcationss label {
 .timezoness {
   font-style: normal;
   font-weight: 300;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   line-height: 23px;
   color: #000000;
@@ -966,7 +945,7 @@ span.tm {
 
 span.visanvt {
   font-style: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 43px;
@@ -987,7 +966,7 @@ span.documentdo {
 
 .myappoinment-block-bottom .sepratesectin p {
   font-style: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 28px;
@@ -1001,14 +980,13 @@ span.documentdo {
   padding: 20px;
   color: #fff;
   background: #0D192E;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 8px;
   text-transform: uppercase;
 }
@@ -1020,14 +998,13 @@ span.documentdo {
   padding: 20px;
   color: #fff;
   background: #0D192E;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 8px;
   text-transform: uppercase;
 }
@@ -1039,14 +1016,13 @@ span.documentdo {
   padding: 20px;
   color: #000;
   background: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 8px;
 }
 
@@ -1056,22 +1032,20 @@ span.documentdo {
   padding: 20px;
   color: #000;
   background: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: 1px solid #0D192E;
   border-radius: 6px;
   margin: 7px auto 3px;
 }
 
 .create-whitebox {
-  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
 .appointmentscheduleclor {
@@ -1089,7 +1063,7 @@ span.documentdo {
   color: #0D192E;
   padding: 0px 15px 0px 15px;
   font-style: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 span.righticons img.light-ico {
@@ -1182,7 +1156,7 @@ section#toptbss .count-block {
 }
 
 section#toptbss .dashbrd-inner-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1192,7 +1166,7 @@ section#toptbss .dashbrd-inner-text {
 }
 
 section#toptbss .count-status.light-orange-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -1229,8 +1203,7 @@ section#toptbss .tab-content {
 section#toptbss ul li.active {
   background: #F1F1F1;
   border: 1px solid #A9D6E5;
-  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
 
@@ -1256,7 +1229,6 @@ select {
   padding: 0.5em 3.5em 0.5em 1em;
   /* reset */
   margin: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1306,14 +1278,12 @@ section#toptbss .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav
 }
 
 .modal.right.fade .modal-dialog {
-  -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
   transition: opacity 0.3s linear, right 0.3s ease-out;
 }
 
 .seprator {
   clear: both;
-  -webkit-box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.6);
-          box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.6);
   margin: 35px 0px 20px;
   width: 100%;
   display: inline-block;
@@ -1326,7 +1296,7 @@ section#toptbss .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav
   }
   select.minimal {
     background: url(../images/dropdown.svg);
-    background-position: calc(100% - 16px) calc(2em + -5px), calc(100% - 13px) calc(1em + 1px), calc(100% - 4.5em) 3.5em;
+    background-position: calc(100% - 16px) calc(2em - 5px), calc(100% - 13px) calc(1em + 1px), calc(100% - 4.5em) 3.5em;
     background-repeat: no-repeat;
     padding: 26px 18px 10px;
     max-width: 418px;
@@ -1339,5 +1309,4 @@ section#toptbss .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav
     border: 1px solid #D9D9D9 !important;
     border-radius: 8px;
   }
-}
-/*# sourceMappingURL=global-search-dashboard.css.map */
+}/*# sourceMappingURL=global-search-dashboard.css.map */

@@ -61,7 +61,6 @@
 .input-span-bg:focus {
   border: 0.5px solid #808B9F;
   background-color: #fff !important;
-  -webkit-box-shadow: none;
   box-shadow: none;
   background: none;
 }
@@ -109,7 +108,6 @@
     float: left;
   }
 }
-
 @media only screen and (max-width: 2080px) {
   .lookup-input {
     width: 82%;
@@ -118,7 +116,6 @@
     float: left;
   }
 }
-
 @media only screen and (max-width: 1980px) {
   .lookup-input {
     width: 80%;
@@ -127,7 +124,6 @@
     float: left;
   }
 }
-
 @media only screen and (max-width: 1680px) {
   .lookup-input {
     width: 76%;
@@ -136,7 +132,6 @@
     float: left;
   }
 }
-
 @media only screen and (max-width: 1500px) {
   .lookup-input {
     width: 73%;
@@ -145,7 +140,6 @@
     float: left;
   }
 }
-
 @media only screen and (max-width: 1300px) {
   .lookup-input {
     width: 71%;
@@ -154,7 +148,6 @@
     float: left;
   }
 }
-
 @media only screen and (max-width: 1200px) {
   .lookup-input {
     width: 80%;
@@ -164,36 +157,25 @@
   }
   .lookup-popup-table table thead {
     width: auto !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
-
 @media only screen and (max-width: 1070px) {
   .document-table table thead {
     width: auto !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .lookup-popup-table table thead {
     width: auto !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
-
 @media only screen and (max-width: 1030px) {
   .lookup-popup-table table thead {
     width: auto !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
-
 @media only screen and (max-width: 980px) {
   .lookup-input {
     width: 80%;
@@ -203,30 +185,21 @@
   }
   .lookup-popup-table table thead {
     width: 100% !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
-
 @media only screen and (max-width: 880px) {
   .lookup-popup-table table thead {
     width: 100% !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
-
 @media only screen and (max-width: 780px) {
   .lookup-popup-table table thead {
     width: auto !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
-
 .lookup-tr {
   border-bottom: 1px solid #808B9F !important;
   border-left: 1px solid #808B9F !important;
@@ -243,5 +216,4 @@
   margin-top: 0px !important;
   padding-bottom: 25px !important;
   padding-top: 25px !important;
-}
-/*# sourceMappingURL=lookup.css.map */
+}/*# sourceMappingURL=lookup.css.map */

@@ -1,15 +1,14 @@
 @font-face {
-  font-family: 'icomoon';
+  font-family: "icomoon";
   src: url("icons/icomoon.eot?489j09");
   src: url("icons/icomoon.eot?489j09#iefix") format("embedded-opentype"), url("icons/icomoon.ttf?489j09") format("truetype"), url("icons/icomoon.woff?489j09") format("woff"), url("icons/icomoon.svg?489j09#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
-
-[class^="icon-"], [class*=" icon-"] {
+[class^=icon-], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -241,7 +240,6 @@ a:focus {
     float: right;
   }
 }
-
 @media screen and (max-width: 1420px) {
   .socialtop {
     float: right;
@@ -249,7 +247,6 @@ a:focus {
     width: 28%;
   }
 }
-
 @media screen and (max-width: 1360px) {
   nav {
     background: #fff;
@@ -276,7 +273,6 @@ a:focus {
     color: #000;
   }
 }
-
 @media screen and (max-width: 1300px) {
   .socialtop {
     float: right;
@@ -298,7 +294,6 @@ a:focus {
     float: right;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .toggle {
     display: block;
@@ -314,8 +309,7 @@ a:focus {
     width: 200px;
     background: #f5f5f5;
     display: inline-block;
-    -webkit-transition: top .4s;
-    transition: top .4s;
+    transition: top 0.4s;
     margin-left: 0;
     width: 45%;
     padding: 20px;
@@ -370,7 +364,6 @@ a:focus {
     color: #000;
   }
 }
-
 @media screen and (max-width: 980px) {
   nav {
     background: #fff;
@@ -392,8 +385,7 @@ a:focus {
     width: 200px;
     background: #f5f5f5;
     display: inline-block;
-    -webkit-transition: top .4s;
-    transition: top .4s;
+    transition: top 0.4s;
     margin-left: 0;
     width: 65%;
     padding: 20px;
@@ -411,7 +403,6 @@ a:focus {
     font-size: 15px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .top-social-log-toogle {
     padding: 14px 15px;
@@ -425,7 +416,6 @@ a:focus {
     margin: 0px auto;
   }
 }
-
 @media screen and (max-width: 600px) {
   .topmenu-ul ul {
     width: 100%;
@@ -454,7 +444,6 @@ a:focus {
     display: block;
   }
 }
-
 @media screen and (max-width: 400px) {
   .signup-logo {
     width: 92px;
@@ -497,5 +486,4 @@ a:focus {
     padding-left: 29%;
     margin-top: 400px;
   }
-}
-/*# sourceMappingURL=top-menu.css.map */
+}/*# sourceMappingURL=top-menu.css.map */

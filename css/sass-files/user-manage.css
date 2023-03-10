@@ -3,10 +3,8 @@
   width: 100%;
   display: block;
   margin-top: 10px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[1] !important;
-      grid-template-columns: repeat(1, 1fr) !important;
+  grid-template-columns: repeat(1, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
   padding-bottom: 10px;
@@ -17,10 +15,8 @@
   width: 100%;
   display: block;
   margin-top: 10px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
-      grid-template-columns: repeat(2, 1fr) !important;
+  grid-template-columns: repeat(2, 1fr) !important;
   gap: 30px 20px;
   grid-auto-rows: minmax(0px, auto);
   padding-bottom: 10px;
@@ -112,9 +108,7 @@
 
 @media only screen and (max-width: 768px) {
   .user-manage-two-grid {
-    -ms-grid-columns: (1fr)[1] !important;
-        grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-columns: repeat(1, 1fr) !important;
     gap: 15px 20px;
   }
-}
-/*# sourceMappingURL=user-manage.css.map */
+}/*# sourceMappingURL=user-manage.css.map */
