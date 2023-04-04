@@ -3,10 +3,8 @@
   width: 100%;
   display: block;
   margin-top: 25px;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2] !important;
-      grid-template-columns: repeat(2, 1fr) !important;
+  grid-template-columns: repeat(2, 1fr) !important;
   gap: 25px 25px;
   grid-auto-rows: minmax(0px, auto);
   padding-bottom: 30px;
@@ -83,7 +81,6 @@
 .my-accnt-form-control {
   height: 45px;
   border: 0.5px solid #7B8EB0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-radius: 0px;
   font-weight: 500;
@@ -114,14 +111,11 @@
   border-bottom: 1px solid #ccc;
   padding-top: 5px;
   height: 65px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
 
 .my-accnt-tablewdt {
-  display: -ms-grid;
   display: grid;
   width: 100%;
 }
@@ -238,8 +232,6 @@
 .applicant-listing-block .left-block-detail {
   width: 100%;
   float: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -253,12 +245,102 @@
   color: #979797;
 }
 
+.div-font-18 {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.vas-check {
+  float: left;
+  padding-right: 15px;
+  width: 45%;
+}
+
+.vas-check-input {
+  float: right;
+  width: 55%;
+}
+
+.vas-check-outer {
+  width: 100%;
+  float: left;
+  padding-bottom: 15px;
+}
+
+.vas-check-outer1 {
+  width: 100%;
+  float: left;
+}
+
+.vas-outer-box {
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.form-control {
+  font-family: "Inter", sans-serif !important;
+}
+
+.form-control {
+  line-height: 3.428571;
+}
+
+.form-vas {
+  height: 25px;
+  border: 0.5px solid #7B8EB0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+  padding-top: 6px;
+  background: none;
+  margin-top: -3px;
+}
+
+.txt-area-minhigh {
+  min-height: 130px !important;
+  margin-bottom: 0px !important;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.section-info-scroll {
+  height: 500px;
+  overflow: scroll;
+  margin-bottom: 60px;
+  padding-right: 15px;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 @media only screen and (max-width: 1950px) {
   .delete-acc-box {
     min-height: 151px;
   }
 }
-
 @media only screen and (max-width: 1900px) {
   .my-accnt-box-outerdiv1 {
     border: 1px solid #ccc;
@@ -277,7 +359,6 @@
     min-height: 150px;
   }
 }
-
 @media only screen and (max-width: 1600px) {
   .my-accnt-box-outerdiv {
     border: 1px solid #ccc;
@@ -311,7 +392,6 @@
     min-height: 330px;
   }
 }
-
 @media only screen and (max-width: 1400px) {
   .my-accnt-box-outerdiv1 {
     border: 1px solid #ccc;
@@ -328,7 +408,6 @@
     min-height: 350px;
   }
 }
-
 @media only screen and (max-width: 1300px) {
   .my-accnt-width-5 {
     width: 50%;
@@ -373,17 +452,14 @@
     min-height: 350px;
   }
 }
-
 @media only screen and (max-width: 1200px) {
   .myaccount-two-grid {
     float: left;
     width: 100%;
     display: block;
     margin-top: 25px;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1] !important;
-        grid-template-columns: repeat(1, 1fr) !important;
+    grid-template-columns: repeat(1, 1fr) !important;
     gap: 25px 25px;
     grid-auto-rows: minmax(0px, auto);
     padding-bottom: 30px;
@@ -401,7 +477,6 @@
     font-size: 10px;
   }
 }
-
 @media only screen and (max-width: 786px) {
   .my-accnt-subhead {
     padding-left: 15px;
@@ -420,7 +495,6 @@
     font-size: 12px;
   }
 }
-
 @media only screen and (max-width: 430px) {
   .my-accnt-subhead {
     padding-left: 15px;
@@ -428,5 +502,4 @@
     font-weight: 500;
     vertical-align: text-bottom;
   }
-}
-/*# sourceMappingURL=my-accounts.css.map */
+}/*# sourceMappingURL=my-accounts.css.map */
